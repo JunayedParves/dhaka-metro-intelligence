@@ -162,6 +162,8 @@ If `sample_data/dashboard_data.js` is missing, the page builds a small demonstra
 
 ## Credits and licences
 
+- **Code and documentation** (the dashboard, scripts, written documents, logo and train illustration): [MIT License](LICENSE).
+- **Not covered by the MIT License:** station photographs, map data and tiles, and third-party libraries keep their own licences, listed below and in [IMAGE_SOURCES.md](IMAGE_SOURCES.md).
 - Map data © OpenStreetMap contributors (ODbL). Basemap tiles © Esri, HERE, Garmin.
 - Station photographs © their Wikimedia Commons authors, CC BY 4.0 / CC BY-SA 4.0 — see [IMAGE_SOURCES.md](IMAGE_SOURCES.md).
 - Libraries: Leaflet, Chart.js, GSAP, Lucide. Typeface: Manrope.

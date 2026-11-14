@@ -1,0 +1,28 @@
+Project_ID,Period_Start,Period_End,Reporting_Grain,Metric,Value,Unit,Geographic_Coverage,Notes,Source_ID,Data_Type,Data_Confidence,Methodology,Is_Modelled,Is_Verified
+MRT6,2022-12-29,2022-12-29,Single day,Passengers carried,3857,passengers,Line (2 stations open),First day of commercial service,S014,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2022-12-29,2023-01-07,10-day period,Passengers carried,90000,passengers,Line,Approximate,S014,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2023-01-01,2023-01-31,Month,Passengers carried,350000,passengers,Line,Approximate ('about'),S014,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2023-01-01,2023-03-31,Quarter,Passengers carried,1077000,passengers,Line,,S014,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2023-07-01,2023-07-31,Month (average day),Average daily passengers,70000,passengers/day,Line (Uttara-Agargaon),Approximate,S014,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2023-11-01,2023-11-30,Month (average day),Average daily passengers,100000,passengers/day,Line,'At least',S014,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2024-03-01,2024-03-31,Month (average day),Average daily passengers,275000,passengers/day,Line,"Rising to 290,000 by month end",S014,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2024-07-01,2024-07-17,Period (average day),Average daily passengers,360000,passengers/day,Line,During quota-reform road blockades,S014,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2024-09-01,2024-09-18,18-day period,Passengers carried,4900000,passengers,Line (2 stations closed),'More than 49 lakh'; year inferred as 2024,S030,Actual,Low,Published figure preserved at original grain,No,No
+MRT6,2025-02-03,2025-02-03,Single day,Passengers carried (record),382088,passengers,Line,Record at the time,S031,Actual,Low,Published figure preserved at original grain,No,No
+MRT6,2025-02-13,2025-02-13,Single day,Passengers carried (record),403164,passengers,Line,Record at the time,S031,Actual,Low,Published figure preserved at original grain,No,No
+MRT6,2025-08-06,2025-08-06,Single day,Passengers carried (record),456746,passengers,Line,Record at the time,S016,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2025-08-01,2025-08-31,Month (average day),Average daily passengers,400000,passengers/day,Line,"'About/over 400,000'",S011; S016,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2025-10-01,2025-10-25,Period (average day),Average daily passengers,460000,passengers/day,Line,"Average before the 26 Oct 2025 bearing-pad incident, per DMTCL MD",S029,Actual,Low,Published figure preserved at original grain,No,No
+MRT6,2025-10-27,2025-12-15,Period (average day),Change in average daily passengers after incident,-10,percent,Line,'About 10%' fall; end date of period approximate,S029,Actual,Low,Published figure preserved at original grain,No,No
+MRT6,2026-05-21,2026-05-21,Single day,Passengers carried,474635,passengers,Line,Year inferred from article context,S012,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2026-08-20,2026-08-20,Single day,Passengers carried,478280,passengers,Line,Year inferred from article context,S012,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2026-09-10,2026-09-10,Single day,Passengers carried (record),499756,passengers,Line,Highest single day to date,S012,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2026-09-13,2026-09-13,Single day,Passengers carried,480620,passengers,Line,,S012,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2026-09-14,2026-09-14,Single day,Passengers carried,476815,passengers,Line,,S012,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2026-09-01,2026-09-19,Period (floor),Minimum typical daily passengers,450000,passengers/day,Line,"'Always remains above 450,000'",S012,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2022-12-29,2026-08-31,Cumulative since launch,Passengers carried,313546306,passengers,Line,As of end of August 2026 per S013,S012; S013,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2026-09-01,2026-09-19,Average day,Average daily entries,51542,passengers/day,Motijheel station,Busiest station; averaging period not stated,S012,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,2026-09-01,2026-09-19,Average day,Average daily exits,51036,passengers/day,Motijheel station,Averaging period not stated,S012,Actual,Medium,Published figure preserved at original grain,No,Yes
+MRT6,,,Design projection,"Projected daily passengers, Uttara-Motijheel",500000,passengers/day,Line,Project estimate,S012,Forecast,Medium,Projection quoted by source,No,No
+MRT6,,,Projection,Projected daily passengers (2024 DMTCL study),483000,passengers/day,Line,,S014,Forecast,Medium,Projection quoted by source,No,No
+MRT6,,,Projection,Projected daily passengers after Kamalapur extension,677000,passengers/day,Line incl. Kamalapur,DMTCL estimate,S012; S013,Forecast,Medium,Projection quoted by source,No,No

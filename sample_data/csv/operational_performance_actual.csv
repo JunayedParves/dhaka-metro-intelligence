@@ -1,0 +1,29 @@
+Project_ID,Effective_Date,Category,Metric,Value,Unit,Notes,Source_ID,Data_Type,Data_Confidence,Methodology,Is_Modelled,Is_Verified
+MRT6,2017,Fleet,Train sets ordered,24,sets,"Six cars each (144 cars), Kawasaki",S006; S014,Actual,High,Transcribed from source,No,Yes
+MRT6,2025-09-08,Fleet,Train sets in constant operation,13,sets,"3 more on standby, 7 unused, 1 test train each morning",S016,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2025-10-19,Fleet,Train sets expected in continuous use after hour extension,19,sets,,S028,Actual,Low,Transcribed from source,No,No
+MRT6,2025-09-08,Capacity,Maximum passengers per six-car train,2300,passengers,"Typically about 2,000",S016,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2025-09-08,Capacity,Cars per train,6,cars,2 trailer + 4 motor cars; platforms allow 8 cars,S016,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2022-12-28,Infrastructure,Operating route length,11.73,km,Uttara North-Agargaon,S001; S014,Actual,High,Transcribed from source,No,Yes
+MRT6,2023-11-05,Infrastructure,Operating route length,20.1,km,Uttara North-Motijheel,S001,Actual,High,Transcribed from source,No,Yes
+MRT6,2022-12-28,Infrastructure,Electrification,1500,V DC overhead,,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2022-12-28,Infrastructure,Maximum operating speed,100,km/h,,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2023-01-01,Service hours,Operating window,"08:30-12:30, closed Tuesdays",,Initial limited service,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2023-05-31,Service hours,Operating days,Daily except Friday,,,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2023-07-08,Service hours,Service extended to,20:30,,,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2023-11-05,Service hours,Operating window,07:30-20:30,,Uttara North-Motijheel only 07:30-11:30 initially,S018,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2024-01-20,Service hours,Operating window,07:00-20:40,,,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2024-01-20,Headway,Peak headway,10,minutes,Off-peak 12 minutes,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2024-02-17,Headway,Peak headway,8,minutes,Peak headway cut by 2 minutes,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2024-03-27,Service hours,Operating hours extended by,1,hour,,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2024-09-20,Service hours,Friday service introduced,"from 15:00, 12-minute headway",,,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2025-08-06,Headway,Design minimum headway,3.5,minutes,Not sustained because of staff shortages,S011; S012,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2025-08-06,Headway,Actual headway range,8-12,minutes,,S011,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2025-10-19,Service hours,Operating hours extended by,1,hour,Excluding Fridays; Friday start moved to 14:30,S014; S028,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2026-07,Service hours,Last trains,"about 21:20 from Uttara North, 21:40 from Motijheel",,Sources disagree (another report: 21:50 / 22:30),S028,Actual,Low,Transcribed from source,No,No
+MRT6,2024-07-18,Disruption,Full line closure,38,days,18 Jul-24 Aug 2024; damage estimated at Tk 50 crore,S014,Estimated,Medium,Day count derived from closure and reopening dates,No,No
+MRT6,2024-07-18,Disruption,Kazipara station closure,64,days,Reopened 20 Sep 2024,S014,Estimated,Medium,Day count derived from closure and reopening dates,No,No
+MRT6,2024-07-18,Disruption,Mirpur 10 station closure,89,days,Reopened 15 Oct 2024,S014,Estimated,Medium,Day count derived from closure and reopening dates,No,No
+MRT6,2024-09-18,Disruption,Section stoppage - displaced viaduct bearing pad,11,hours,,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2025-10-26,Disruption,Bearing pad fall at Farmgate section,1,fatality,Pedestrian killed; service suspended for a limited period,S014,Actual,Medium,Transcribed from source,No,Yes
+MRT6,2016,Staffing,Planned O&M employees before start of operation,1616,employees,JICA appraisal estimate,S004,Actual,High,Transcribed from source,No,Yes

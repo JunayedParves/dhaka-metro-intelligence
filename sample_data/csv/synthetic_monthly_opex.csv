@@ -1,0 +1,481 @@
+Month,Fiscal_Year,Expense_Category,Budget_BDT,Actual_or_Simulated_Expense_BDT,Variance_BDT,Partial_Month_Flag,Basis,Data_Type,Source_ID,Data_Confidence,Methodology,Is_Modelled,Is_Verified
+2022-12,2022-23,Electricity,993568,911283,-82285,Partial month,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2022-12,2022-23,Employee expenses,2096774,2067475,-29299,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2022-12,2022-23,Maintenance,800165,815903,15738,Partial month,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2022-12,2022-23,Cleaning,100065,88615,-11449,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2022-12,2022-23,Security,136452,133142,-3310,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2022-12,2022-23,Station operations,90968,89070,-1897,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2022-12,2022-23,Administration,564516,585385,20869,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2022-12,2022-23,Equipment replacement,18145,17763,-382,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2022-12,2022-23,Insurance,435484,438378,2894,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2022-12,2022-23,Other operating expenses,291739,268206,-23533,Partial month,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-01,2022-23,Electricity,9059140,8675890,-383250,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-01,2022-23,Employee expenses,21666667,22906625,1239958,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-01,2022-23,Maintenance,1785147,1973267,188120,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-01,2022-23,Cleaning,1650000,1597604,-52396,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-01,2022-23,Security,2250000,2371542,121542,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-01,2022-23,Station operations,1500000,1561415,61415,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-01,2022-23,Administration,5833333,5526167,-307167,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-01,2022-23,Equipment replacement,281250,268688,-12562,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-01,2022-23,Insurance,4500000,4810286,310286,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-01,2022-23,Other operating expenses,3179037,2773659,-405377,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-02,2022-23,Electricity,10239135,9891135,-347999,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-02,2022-23,Employee expenses,21666667,23894654,2227987,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-02,2022-23,Maintenance,2614256,2401752,-212504,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-02,2022-23,Cleaning,2200000,2056435,-143565,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-02,2022-23,Security,3000000,2843446,-156554,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-02,2022-23,Station operations,2000000,1748117,-251883,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-02,2022-23,Administration,5833333,5889393,56059,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-02,2022-23,Equipment replacement,375000,389485,14485,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-02,2022-23,Insurance,4500000,4697100,197100,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-02,2022-23,Other operating expenses,3141548,2979426,-162122,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-03,2022-23,Electricity,14252449,14334444,81995,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-03,2022-23,Employee expenses,21666667,23057583,1390916,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-03,2022-23,Maintenance,4670874,4635638,-35236,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-03,2022-23,Cleaning,4950000,4741195,-208805,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-03,2022-23,Security,6750000,6841605,91605,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-03,2022-23,Station operations,4500000,4287365,-212635,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-03,2022-23,Administration,5833333,6030433,197099,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-03,2022-23,Equipment replacement,843750,790428,-53322,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-03,2022-23,Insurance,4500000,4873329,373329,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-03,2022-23,Other operating expenses,3135221,3121960,-13261,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-04,2022-23,Electricity,16737795,16910159,172364,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-04,2022-23,Employee expenses,21666667,22138642,471976,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-04,2022-23,Maintenance,6958544,7246905,288360,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-04,2022-23,Cleaning,4950000,4559881,-390119,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-04,2022-23,Security,6750000,6644034,-105966,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-04,2022-23,Station operations,4500000,4351543,-148457,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-04,2022-23,Administration,5833333,5382163,-451170,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-04,2022-23,Equipment replacement,843750,936685,92935,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-04,2022-23,Insurance,4500000,4594110,94110,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-04,2022-23,Other operating expenses,3123428,3152497,29069,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-05,2022-23,Electricity,20498775,17999442,-2499334,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-05,2022-23,Employee expenses,21666667,20789396,-877270,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-05,2022-23,Maintenance,6408976,6899756,490780,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-05,2022-23,Cleaning,4950000,5004875,54875,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-05,2022-23,Security,6750000,6450958,-299042,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-05,2022-23,Station operations,4500000,4252177,-247823,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-05,2022-23,Administration,5833333,5188931,-644402,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-05,2022-23,Equipment replacement,843750,712520,-131230,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-05,2022-23,Insurance,4500000,4369445,-130555,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-05,2022-23,Other operating expenses,3168257,3038789,-129467,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-06,2022-23,Electricity,21900885,23129812,1228927,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-06,2022-23,Employee expenses,21666667,21578759,-87907,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-06,2022-23,Maintenance,5624161,5380374,-243788,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-06,2022-23,Cleaning,4950000,5032942,82942,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-06,2022-23,Security,6750000,6770094,20094,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-06,2022-23,Station operations,4500000,4690091,190091,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-06,2022-23,Administration,5833333,6041132,207799,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-06,2022-23,Equipment replacement,843750,761500,-82250,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-06,2022-23,Insurance,4500000,4398391,-101609,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-06,2022-23,Other operating expenses,3333416,3389897,56481,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-07,2023-24,Electricity,31077826,28420932,-2656893,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-07,2023-24,Employee expenses,33258333,30547204,-2711130,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-07,2023-24,Maintenance,6214960,6069087,-145873,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-07,2023-24,Cleaning,4950000,5014597,64597,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-07,2023-24,Security,6750000,7142303,392303,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-07,2023-24,Station operations,4500000,4372340,-127660,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-07,2023-24,Administration,8758333,9459837,701504,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-07,2023-24,Equipment replacement,843750,760328,-83422,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-07,2023-24,Insurance,4500000,4661642,161642,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-07,2023-24,Other operating expenses,3498467,3513793,15326,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-08,2023-24,Electricity,27937869,29189499,1251630,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-08,2023-24,Employee expenses,33258333,36911301,3652968,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-08,2023-24,Maintenance,6706216,7103250,397034,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-08,2023-24,Cleaning,4950000,4984935,34935,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-08,2023-24,Security,6750000,5976531,-773469,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-08,2023-24,Station operations,4500000,4196877,-303123,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-08,2023-24,Administration,8758333,8639982,-118352,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-08,2023-24,Equipment replacement,843750,740515,-103235,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-08,2023-24,Insurance,4500000,4303590,-196410,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-08,2023-24,Other operating expenses,3588124,3314937,-273187,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-09,2023-24,Electricity,28330080,27457132,-872948,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-09,2023-24,Employee expenses,33258333,33445053,186720,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-09,2023-24,Maintenance,5620645,5772548,151903,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-09,2023-24,Cleaning,4950000,5112276,162276,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-09,2023-24,Security,6750000,6993482,243482,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-09,2023-24,Station operations,4500000,4725770,225770,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-09,2023-24,Administration,8758333,7879098,-879235,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-09,2023-24,Equipment replacement,843750,940315,96565,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-09,2023-24,Insurance,4500000,3981500,-518500,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-09,2023-24,Other operating expenses,3570615,3533786,-36829,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-10,2023-24,Electricity,31980438,27676610,-4303828,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-10,2023-24,Employee expenses,33258333,28119210,-5139123,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-10,2023-24,Maintenance,5865941,6409698,543757,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-10,2023-24,Cleaning,4950000,4573691,-376309,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-10,2023-24,Security,6750000,5856233,-893767,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-10,2023-24,Station operations,4500000,4552834,52834,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-10,2023-24,Administration,8758333,9312558,554224,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-10,2023-24,Equipment replacement,843750,844663,913,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-10,2023-24,Insurance,4500000,4570761,70761,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-10,2023-24,Other operating expenses,3653166,3721336,68170,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-11,2023-24,Electricity,36381164,32318307,-4062857,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-11,2023-24,Employee expenses,33258333,32076062,-1182271,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-11,2023-24,Maintenance,7699200,8814629,1115429,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-11,2023-24,Cleaning,6600000,6690676,90676,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-11,2023-24,Security,9000000,8889892,-110108,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-11,2023-24,Station operations,6000000,5909695,-90305,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-11,2023-24,Administration,8758333,9730508,972175,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-11,2023-24,Equipment replacement,1125000,1093216,-31784,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-11,2023-24,Insurance,4500000,4437889,-62111,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-11,2023-24,Other operating expenses,4007213,3876420,-130792,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-12,2023-24,Electricity,35239418,35444166,204749,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-12,2023-24,Employee expenses,33258333,34445238,1186905,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-12,2023-24,Maintenance,9653108,10026702,373593,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-12,2023-24,Cleaning,8800000,8921443,121443,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-12,2023-24,Security,12000000,11542369,-457631,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-12,2023-24,Station operations,8000000,7915759,-84241,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-12,2023-24,Administration,8758333,9164811,406478,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-12,2023-24,Equipment replacement,1500000,1446648,-53352,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-12,2023-24,Insurance,4500000,4361862,-138138,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2023-12,2023-24,Other operating expenses,4261469,3852480,-408989,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-01,2023-24,Electricity,46609864,43282827,-3327037,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-01,2023-24,Employee expenses,33258333,35039513,1781180,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-01,2023-24,Maintenance,12209219,13222036,1012817,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-01,2023-24,Cleaning,9328000,10456306,1128306,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-01,2023-24,Security,12720000,14433372,1713372,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-01,2023-24,Station operations,8480000,8902431,422431,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-01,2023-24,Administration,8758333,7946596,-811737,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-01,2023-24,Equipment replacement,1500000,1531745,31745,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-01,2023-24,Insurance,4500000,4407373,-92627,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-01,2023-24,Other operating expenses,4856318,5144958,288640,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-02,2023-24,Electricity,48085523,44769409,-3316114,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-02,2023-24,Employee expenses,33258333,31474466,-1783868,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-02,2023-24,Maintenance,11107720,11891057,783337,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-02,2023-24,Cleaning,9328000,9368408,40408,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-02,2023-24,Security,12720000,11569398,-1150602,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-02,2023-24,Station operations,8480000,8629273,149273,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-02,2023-24,Administration,8758333,8408277,-350056,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-02,2023-24,Equipment replacement,1500000,1416599,-83401,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-02,2023-24,Insurance,4500000,3958786,-541214,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-02,2023-24,Other operating expenses,5356464,5431997,75533,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-03,2023-24,Electricity,51867141,55921200,4054059,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-03,2023-24,Employee expenses,33258333,30629702,-2628631,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-03,2023-24,Maintenance,10947839,11026684,78845,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-03,2023-24,Cleaning,9328000,9868210,540210,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-03,2023-24,Security,12720000,13348765,628765,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-03,2023-24,Station operations,8480000,7985590,-494410,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-03,2023-24,Administration,8758333,8248097,-510236,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-03,2023-24,Equipment replacement,1500000,1413125,-86875,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-03,2023-24,Insurance,4500000,4820268,320268,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-03,2023-24,Other operating expenses,5650525,5592292,-58232,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-04,2023-24,Electricity,61296456,59724394,-1572062,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-04,2023-24,Employee expenses,33258333,35517847,2259514,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-04,2023-24,Maintenance,10718492,10970602,252111,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-04,2023-24,Cleaning,9328000,9377236,49236,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-04,2023-24,Security,12720000,11951238,-768762,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-04,2023-24,Station operations,8480000,8054318,-425682,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-04,2023-24,Administration,8758333,8585318,-173015,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-04,2023-24,Equipment replacement,1500000,1641507,141507,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-04,2023-24,Insurance,4500000,4646384,146384,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-04,2023-24,Other operating expenses,5664161,5510616,-153545,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-05,2023-24,Electricity,59908326,62865885,2957559,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-05,2023-24,Employee expenses,33258333,32987328,-271005,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-05,2023-24,Maintenance,9915562,11036501,1120939,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-05,2023-24,Cleaning,9328000,9847663,519663,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-05,2023-24,Security,12720000,13677250,957250,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-05,2023-24,Station operations,8480000,8310956,-169044,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-05,2023-24,Administration,8758333,8285586,-472747,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-05,2023-24,Equipment replacement,1500000,1640132,140132,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-05,2023-24,Insurance,4500000,4195121,-304879,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-05,2023-24,Other operating expenses,6006154,5760591,-245563,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-06,2023-24,Electricity,59967005,59868160,-98844,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-06,2023-24,Employee expenses,33258333,32779271,-479062,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-06,2023-24,Maintenance,10912077,11461673,549596,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-06,2023-24,Cleaning,9328000,9213377,-114623,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-06,2023-24,Security,12720000,11229024,-1490976,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-06,2023-24,Station operations,8480000,8261389,-218611,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-06,2023-24,Administration,8758333,9192936,434602,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-06,2023-24,Equipment replacement,1500000,1477222,-22778,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-06,2023-24,Insurance,4500000,4448908,-51092,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-06,2023-24,Other operating expenses,5759385,5594006,-165379,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-07,2024-25,Electricity,39869686,39193029,-676657,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-07,2024-25,Employee expenses,51216667,49461770,-1754897,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-07,2024-25,Maintenance,8471639,8342659,-128980,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-07,2024-25,Cleaning,9328000,9742443,414443,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-07,2024-25,Security,12720000,12338280,-381720,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-07,2024-25,Station operations,8480000,8454649,-25351,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-07,2024-25,Administration,16600000,15875712,-724288,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-07,2024-25,Equipment replacement,1500000,1362398,-137602,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-07,2024-25,Insurance,4500000,4401069,-98931,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-07,2024-25,Other operating expenses,6159650,5932478,-227172,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-08,2024-25,Electricity,16479424,16512284,32860,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-08,2024-25,Employee expenses,51216667,46888110,-4328556,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-08,2024-25,Maintenance,6726280,6291475,-434805,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-08,2024-25,Cleaning,8162000,8463584,301584,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-08,2024-25,Security,11130000,10937060,-192940,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-08,2024-25,Station operations,7420000,7172341,-247659,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-08,2024-25,Administration,16600000,17056095,456095,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-08,2024-25,Equipment replacement,1312500,1282073,-30427,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-08,2024-25,Insurance,4500000,5240600,740600,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-08,2024-25,Other operating expenses,4113253,4133265,20012,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-09,2024-25,Electricity,63829342,61094837,-2734505,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-09,2024-25,Employee expenses,51216667,49677294,-1539372,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-09,2024-25,Maintenance,10732728,10652785,-79942,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-09,2024-25,Cleaning,8745000,8436511,-308489,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-09,2024-25,Security,11925000,10691817,-1233183,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-09,2024-25,Station operations,7950000,7973913,23913,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-09,2024-25,Administration,16600000,16777847,177847,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-09,2024-25,Equipment replacement,1406250,1354521,-51729,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-09,2024-25,Insurance,4500000,4170721,-329279,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-09,2024-25,Other operating expenses,8138324,8065783,-72541,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-10,2024-25,Electricity,67979873,64300775,-3679098,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-10,2024-25,Employee expenses,51216667,54484278,3267611,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-10,2024-25,Maintenance,12473222,13270197,796976,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-10,2024-25,Cleaning,9328000,9884217,556217,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-10,2024-25,Security,12720000,12528501,-191499,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-10,2024-25,Station operations,8480000,7740898,-739102,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-10,2024-25,Administration,16600000,16754513,154513,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-10,2024-25,Equipment replacement,1500000,1532534,32534,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-10,2024-25,Insurance,4500000,4149391,-350609,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-10,2024-25,Other operating expenses,8538617,8334693,-203924,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-11,2024-25,Electricity,65007162,58922943,-6084219,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-11,2024-25,Employee expenses,51216667,56411840,5195173,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-11,2024-25,Maintenance,12658731,12765138,106406,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-11,2024-25,Cleaning,9328000,10528177,1200177,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-11,2024-25,Security,12720000,13309484,589484,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-11,2024-25,Station operations,8480000,8190562,-289438,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-11,2024-25,Administration,16600000,15689116,-910884,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-11,2024-25,Equipment replacement,1500000,1438377,-61623,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-11,2024-25,Insurance,4500000,3973435,-526565,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-11,2024-25,Other operating expenses,8202867,8110160,-92708,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-12,2024-25,Electricity,65261400,61223159,-4038241,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-12,2024-25,Employee expenses,51216667,52285827,1069161,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-12,2024-25,Maintenance,10905071,10484167,-420904,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-12,2024-25,Cleaning,9328000,8577585,-750415,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-12,2024-25,Security,12720000,11611120,-1108880,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-12,2024-25,Station operations,8480000,8599112,119112,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-12,2024-25,Administration,16600000,14789995,-1810005,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-12,2024-25,Equipment replacement,1500000,1335443,-164557,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-12,2024-25,Insurance,4500000,4502420,2420,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2024-12,2024-25,Other operating expenses,8470799,9030752,559953,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-01,2024-25,Electricity,66963505,61089938,-5873568,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-01,2024-25,Employee expenses,51216667,47196708,-4019959,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-01,2024-25,Maintenance,11820970,12895070,1074100,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-01,2024-25,Cleaning,9856000,10112743,256743,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-01,2024-25,Security,13440000,13636887,196887,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-01,2024-25,Station operations,8960000,8789009,-170991,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-01,2024-25,Administration,16600000,15837169,-762831,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-01,2024-25,Equipment replacement,1500000,1243420,-256580,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-01,2024-25,Insurance,4500000,4316064,-183936,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-01,2024-25,Other operating expenses,8623356,8779456,156101,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-02,2024-25,Electricity,59389666,55665809,-3723857,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-02,2024-25,Employee expenses,51216667,54644151,3427484,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-02,2024-25,Maintenance,11310015,11605061,295046,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-02,2024-25,Cleaning,9856000,9908369,52369,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-02,2024-25,Security,13440000,15341622,1901622,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-02,2024-25,Station operations,8960000,8799543,-160457,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-02,2024-25,Administration,16600000,15644644,-955356,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-02,2024-25,Equipment replacement,1500000,1563068,63068,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-02,2024-25,Insurance,4500000,3810298,-689702,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-02,2024-25,Other operating expenses,8264970,7936513,-328457,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-03,2024-25,Electricity,70029235,62703223,-7326011,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-03,2024-25,Employee expenses,51216667,57016993,5800327,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-03,2024-25,Maintenance,10683511,10050765,-632747,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-03,2024-25,Cleaning,9856000,10988802,1132802,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-03,2024-25,Security,13440000,13005781,-434219,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-03,2024-25,Station operations,8960000,8739526,-220474,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-03,2024-25,Administration,16600000,16619363,19363,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-03,2024-25,Equipment replacement,1500000,1411624,-88376,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-03,2024-25,Insurance,4500000,4006395,-493605,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-03,2024-25,Other operating expenses,8550344,8268153,-282191,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-04,2024-25,Electricity,74317727,66777619,-7540108,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-04,2024-25,Employee expenses,51216667,49467600,-1749066,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-04,2024-25,Maintenance,12113529,12306173,192644,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-04,2024-25,Cleaning,9856000,9507105,-348895,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-04,2024-25,Security,13440000,13316487,-123513,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-04,2024-25,Station operations,8960000,8848640,-111360,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-04,2024-25,Administration,16600000,17010728,410728,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-04,2024-25,Equipment replacement,1500000,1439082,-60918,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-04,2024-25,Insurance,4500000,4501685,1685,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-04,2024-25,Other operating expenses,8430378,8706160,275782,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-05,2024-25,Electricity,79058950,73878792,-5180159,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-05,2024-25,Employee expenses,51216667,53324498,2107832,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-05,2024-25,Maintenance,11360840,11211400,-149440,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-05,2024-25,Cleaning,9856000,9760147,-95853,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-05,2024-25,Security,13440000,13605590,165590,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-05,2024-25,Station operations,8960000,7645252,-1314748,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-05,2024-25,Administration,16600000,16810896,210896,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-05,2024-25,Equipment replacement,1500000,1383218,-116782,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-05,2024-25,Insurance,4500000,4623096,123096,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-05,2024-25,Other operating expenses,8974512,9319683,345170,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-06,2024-25,Electricity,72555871,69235926,-3319945,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-06,2024-25,Employee expenses,51216667,44700638,-6516028,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-06,2024-25,Maintenance,12485107,12560966,75859,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-06,2024-25,Cleaning,9856000,9840717,-15283,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-06,2024-25,Security,13440000,13654026,214026,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-06,2024-25,Station operations,8960000,8291104,-668896,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-06,2024-25,Administration,16600000,16963014,363014,,Annual level from DMTCL audited accounts,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-06,2024-25,Equipment replacement,1500000,1601461,101461,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-06,2024-25,Insurance,4500000,3891598,-608402,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-06,2024-25,Other operating expenses,8435575,8560480,124906,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-07,2025-26,Electricity,74884999,74535638,-349361,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-07,2025-26,Employee expenses,63333333,56818448,-6514885,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-07,2025-26,Maintenance,11839205,12009641,170436,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-07,2025-26,Cleaning,9856000,8988163,-867837,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-07,2025-26,Security,13440000,13125555,-314445,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-07,2025-26,Station operations,8960000,8350169,-609831,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-07,2025-26,Administration,19166667,17218726,-1947941,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-07,2025-26,Equipment replacement,1500000,1495120,-4880,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-07,2025-26,Insurance,4500000,4435096,-64904,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-07,2025-26,Other operating expenses,9531179,8331065,-1200113,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-08,2025-26,Electricity,81059917,73570450,-7489468,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-08,2025-26,Employee expenses,63333333,63168304,-165029,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-08,2025-26,Maintenance,12186249,11993776,-192473,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-08,2025-26,Cleaning,9856000,10213478,357478,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-08,2025-26,Security,13440000,14760507,1320507,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-08,2025-26,Station operations,8960000,9187979,227979,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-08,2025-26,Administration,19166667,18677447,-489220,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-08,2025-26,Equipment replacement,1500000,1476623,-23377,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-08,2025-26,Insurance,4500000,4223074,-276926,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-08,2025-26,Other operating expenses,9418082,8968731,-449351,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-09,2025-26,Electricity,75178178,72068090,-3110088,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-09,2025-26,Employee expenses,63333333,65215890,1882557,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-09,2025-26,Maintenance,12339966,12164322,-175644,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-09,2025-26,Cleaning,9856000,9581606,-274394,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-09,2025-26,Security,13440000,14523099,1083099,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-09,2025-26,Station operations,8960000,8272002,-687998,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-09,2025-26,Administration,19166667,18349040,-817627,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-09,2025-26,Equipment replacement,1500000,1345168,-154832,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-09,2025-26,Insurance,4500000,4493438,-6562,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-09,2025-26,Other operating expenses,9789442,10541399,751957,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-10,2025-26,Electricity,73741119,72808758,-932361,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-10,2025-26,Employee expenses,63333333,58785555,-4547778,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-10,2025-26,Maintenance,11306236,11522507,216271,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-10,2025-26,Cleaning,9856000,9980497,124497,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-10,2025-26,Security,13440000,12369463,-1070537,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-10,2025-26,Station operations,8960000,7805801,-1154199,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-10,2025-26,Administration,19166667,20216374,1049707,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-10,2025-26,Equipment replacement,1500000,1459203,-40797,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-10,2025-26,Insurance,4500000,4470152,-29848,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-10,2025-26,Other operating expenses,9829990,9973999,144009,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-11,2025-26,Electricity,76975869,74179776,-2796093,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-11,2025-26,Employee expenses,63333333,68126407,4793074,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-11,2025-26,Maintenance,10651382,11291990,640608,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-11,2025-26,Cleaning,9856000,9970367,114367,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-11,2025-26,Security,13440000,14639476,1199476,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-11,2025-26,Station operations,8960000,8377880,-582120,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-11,2025-26,Administration,19166667,18871738,-294929,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-11,2025-26,Equipment replacement,1500000,1471626,-28374,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-11,2025-26,Insurance,4500000,4342330,-157670,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-11,2025-26,Other operating expenses,9332366,8850410,-481956,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-12,2025-26,Electricity,75926618,76370053,443436,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-12,2025-26,Employee expenses,63333333,61005683,-2327650,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-12,2025-26,Maintenance,12341371,13437530,1096159,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-12,2025-26,Cleaning,9856000,10141418,285418,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-12,2025-26,Security,13440000,13639970,199970,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-12,2025-26,Station operations,8960000,8763991,-196009,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-12,2025-26,Administration,19166667,18710361,-456306,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-12,2025-26,Equipment replacement,1500000,1558703,58703,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-12,2025-26,Insurance,4500000,4667025,167025,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2025-12,2025-26,Other operating expenses,9631512,8457600,-1173912,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-01,2025-26,Electricity,74668505,75456135,787630,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-01,2025-26,Employee expenses,63333333,55737078,-7596255,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-01,2025-26,Maintenance,71907167,79117414,7210247,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-01,2025-26,Cleaning,10384000,9557171,-826829,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-01,2025-26,Security,14160000,12720749,-1439251,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-01,2025-26,Station operations,9440000,8486180,-953820,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-01,2025-26,Administration,19166667,18267676,-898991,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-01,2025-26,Equipment replacement,10000000,9858486,-141514,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-01,2025-26,Insurance,4500000,4230504,-269496,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-01,2025-26,Other operating expenses,9645814,10413903,768089,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-02,2025-26,Electricity,70352847,68947569,-1405278,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-02,2025-26,Employee expenses,63333333,59244447,-4088887,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-02,2025-26,Maintenance,70440506,74741624,4301117,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-02,2025-26,Cleaning,10384000,10600645,216645,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-02,2025-26,Security,14160000,14631528,471528,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-02,2025-26,Station operations,9440000,9110641,-329359,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-02,2025-26,Administration,19166667,20545260,1378593,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-02,2025-26,Equipment replacement,10000000,9196479,-803521,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-02,2025-26,Insurance,4500000,3988604,-511396,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-02,2025-26,Other operating expenses,9082499,8722156,-360343,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-03,2025-26,Electricity,83605156,77684418,-5920738,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-03,2025-26,Employee expenses,63333333,61605759,-1727575,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-03,2025-26,Maintenance,70269006,65999498,-4269508,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-03,2025-26,Cleaning,10384000,10150795,-233205,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-03,2025-26,Security,14160000,13101353,-1058647,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-03,2025-26,Station operations,9440000,8932497,-507503,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-03,2025-26,Administration,19166667,17885862,-1280804,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-03,2025-26,Equipment replacement,10000000,8261906,-1738094,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-03,2025-26,Insurance,4500000,4140004,-359996,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-03,2025-26,Other operating expenses,9331955,9388493,56538,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-04,2025-26,Electricity,87516140,83142664,-4373476,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-04,2025-26,Employee expenses,63333333,67736391,4403057,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-04,2025-26,Maintenance,69943916,69647971,-295945,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-04,2025-26,Cleaning,10384000,10743046,359046,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-04,2025-26,Security,14160000,14039196,-120804,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-04,2025-26,Station operations,9440000,9969519,529519,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-04,2025-26,Administration,19166667,17268566,-1898101,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-04,2025-26,Equipment replacement,10000000,10895250,895250,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-04,2025-26,Insurance,4500000,4912317,412317,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-04,2025-26,Other operating expenses,9796967,9267133,-529834,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-05,2025-26,Electricity,88559858,81943277,-6616581,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-05,2025-26,Employee expenses,63333333,69162486,5829153,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-05,2025-26,Maintenance,72180890,76990223,4809333,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-05,2025-26,Cleaning,10384000,11161587,777587,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-05,2025-26,Security,14160000,13394015,-765985,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-05,2025-26,Station operations,9440000,8705268,-734732,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-05,2025-26,Administration,19166667,20350102,1183435,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-05,2025-26,Equipment replacement,10000000,10675241,675241,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-05,2025-26,Insurance,4500000,4164263,-335737,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-05,2025-26,Other operating expenses,9219605,9213217,-6387,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-06,2025-26,Electricity,85915325,83437963,-2477362,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-06,2025-26,Employee expenses,63333333,57544859,-5788474,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-06,2025-26,Maintenance,70392981,58009873,-12383108,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-06,2025-26,Cleaning,10384000,8936319,-1447681,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-06,2025-26,Security,14160000,14041304,-118696,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-06,2025-26,Station operations,9440000,8859105,-580895,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-06,2025-26,Administration,19166667,19765578,598911,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-06,2025-26,Equipment replacement,10000000,10331844,331844,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-06,2025-26,Insurance,4500000,4290502,-209498,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-06,2025-26,Other operating expenses,9750609,9772571,21962,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-07,2026-27,Electricity,90994277,84504723,-6489554,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-07,2026-27,Employee expenses,70000000,67604042,-2395958,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-07,2026-27,Maintenance,71350079,62613343,-8736736,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-07,2026-27,Cleaning,10384000,9563154,-820846,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-07,2026-27,Security,14160000,12772447,-1387553,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-07,2026-27,Station operations,9440000,9668149,228149,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-07,2026-27,Administration,20833333,18930892,-1902441,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-07,2026-27,Equipment replacement,10000000,10121489,121489,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-07,2026-27,Insurance,4500000,3866005,-633995,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-07,2026-27,Other operating expenses,9933641,9582581,-351061,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-08,2026-27,Electricity,87356373,86115524,-1240849,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-08,2026-27,Employee expenses,70000000,66668382,-3331618,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-08,2026-27,Maintenance,71126457,69336705,-1789752,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-08,2026-27,Cleaning,10384000,9897138,-486862,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-08,2026-27,Security,14160000,13415483,-744517,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-08,2026-27,Station operations,9440000,10156287,716287,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-08,2026-27,Administration,20833333,20259279,-574054,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-08,2026-27,Equipment replacement,10000000,8937363,-1062637,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-08,2026-27,Insurance,4500000,4262067,-237933,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-08,2026-27,Other operating expenses,10022700,9292295,-730406,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-09,2026-27,Electricity,78767694,83385065,4617371,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-09,2026-27,Employee expenses,70000000,64822380,-5177620,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-09,2026-27,Maintenance,72031697,82184902,10153205,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-09,2026-27,Cleaning,10384000,10068050,-315950,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-09,2026-27,Security,14160000,14057100,-102900,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-09,2026-27,Station operations,9440000,8536891,-903109,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-09,2026-27,Administration,20833333,20785338,-47996,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-09,2026-27,Equipment replacement,10000000,8521055,-1478945,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-09,2026-27,Insurance,4500000,4210069,-289931,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-09,2026-27,Other operating expenses,10155121,9519433,-635687,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10,2026-27,Electricity,87431105,79178033,-8253072,,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10,2026-27,Employee expenses,70000000,73430403,3430403,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10,2026-27,Maintenance,71356508,66543907,-4812600,,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10,2026-27,Cleaning,10384000,8847206,-1536794,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10,2026-27,Security,14160000,14041097,-118903,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10,2026-27,Station operations,9440000,8983973,-456027,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10,2026-27,Administration,20833333,20214866,-618467,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10,2026-27,Equipment replacement,10000000,10890941,890941,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10,2026-27,Insurance,4500000,4091384,-408616,,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10,2026-27,Other operating expenses,10167445,9689009,-478436,,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11,2026-27,Electricity,33277875,32013726,-1264149,Partial month,Sum of synthetic_energy_consumption.csv for the month,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11,2026-27,Employee expenses,30333333,26954618,-3378716,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11,2026-27,Maintenance,67310410,69622768,2312358,Partial month,Contract maintenance plus the month's incident and work-order costs,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11,2026-27,Cleaning,4499733,4748778,249044,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11,2026-27,Security,6136000,5784682,-351318,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11,2026-27,Station operations,4090667,3955531,-135136,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11,2026-27,Administration,9027778,9700332,672554,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11,2026-27,Equipment replacement,4333333,4279409,-53924,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11,2026-27,Insurance,1950000,2084162,134162,Partial month,Assumed level,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11,2026-27,Other operating expenses,2653207,2557079,-96128,Partial month,Includes DTCA clearing commission at the audited share of ticket sales,Synthetic,M2-OPX,Low,See phase2_synthetic_methodology.md,Yes,No

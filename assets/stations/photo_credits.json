@@ -1,0 +1,178 @@
+[
+ {
+  "station": "Uttara North",
+  "file": "01_uttara_north.jpg",
+  "title": "File:Exterior of Uttara North 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Exterior_of_Uttara_North_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Mehediabedin",
+  "description": "উত্তরা উত্তর মেট্রো স্টেশনের বাইরের দৃশ্য",
+  "width": 4608,
+  "height": 3456
+ },
+ {
+  "station": "Uttara Center",
+  "file": "02_uttara_center.jpg",
+  "title": "File:Uttara Center 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Uttara_Center_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Mehediabedin",
+  "description": "This is a photo of a monument in Bangladesh identified by the ID",
+  "width": 4608,
+  "height": 3456
+ },
+ {
+  "station": "Uttara South",
+  "file": "03_uttara_south.jpg",
+  "title": "File:Uttara south metro station 10.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Uttara_south_metro_station_10.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Wasiul Bahar",
+  "description": "Uttara south metro station",
+  "width": 6000,
+  "height": 4000
+ },
+ {
+  "station": "Pallabi",
+  "file": "04_pallabi.jpg",
+  "title": "File:Pallabi Metro station 03.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pallabi_Metro_station_03.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Wasiul Bahar",
+  "description": "Pallabi Metro station",
+  "width": 6000,
+  "height": 4000
+ },
+ {
+  "station": "Mirpur 11",
+  "file": "05_mirpur_11.jpg",
+  "title": "File:Mirpur 11 metro station 2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mirpur_11_metro_station_2.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Wasiul Bahar",
+  "description": "Mirpur 11 metro station",
+  "width": 6000,
+  "height": 4000
+ },
+ {
+  "station": "Mirpur 10",
+  "file": "06_mirpur_10.jpg",
+  "title": "File:Mirpur 10 metro station building.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mirpur_10_metro_station_building.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Md Joni Hossain",
+  "description": "Mirpur 10 metro station building",
+  "width": 4000,
+  "height": 2248
+ },
+ {
+  "station": "Kazipara",
+  "file": "07_kazipara.jpg",
+  "title": "File:Metro Station,Kazipara.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Metro_Station,Kazipara.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Frameofashik",
+  "description": "Metro station",
+  "width": 4496,
+  "height": 3000
+ },
+ {
+  "station": "Shewrapara",
+  "file": "08_shewrapara.jpg",
+  "title": "File:শেওড়াপাড়া মেট্রো স্টেশন ছবি ১৫.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%E0%A6%B6%E0%A7%87%E0%A6%93%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE_%E0%A6%AE%E0%A7%87%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%8B_%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8_%E0%A6%9B%E0%A6%AC%E0%A6%BF_%E0%A7%A7%E0%A7%AB.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Shariful Islam (Masum)",
+  "description": "This is a photo of a monument in Bangladesh identified by the ID",
+  "width": 4096,
+  "height": 3072
+ },
+ {
+  "station": "Agargaon",
+  "file": "09_agargaon.jpg",
+  "title": "File:Agargaon Metro Rail Station Platform 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Agargaon_Metro_Rail_Station_Platform_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Frameofashik",
+  "description": "Agargaon Metro Rail Station Platform",
+  "width": 4496,
+  "height": 3000
+ },
+ {
+  "station": "Bijoy Sarani",
+  "file": "10_bijoy_sarani.jpg",
+  "title": "File:Bijoy Sarani Metro Rail Station 05.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bijoy_Sarani_Metro_Rail_Station_05.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Frameofashik",
+  "description": "Bijoy Sarani",
+  "width": 9248,
+  "height": 6944
+ },
+ {
+  "station": "Farmgate",
+  "file": "11_farmgate.jpg",
+  "title": "File:Farmgate metro rail station.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Farmgate_metro_rail_station.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Wasiul Bahar",
+  "description": "Farmgate metro rail station",
+  "width": 6000,
+  "height": 4000
+ },
+ {
+  "station": "Karwan Bazar",
+  "file": "12_karwan_bazar.jpg",
+  "title": "File:Kawran Bazar metro station.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kawran_Bazar_metro_station.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "মোহাম্মদ জনি হোসেন",
+  "description": "Kawran Bazar metro station",
+  "width": 4000,
+  "height": 2248
+ },
+ {
+  "station": "Shahbagh",
+  "file": "13_shahbagh.jpg",
+  "title": "File:Shahbag metro station 2023.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Shahbag_metro_station_2023.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "মোহাম্মদ জনি হোসেন",
+  "description": "Shahbag metro station",
+  "width": 4000,
+  "height": 3000
+ },
+ {
+  "station": "Dhaka University",
+  "file": "14_dhaka_university.jpg",
+  "title": "File:DU metro station 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:DU_metro_station_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Mehediabedin",
+  "description": "Interior of Dhaka University metro station",
+  "width": 4608,
+  "height": 3456
+ },
+ {
+  "station": "Bangladesh Secretariat",
+  "file": "15_bangladesh_secretariat.jpg",
+  "title": "File:Segunbagicha (Bangladesh Secretariat) metro station.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Segunbagicha_(Bangladesh_Secretariat)_metro_station.jpg",
+  "license": "CC BY 4.0",
+  "author": "Uss157",
+  "description": "The Bangladesh Secretariat metro rail station, located in the neighbourhood of Segunbagicha, and the thana of Shahbagh",
+  "width": 4624,
+  "height": 2604
+ },
+ {
+  "station": "Motijheel",
+  "file": "16_motijheel.jpg",
+  "title": "File:Motijheel metro station 2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Motijheel_metro_station_2.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Wasiul Bahar",
+  "description": "Motijheel metro station",
+  "width": 6000,
+  "height": 4000
+ }
+]

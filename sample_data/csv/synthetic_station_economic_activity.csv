@@ -1,0 +1,460 @@
+Year,Station_ID,Station_Name,Catchment_Radius,Estimated_Property_Value,Value_Without_Metro_Premium,Assumed_Metro_Premium_Pct,Average_Rent,Business_Count,Commercial_Development_Index,Employment_Index,Station_Status,Data_Type,Source_ID,Data_Confidence,Methodology,Is_Modelled,Is_Verified
+2018,MRT6-01,Uttara North,500 m,5686,5686,0.0,18.8,252,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-01,Uttara North,500 m,5970,5970,0.0,19.7,260,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-01,Uttara North,500 m,5970,5970,0.0,19.7,251,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-01,Uttara North,500 m,6480,6329,2.4,21.8,266,105.7,108.2,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-01,Uttara North,500 m,7283,6898,5.6,25.1,303,120.1,113.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-01,Uttara North,500 m,8313,7657,8.6,29.3,322,127.8,118.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-01,Uttara North,500 m,9278,8423,10.2,33.1,338,134.0,121.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-01,Uttara North,500 m,10005,9012,11.0,35.9,351,139.2,125.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-01,Uttara North,500 m,10649,9553,11.5,38.4,363,144.1,127.9,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-01,Uttara North,1 km,5285,5285,0.0,17.4,900,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-01,Uttara North,1 km,5549,5549,0.0,18.3,927,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-01,Uttara North,1 km,5549,5549,0.0,18.3,898,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-01,Uttara North,1 km,5964,5882,1.4,19.9,940,104.4,107.3,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-01,Uttara North,1 km,6620,6411,3.3,22.4,1053,116.9,111.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-01,Uttara North,1 km,7472,7116,5.0,25.6,1106,122.9,114.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-01,Uttara North,1 km,8292,7828,5.9,28.7,1151,127.9,118.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-01,Uttara North,1 km,8914,8376,6.4,30.9,1192,132.5,120.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-01,Uttara North,1 km,9473,8878,6.7,32.9,1232,136.9,123.4,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-01,Uttara North,2 km,5293,5293,0.0,17.5,3060,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-01,Uttara North,2 km,5557,5557,0.0,18.3,3152,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-01,Uttara North,2 km,5557,5557,0.0,18.3,3052,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-01,Uttara North,2 km,5926,5891,0.6,19.6,3166,103.5,106.6,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-01,Uttara North,2 km,6510,6421,1.4,21.7,3502,114.4,109.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-01,Uttara North,2 km,7280,7127,2.1,24.4,3638,118.9,112.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-01,Uttara North,2 km,8039,7840,2.5,27.1,3765,123.0,114.9,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-01,Uttara North,2 km,8620,8389,2.8,29.1,3888,127.1,117.4,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-01,Uttara North,2 km,9147,8892,2.9,30.9,4010,131.0,119.9,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-02,Uttara Center,500 m,6811,6811,0.0,22.5,308,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-02,Uttara Center,500 m,7152,7152,0.0,23.6,317,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-02,Uttara Center,500 m,7152,7152,0.0,23.6,307,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-02,Uttara Center,500 m,7581,7581,0.0,25.0,316,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-02,Uttara Center,500 m,8461,8263,2.4,28.5,357,115.8,110.3,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-02,Uttara Center,500 m,9683,9172,5.6,33.4,381,123.7,115.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-02,Uttara Center,500 m,10953,10089,8.6,38.6,406,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-02,Uttara Center,500 m,11892,10795,10.2,42.4,425,138.0,124.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-02,Uttara Center,500 m,12703,11443,11.0,45.6,442,143.4,127.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-02,Uttara Center,1 km,6430,6430,0.0,21.2,1100,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-02,Uttara Center,1 km,6752,6752,0.0,22.3,1133,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-02,Uttara Center,1 km,6752,6752,0.0,22.3,1097,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-02,Uttara Center,1 km,7157,7157,0.0,23.6,1130,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-02,Uttara Center,1 km,7910,7801,1.4,26.4,1259,114.4,109.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-02,Uttara Center,1 km,8941,8659,3.3,30.3,1325,120.5,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-02,Uttara Center,1 km,10001,9525,5.0,34.3,1392,126.6,117.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-02,Uttara Center,1 km,10796,10192,5.9,37.3,1449,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-02,Uttara Center,1 km,11497,10803,6.4,39.9,1501,136.4,123.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-02,Uttara Center,2 km,6029,6029,0.0,19.9,3740,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-02,Uttara Center,2 km,6330,6330,0.0,20.9,3852,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-02,Uttara Center,2 km,6330,6330,0.0,20.9,3730,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-02,Uttara Center,2 km,6710,6710,0.0,22.1,3842,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-02,Uttara Center,2 km,7358,7314,0.6,24.4,4240,113.4,108.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-02,Uttara Center,2 km,8231,8118,1.4,27.5,4408,117.9,111.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-02,Uttara Center,2 km,9121,8930,2.1,30.6,4580,122.5,114.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-02,Uttara Center,2 km,9798,9555,2.5,33.0,4740,126.7,117.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-02,Uttara Center,2 km,10407,10129,2.8,35.1,4894,130.9,119.7,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-03,Uttara South,500 m,7441,7441,0.0,24.6,364,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-03,Uttara South,500 m,7813,7813,0.0,25.8,375,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-03,Uttara South,500 m,7813,7813,0.0,25.8,363,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-03,Uttara South,500 m,8282,8282,0.0,27.3,374,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-03,Uttara South,500 m,9244,9028,2.4,31.1,421,115.8,110.3,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-03,Uttara South,500 m,10579,10021,5.6,36.5,450,123.7,115.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-03,Uttara South,500 m,11966,11023,8.6,42.2,479,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-03,Uttara South,500 m,12993,11794,10.2,46.4,502,138.0,124.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-03,Uttara South,500 m,13879,12502,11.0,49.8,522,143.4,127.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-03,Uttara South,1 km,6727,6727,0.0,22.2,1300,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-03,Uttara South,1 km,7064,7064,0.0,23.3,1339,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-03,Uttara South,1 km,7064,7064,0.0,23.3,1296,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-03,Uttara South,1 km,7487,7487,0.0,24.7,1335,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-03,Uttara South,1 km,8276,8161,1.4,27.6,1488,114.4,109.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-03,Uttara South,1 km,9354,9059,3.3,31.7,1566,120.5,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-03,Uttara South,1 km,10463,9965,5.0,35.9,1645,126.6,117.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-03,Uttara South,1 km,11294,10663,5.9,39.0,1713,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-03,Uttara South,1 km,12028,11302,6.4,41.7,1774,136.4,123.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-03,Uttara South,2 km,6787,6787,0.0,22.4,4420,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-03,Uttara South,2 km,7126,7126,0.0,23.5,4553,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-03,Uttara South,2 km,7126,7126,0.0,23.5,4408,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-03,Uttara South,2 km,7554,7554,0.0,24.9,4540,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-03,Uttara South,2 km,8283,8234,0.6,27.5,5011,113.4,108.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-03,Uttara South,2 km,9267,9140,1.4,30.9,5210,117.9,111.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-03,Uttara South,2 km,10269,10054,2.1,34.5,5413,122.5,114.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-03,Uttara South,2 km,11031,10757,2.5,37.1,5602,126.7,117.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-03,Uttara South,2 km,11717,11403,2.8,39.5,5784,130.9,119.7,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-04,Pallabi,500 m,5019,5019,0.0,16.6,616,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-04,Pallabi,500 m,5270,5270,0.0,17.4,634,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-04,Pallabi,500 m,5270,5270,0.0,17.4,614,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-04,Pallabi,500 m,5587,5587,0.0,18.4,633,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-04,Pallabi,500 m,6236,6089,2.4,21.0,713,115.8,110.3,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-04,Pallabi,500 m,7136,6759,5.6,24.6,762,123.7,115.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-04,Pallabi,500 m,8072,7435,8.6,28.5,811,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-04,Pallabi,500 m,8764,7956,10.2,31.3,850,138.0,124.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-04,Pallabi,500 m,9362,8433,11.0,33.6,883,143.4,127.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-04,Pallabi,1 km,5302,5302,0.0,17.5,2200,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-04,Pallabi,1 km,5567,5567,0.0,18.4,2266,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-04,Pallabi,1 km,5567,5567,0.0,18.4,2194,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-04,Pallabi,1 km,5901,5901,0.0,19.5,2260,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-04,Pallabi,1 km,6522,6432,1.4,21.8,2518,114.4,109.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-04,Pallabi,1 km,7372,7140,3.3,25.0,2650,120.5,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-04,Pallabi,1 km,8246,7854,5.0,28.3,2784,126.6,117.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-04,Pallabi,1 km,8901,8403,5.9,30.8,2898,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-04,Pallabi,1 km,9480,8908,6.4,32.9,3002,136.4,123.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-04,Pallabi,2 km,4692,4692,0.0,15.5,7480,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-04,Pallabi,2 km,4926,4926,0.0,16.3,7704,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-04,Pallabi,2 km,4926,4926,0.0,16.3,7459,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-04,Pallabi,2 km,5222,5222,0.0,17.2,7683,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-04,Pallabi,2 km,5726,5692,0.6,19.0,8479,113.4,108.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-04,Pallabi,2 km,6406,6318,1.4,21.4,8816,117.9,111.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-04,Pallabi,2 km,7098,6950,2.1,23.8,9161,122.5,114.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-04,Pallabi,2 km,7625,7436,2.5,25.7,9480,126.7,117.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-04,Pallabi,2 km,8099,7882,2.8,27.3,9789,130.9,119.7,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-05,Mirpur 11,500 m,5883,5883,0.0,19.4,672,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-05,Mirpur 11,500 m,6177,6177,0.0,20.4,692,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-05,Mirpur 11,500 m,6177,6177,0.0,20.4,670,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-05,Mirpur 11,500 m,6547,6547,0.0,21.6,690,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-05,Mirpur 11,500 m,7308,7137,2.4,24.6,778,115.8,110.3,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-05,Mirpur 11,500 m,8363,7922,5.6,28.8,831,123.7,115.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-05,Mirpur 11,500 m,9460,8714,8.6,33.4,885,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-05,Mirpur 11,500 m,10271,9324,10.2,36.6,927,138.0,124.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-05,Mirpur 11,500 m,10972,9883,11.0,39.4,964,143.4,127.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-05,Mirpur 11,1 km,5370,5370,0.0,17.7,2400,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-05,Mirpur 11,1 km,5638,5638,0.0,18.6,2472,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-05,Mirpur 11,1 km,5638,5638,0.0,18.6,2393,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-05,Mirpur 11,1 km,5977,5977,0.0,19.7,2465,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-05,Mirpur 11,1 km,6606,6514,1.4,22.0,2747,114.4,109.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-05,Mirpur 11,1 km,7466,7231,3.3,25.3,2891,120.5,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-05,Mirpur 11,1 km,8351,7954,5.0,28.7,3037,126.6,117.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-05,Mirpur 11,1 km,9015,8511,5.9,31.2,3162,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-05,Mirpur 11,1 km,9601,9022,6.4,33.3,3275,136.4,123.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-05,Mirpur 11,2 km,5159,5159,0.0,17.0,8160,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-05,Mirpur 11,2 km,5417,5417,0.0,17.9,8405,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-05,Mirpur 11,2 km,5417,5417,0.0,17.9,8138,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-05,Mirpur 11,2 km,5742,5742,0.0,18.9,8382,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-05,Mirpur 11,2 km,6296,6259,0.6,20.9,9250,113.4,108.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-05,Mirpur 11,2 km,7044,6947,1.4,23.5,9618,117.9,111.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-05,Mirpur 11,2 km,7805,7642,2.1,26.2,9994,122.5,114.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-05,Mirpur 11,2 km,8384,8177,2.5,28.2,10342,126.7,117.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-05,Mirpur 11,2 km,8906,8667,2.8,30.0,10678,130.9,119.7,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-06,Mirpur 10,500 m,6086,6086,0.0,20.1,1008,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-06,Mirpur 10,500 m,6391,6391,0.0,21.1,1038,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-06,Mirpur 10,500 m,6391,6391,0.0,21.1,1005,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-06,Mirpur 10,500 m,6774,6774,0.0,22.4,1035,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-06,Mirpur 10,500 m,7561,7384,2.4,25.4,1167,115.8,110.3,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-06,Mirpur 10,500 m,8653,8196,5.6,29.8,1247,123.7,115.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-06,Mirpur 10,500 m,9788,9016,8.6,34.5,1327,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-06,Mirpur 10,500 m,10627,9647,10.2,37.9,1391,138.0,124.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-06,Mirpur 10,500 m,11352,10226,11.0,40.8,1446,143.4,127.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-06,Mirpur 10,1 km,5721,5721,0.0,18.9,3600,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-06,Mirpur 10,1 km,6007,6007,0.0,19.8,3708,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-06,Mirpur 10,1 km,6007,6007,0.0,19.8,3590,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-06,Mirpur 10,1 km,6368,6368,0.0,21.0,3698,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-06,Mirpur 10,1 km,7038,6941,1.4,23.5,4120,114.4,109.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-06,Mirpur 10,1 km,7955,7704,3.3,26.9,4336,120.5,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-06,Mirpur 10,1 km,8898,8475,5.0,30.5,4556,126.6,117.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-06,Mirpur 10,1 km,9606,9068,5.9,33.2,4742,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-06,Mirpur 10,1 km,10230,9612,6.4,35.5,4912,136.4,123.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-06,Mirpur 10,2 km,5513,5513,0.0,18.2,12240,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-06,Mirpur 10,2 km,5789,5789,0.0,19.1,12607,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-06,Mirpur 10,2 km,5789,5789,0.0,19.1,12206,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-06,Mirpur 10,2 km,6136,6136,0.0,20.2,12572,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-06,Mirpur 10,2 km,6728,6688,0.6,22.3,13875,113.4,108.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-06,Mirpur 10,2 km,7527,7424,1.4,25.1,14427,117.9,111.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-06,Mirpur 10,2 km,8341,8166,2.1,28.0,14991,122.5,114.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-06,Mirpur 10,2 km,8960,8738,2.5,30.2,15512,126.7,117.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-06,Mirpur 10,2 km,9517,9262,2.8,32.1,16018,130.9,119.7,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-07,Kazipara,500 m,5626,5626,0.0,18.6,560,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-07,Kazipara,500 m,5908,5908,0.0,19.5,577,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-07,Kazipara,500 m,5908,5908,0.0,19.5,558,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-07,Kazipara,500 m,6262,6262,0.0,20.7,575,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-07,Kazipara,500 m,6989,6826,2.4,23.5,648,115.8,110.3,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-07,Kazipara,500 m,7999,7576,5.6,27.6,693,123.7,115.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-07,Kazipara,500 m,9048,8334,8.6,31.9,737,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-07,Kazipara,500 m,9823,8917,10.2,35.1,773,138.0,124.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-07,Kazipara,500 m,10494,9452,11.0,37.7,803,143.4,127.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-07,Kazipara,1 km,5208,5208,0.0,17.2,2000,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-07,Kazipara,1 km,5469,5469,0.0,18.0,2060,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-07,Kazipara,1 km,5469,5469,0.0,18.0,1994,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-07,Kazipara,1 km,5797,5797,0.0,19.1,2054,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-07,Kazipara,1 km,6407,6319,1.4,21.4,2289,114.4,109.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-07,Kazipara,1 km,7242,7014,3.3,24.5,2409,120.5,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-07,Kazipara,1 km,8100,7715,5.0,27.8,2531,126.6,117.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-07,Kazipara,1 km,8744,8255,5.9,30.2,2635,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-07,Kazipara,1 km,9312,8750,6.4,32.3,2729,136.4,123.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-07,Kazipara,2 km,4819,4819,0.0,15.9,6800,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-07,Kazipara,2 km,5060,5060,0.0,16.7,7004,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-07,Kazipara,2 km,5060,5060,0.0,16.7,6781,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-07,Kazipara,2 km,5363,5363,0.0,17.7,6985,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-07,Kazipara,2 km,5881,5846,0.6,19.5,7709,113.4,108.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-07,Kazipara,2 km,6579,6489,1.4,22.0,8015,117.9,111.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-07,Kazipara,2 km,7291,7138,2.1,24.5,8328,122.5,114.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-07,Kazipara,2 km,7831,7637,2.5,26.4,8618,126.7,117.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-07,Kazipara,2 km,8319,8096,2.8,28.1,8899,130.9,119.7,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-08,Shewrapara,500 m,5746,5746,0.0,19.0,588,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-08,Shewrapara,500 m,6034,6034,0.0,19.9,606,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-08,Shewrapara,500 m,6034,6034,0.0,19.9,586,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-08,Shewrapara,500 m,6396,6396,0.0,21.1,604,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-08,Shewrapara,500 m,7138,6971,2.4,24.0,681,115.8,110.3,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-08,Shewrapara,500 m,8169,7738,5.6,28.2,727,123.7,115.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-08,Shewrapara,500 m,9240,8512,8.6,32.6,774,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-08,Shewrapara,500 m,10033,9108,10.2,35.8,811,138.0,124.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-08,Shewrapara,500 m,10717,9654,11.0,38.5,843,143.4,127.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-08,Shewrapara,1 km,5289,5289,0.0,17.5,2100,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-08,Shewrapara,1 km,5553,5553,0.0,18.3,2163,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-08,Shewrapara,1 km,5553,5553,0.0,18.3,2094,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-08,Shewrapara,1 km,5886,5886,0.0,19.4,2157,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-08,Shewrapara,1 km,6506,6416,1.4,21.7,2403,114.4,109.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-08,Shewrapara,1 km,7353,7122,3.3,24.9,2530,120.5,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-08,Shewrapara,1 km,8225,7834,5.0,28.2,2658,126.6,117.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-08,Shewrapara,1 km,8879,8382,5.9,30.7,2766,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-08,Shewrapara,1 km,9456,8885,6.4,32.8,2865,136.4,123.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-08,Shewrapara,2 km,5292,5292,0.0,17.5,7140,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-08,Shewrapara,2 km,5556,5556,0.0,18.3,7354,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-08,Shewrapara,2 km,5556,5556,0.0,18.3,7120,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-08,Shewrapara,2 km,5890,5890,0.0,19.4,7334,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-08,Shewrapara,2 km,6458,6420,0.6,21.4,8094,113.4,108.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-08,Shewrapara,2 km,7225,7126,1.4,24.1,8416,117.9,111.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-08,Shewrapara,2 km,8006,7838,2.1,26.9,8745,122.5,114.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-08,Shewrapara,2 km,8600,8387,2.5,29.0,9049,126.7,117.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-08,Shewrapara,2 km,9135,8890,2.8,30.8,9344,130.9,119.7,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-09,Agargaon,500 m,6979,6979,0.0,23.0,504,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-09,Agargaon,500 m,7328,7328,0.0,24.2,519,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-09,Agargaon,500 m,7328,7328,0.0,24.2,503,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-09,Agargaon,500 m,7876,7767,1.4,26.3,526,104.4,107.3,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-09,Agargaon,500 m,8742,8467,3.3,29.6,589,116.9,111.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-09,Agargaon,500 m,9867,9398,5.0,33.9,619,122.9,114.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-09,Agargaon,500 m,10950,10338,5.9,37.8,645,127.9,118.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-09,Agargaon,500 m,11772,11061,6.4,40.8,668,132.5,120.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-09,Agargaon,500 m,12510,11725,6.7,43.5,690,136.9,123.4,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-09,Agargaon,1 km,6374,6374,0.0,21.0,1800,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-09,Agargaon,1 km,6693,6693,0.0,22.1,1854,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-09,Agargaon,1 km,6693,6693,0.0,22.1,1795,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-09,Agargaon,1 km,7151,7094,0.8,23.7,1867,103.7,106.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-09,Agargaon,1 km,7876,7733,1.9,26.4,2071,115.1,109.9,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-09,Agargaon,1 km,8828,8583,2.9,29.8,2158,119.9,112.9,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-09,Agargaon,1 km,9761,9442,3.4,33.1,2237,124.3,115.7,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-09,Agargaon,1 km,10473,10102,3.7,35.6,2311,128.4,118.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-09,Agargaon,1 km,11118,10709,3.8,37.8,2385,132.5,120.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-09,Agargaon,2 km,6062,6062,0.0,20.0,6120,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-09,Agargaon,2 km,6365,6365,0.0,21.0,6304,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-09,Agargaon,2 km,6365,6365,0.0,21.0,6103,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-09,Agargaon,2 km,6768,6747,0.3,22.4,6309,103.1,106.4,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-09,Agargaon,2 km,7406,7355,0.7,24.6,6946,113.5,108.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-09,Agargaon,2 km,8251,8164,1.1,27.5,7186,117.4,111.4,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-09,Agargaon,2 km,9094,8980,1.3,30.3,7419,121.2,113.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-09,Agargaon,2 km,9741,9609,1.4,32.5,7651,125.0,116.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-09,Agargaon,2 km,10331,10185,1.4,34.5,7886,128.9,118.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-10,Bijoy Sarani,500 m,8333,8333,0.0,27.5,420,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-10,Bijoy Sarani,500 m,8750,8750,0.0,28.9,433,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-10,Bijoy Sarani,500 m,8750,8750,0.0,28.9,419,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-10,Bijoy Sarani,500 m,9275,9275,0.0,30.6,431,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-10,Bijoy Sarani,500 m,10251,10109,1.4,34.2,481,114.4,109.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-10,Bijoy Sarani,500 m,11586,11221,3.3,39.2,506,120.5,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-10,Bijoy Sarani,500 m,12960,12344,5.0,44.5,532,126.6,117.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-10,Bijoy Sarani,500 m,13990,13208,5.9,48.4,553,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-10,Bijoy Sarani,500 m,14900,14000,6.4,51.7,573,136.4,123.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-10,Bijoy Sarani,1 km,7814,7814,0.0,25.8,1500,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-10,Bijoy Sarani,1 km,8205,8205,0.0,27.1,1545,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-10,Bijoy Sarani,1 km,8205,8205,0.0,27.1,1496,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-10,Bijoy Sarani,1 km,8697,8697,0.0,28.7,1541,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-10,Bijoy Sarani,1 km,9555,9480,0.8,31.7,1704,113.6,108.9,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-10,Bijoy Sarani,1 km,10718,10522,1.9,35.9,1778,118.5,112.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-10,Bijoy Sarani,1 km,11905,11575,2.9,40.2,1852,123.5,115.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-10,Bijoy Sarani,1 km,12804,12385,3.4,43.4,1920,128.0,118.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-10,Bijoy Sarani,1 km,13610,13128,3.7,46.2,1984,132.3,120.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-10,Bijoy Sarani,2 km,7319,7319,0.0,24.2,5100,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-10,Bijoy Sarani,2 km,7685,7685,0.0,25.4,5253,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-10,Bijoy Sarani,2 km,7685,7685,0.0,25.4,5086,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-10,Bijoy Sarani,2 km,8146,8146,0.0,26.9,5239,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-10,Bijoy Sarani,2 km,8906,8879,0.3,29.5,5761,113.0,108.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-10,Bijoy Sarani,2 km,9924,9856,0.7,32.9,5962,116.9,111.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-10,Bijoy Sarani,2 km,10957,10841,1.1,36.5,6168,120.9,113.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-10,Bijoy Sarani,2 km,11747,11600,1.3,39.2,6368,124.9,116.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-10,Bijoy Sarani,2 km,12465,12296,1.4,41.6,6567,128.8,118.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-11,Farmgate,500 m,9184,9184,0.0,30.3,1176,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-11,Farmgate,500 m,9644,9644,0.0,31.8,1211,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-11,Farmgate,500 m,9644,9644,0.0,31.8,1173,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-11,Farmgate,500 m,10222,10222,0.0,33.7,1208,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-11,Farmgate,500 m,11298,11142,1.4,37.7,1346,114.4,109.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-11,Farmgate,500 m,12770,12368,3.3,43.2,1417,120.5,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-11,Farmgate,500 m,14284,13605,5.0,49.0,1488,126.6,117.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-11,Farmgate,500 m,15420,14557,5.9,53.3,1549,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-11,Farmgate,500 m,16422,15431,6.4,57.0,1605,136.4,123.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-11,Farmgate,1 km,7999,7999,0.0,26.4,4200,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-11,Farmgate,1 km,8398,8398,0.0,27.7,4326,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-11,Farmgate,1 km,8398,8398,0.0,27.7,4188,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-11,Farmgate,1 km,8902,8902,0.0,29.4,4314,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-11,Farmgate,1 km,9781,9704,0.8,32.5,4773,113.6,108.9,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-11,Farmgate,1 km,10971,10771,1.9,36.7,4978,118.5,112.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-11,Farmgate,1 km,12186,11848,2.9,41.1,5187,123.5,115.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-11,Farmgate,1 km,13107,12677,3.4,44.4,5375,128.0,118.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-11,Farmgate,1 km,13931,13438,3.7,47.3,5555,132.3,120.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-11,Farmgate,2 km,7748,7748,0.0,25.6,14280,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-11,Farmgate,2 km,8136,8136,0.0,26.8,14708,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-11,Farmgate,2 km,8136,8136,0.0,26.8,14241,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-11,Farmgate,2 km,8624,8624,0.0,28.5,14668,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-11,Farmgate,2 km,9428,9400,0.3,31.2,16130,113.0,108.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-11,Farmgate,2 km,10507,10434,0.7,34.9,16693,116.9,111.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-11,Farmgate,2 km,11600,11478,1.1,38.6,17270,120.9,113.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-11,Farmgate,2 km,12437,12281,1.3,41.5,17830,124.9,116.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-11,Farmgate,2 km,13197,13018,1.4,44.0,18388,128.8,118.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-12,Karwan Bazar,500 m,10225,10225,0.0,33.7,1456,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-12,Karwan Bazar,500 m,10736,10736,0.0,35.4,1500,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-12,Karwan Bazar,500 m,10736,10736,0.0,35.4,1452,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-12,Karwan Bazar,500 m,11380,11380,0.0,37.6,1496,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-12,Karwan Bazar,500 m,12529,12405,1.0,41.7,1658,113.9,109.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-12,Karwan Bazar,500 m,14089,13769,2.3,47.4,1735,119.2,112.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-12,Karwan Bazar,500 m,15686,15146,3.6,53.2,1813,124.5,115.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-12,Karwan Bazar,500 m,16892,16206,4.2,57.6,1882,129.2,118.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-12,Karwan Bazar,500 m,17967,17179,4.6,61.5,1946,133.7,121.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-12,Karwan Bazar,1 km,9551,9551,0.0,31.5,5200,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-12,Karwan Bazar,1 km,10029,10029,0.0,33.1,5356,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-12,Karwan Bazar,1 km,10029,10029,0.0,33.1,5186,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-12,Karwan Bazar,1 km,10630,10630,0.0,35.1,5341,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-12,Karwan Bazar,1 km,11657,11587,0.6,38.7,5895,113.4,108.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-12,Karwan Bazar,1 km,13041,12862,1.4,43.5,6129,117.9,111.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-12,Karwan Bazar,1 km,14451,14148,2.1,48.5,6369,122.5,114.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-12,Karwan Bazar,1 km,15523,15138,2.5,52.3,6590,126.7,117.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-12,Karwan Bazar,1 km,16488,16046,2.8,55.6,6805,130.9,119.7,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-12,Karwan Bazar,2 km,9147,9147,0.0,30.2,17680,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-12,Karwan Bazar,2 km,9604,9604,0.0,31.7,18210,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-12,Karwan Bazar,2 km,9604,9604,0.0,31.7,17631,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-12,Karwan Bazar,2 km,10181,10181,0.0,33.6,18160,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-12,Karwan Bazar,2 km,11119,11097,0.2,36.8,19947,112.8,108.4,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-12,Karwan Bazar,2 km,12375,12318,0.5,41.0,20610,116.6,110.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-12,Karwan Bazar,2 km,13646,13549,0.7,45.3,21292,120.4,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-12,Karwan Bazar,2 km,14621,14498,0.8,48.6,21965,124.2,115.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-12,Karwan Bazar,2 km,15509,15368,0.9,51.6,22643,128.1,118.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-13,Shahbagh,500 m,11142,11142,0.0,36.8,840,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-13,Shahbagh,500 m,11699,11699,0.0,38.6,865,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-13,Shahbagh,500 m,11699,11699,0.0,38.6,838,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-13,Shahbagh,500 m,12401,12401,0.0,40.9,863,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-13,Shahbagh,500 m,13707,13518,1.4,45.7,961,114.4,109.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-13,Shahbagh,500 m,15493,15004,3.3,52.5,1012,120.5,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-13,Shahbagh,500 m,17329,16505,5.0,59.5,1063,126.6,117.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-13,Shahbagh,500 m,18707,17660,5.9,64.7,1107,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-13,Shahbagh,500 m,19923,18720,6.4,69.1,1146,136.4,123.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-13,Shahbagh,1 km,10723,10723,0.0,35.4,3000,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-13,Shahbagh,1 km,11260,11260,0.0,37.2,3090,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-13,Shahbagh,1 km,11260,11260,0.0,37.2,2992,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-13,Shahbagh,1 km,11935,11935,0.0,39.4,3081,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-13,Shahbagh,1 km,13113,13009,0.8,43.6,3409,113.6,108.9,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-13,Shahbagh,1 km,14709,14440,1.9,49.3,3555,118.5,112.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-13,Shahbagh,1 km,16338,15884,2.9,55.1,3705,123.5,115.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-13,Shahbagh,1 km,17572,16996,3.4,59.6,3840,128.0,118.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-13,Shahbagh,1 km,18678,18016,3.7,63.4,3968,132.3,120.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-13,Shahbagh,2 km,9982,9982,0.0,32.9,10200,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-13,Shahbagh,2 km,10481,10481,0.0,34.6,10506,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-13,Shahbagh,2 km,10481,10481,0.0,34.6,10172,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-13,Shahbagh,2 km,11110,11110,0.0,36.7,10477,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-13,Shahbagh,2 km,12146,12110,0.3,40.2,11522,113.0,108.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-13,Shahbagh,2 km,13536,13442,0.7,44.9,11924,116.9,111.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-13,Shahbagh,2 km,14944,14786,1.1,49.7,12336,120.9,113.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-13,Shahbagh,2 km,16022,15821,1.3,53.4,12736,124.9,116.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-13,Shahbagh,2 km,17001,16770,1.4,56.7,13135,128.8,118.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-14,Dhaka University,500 m,10590,10590,0.0,34.9,252,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-14,Dhaka University,500 m,11119,11119,0.0,36.7,260,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-14,Dhaka University,500 m,11119,11119,0.0,36.7,251,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-14,Dhaka University,500 m,11787,11787,0.0,38.9,259,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-14,Dhaka University,500 m,13027,12847,1.4,43.5,288,114.4,109.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-14,Dhaka University,500 m,14724,14261,3.3,49.9,304,120.5,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-14,Dhaka University,500 m,16470,15687,5.0,56.5,319,126.6,117.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-14,Dhaka University,500 m,17779,16785,5.9,61.5,332,131.7,120.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-14,Dhaka University,500 m,18935,17792,6.4,65.7,344,136.4,123.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-14,Dhaka University,1 km,10047,10047,0.0,33.2,900,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-14,Dhaka University,1 km,10550,10550,0.0,34.8,927,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-14,Dhaka University,1 km,10550,10550,0.0,34.8,898,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-14,Dhaka University,1 km,11183,11183,0.0,36.9,924,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-14,Dhaka University,1 km,12287,12189,0.8,40.8,1023,113.6,108.9,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-14,Dhaka University,1 km,13782,13530,1.9,46.2,1067,118.5,112.1,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-14,Dhaka University,1 km,15308,14883,2.9,51.7,1111,123.5,115.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-14,Dhaka University,1 km,16464,15925,3.4,55.8,1152,128.0,118.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-14,Dhaka University,1 km,17500,16880,3.7,59.4,1190,132.3,120.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-14,Dhaka University,2 km,9024,9024,0.0,29.8,3060,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-14,Dhaka University,2 km,9475,9475,0.0,31.3,3152,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-14,Dhaka University,2 km,9475,9475,0.0,31.3,3052,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-14,Dhaka University,2 km,10044,10044,0.0,33.1,3143,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-14,Dhaka University,2 km,10981,10948,0.3,36.3,3456,113.0,108.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-14,Dhaka University,2 km,12237,12152,0.7,40.6,3577,116.9,111.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-14,Dhaka University,2 km,13510,13367,1.1,45.0,3701,120.9,113.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-14,Dhaka University,2 km,14485,14303,1.3,48.3,3821,124.9,116.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-14,Dhaka University,2 km,15370,15161,1.4,51.3,3940,128.8,118.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-15,Bangladesh Secretariat,500 m,9657,9657,0.0,31.9,728,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-15,Bangladesh Secretariat,500 m,10140,10140,0.0,33.5,750,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-15,Bangladesh Secretariat,500 m,10140,10140,0.0,33.5,726,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-15,Bangladesh Secretariat,500 m,10748,10748,0.0,35.5,748,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-15,Bangladesh Secretariat,500 m,11833,11716,1.0,39.4,829,113.9,109.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-15,Bangladesh Secretariat,500 m,13307,13004,2.3,44.7,867,119.2,112.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-15,Bangladesh Secretariat,500 m,14815,14305,3.6,50.3,906,124.5,115.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-15,Bangladesh Secretariat,500 m,15954,15306,4.2,54.4,941,129.2,118.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-15,Bangladesh Secretariat,500 m,16969,16225,4.6,58.1,973,133.7,121.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-15,Bangladesh Secretariat,1 km,8768,8768,0.0,28.9,2600,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-15,Bangladesh Secretariat,1 km,9206,9206,0.0,30.4,2678,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-15,Bangladesh Secretariat,1 km,9206,9206,0.0,30.4,2593,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-15,Bangladesh Secretariat,1 km,9758,9758,0.0,32.2,2671,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-15,Bangladesh Secretariat,1 km,10700,10636,0.6,35.5,2947,113.4,108.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-15,Bangladesh Secretariat,1 km,11971,11807,1.4,39.9,3065,117.9,111.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-15,Bangladesh Secretariat,1 km,13265,12987,2.1,44.5,3184,122.5,114.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-15,Bangladesh Secretariat,1 km,14249,13896,2.5,48.0,3295,126.7,117.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-15,Bangladesh Secretariat,1 km,15136,14730,2.8,51.0,3402,130.9,119.7,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-15,Bangladesh Secretariat,2 km,8759,8759,0.0,28.9,8840,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-15,Bangladesh Secretariat,2 km,9197,9197,0.0,30.4,9105,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-15,Bangladesh Secretariat,2 km,9197,9197,0.0,30.4,8816,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-15,Bangladesh Secretariat,2 km,9749,9749,0.0,32.2,9080,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-15,Bangladesh Secretariat,2 km,10648,10627,0.2,35.2,9973,112.8,108.4,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-15,Bangladesh Secretariat,2 km,11851,11796,0.5,39.3,10305,116.6,110.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-15,Bangladesh Secretariat,2 km,13068,12975,0.7,43.4,10646,120.4,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-15,Bangladesh Secretariat,2 km,14001,13884,0.8,46.5,10983,124.2,115.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-15,Bangladesh Secretariat,2 km,14852,14717,0.9,49.4,11322,128.1,118.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-16,Motijheel,500 m,9589,9589,0.0,31.6,1820,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-16,Motijheel,500 m,10069,10069,0.0,33.2,1875,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-16,Motijheel,500 m,10069,10069,0.0,33.2,1815,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-16,Motijheel,500 m,10673,10673,0.0,35.2,1869,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-16,Motijheel,500 m,11750,11633,1.0,39.1,2073,113.9,109.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-16,Motijheel,500 m,13213,12913,2.3,44.4,2169,119.2,112.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-16,Motijheel,500 m,14711,14204,3.6,49.9,2266,124.5,115.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-16,Motijheel,500 m,15842,15199,4.2,54.0,2352,129.2,118.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-16,Motijheel,500 m,16850,16111,4.6,57.6,2432,133.7,121.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-16,Motijheel,1 km,9137,9137,0.0,30.2,6500,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-16,Motijheel,1 km,9594,9594,0.0,31.7,6695,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-16,Motijheel,1 km,9594,9594,0.0,31.7,6482,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-16,Motijheel,1 km,10170,10170,0.0,33.6,6677,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-16,Motijheel,1 km,11151,11085,0.6,37.0,7368,113.4,108.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-16,Motijheel,1 km,12476,12304,1.4,41.6,7661,117.9,111.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-16,Motijheel,1 km,13824,13535,2.1,46.4,7961,122.5,114.5,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-16,Motijheel,1 km,14850,14482,2.5,50.0,8238,126.7,117.2,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-16,Motijheel,1 km,15774,15351,2.8,53.2,8506,130.9,119.7,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-16,Motijheel,2 km,9100,9100,0.0,30.0,22100,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-16,Motijheel,2 km,9555,9555,0.0,31.5,22763,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-16,Motijheel,2 km,9555,9555,0.0,31.5,22039,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-16,Motijheel,2 km,10128,10128,0.0,33.4,22700,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-16,Motijheel,2 km,11062,11040,0.2,36.6,24933,112.8,108.4,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-16,Motijheel,2 km,12311,12254,0.5,40.8,25763,116.6,110.8,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-16,Motijheel,2 km,13576,13480,0.7,45.1,26614,120.4,113.3,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-16,Motijheel,2 km,14546,14423,0.8,48.3,27456,124.2,115.6,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-16,Motijheel,2 km,15429,15289,0.9,51.3,28304,128.1,118.0,Operating,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-17,Kamalapur,500 m,6610,6610,0.0,21.8,784,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-17,Kamalapur,500 m,6941,6941,0.0,22.9,808,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-17,Kamalapur,500 m,6941,6941,0.0,22.9,782,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-17,Kamalapur,500 m,7357,7357,0.0,24.3,805,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-17,Kamalapur,500 m,8020,8020,0.0,26.5,882,112.6,108.2,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-17,Kamalapur,500 m,8902,8902,0.0,29.4,909,115.9,110.4,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-17,Kamalapur,500 m,9792,9792,0.0,32.3,936,119.4,112.6,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-17,Kamalapur,500 m,10600,10477,1.2,35.3,978,124.7,115.9,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-17,Kamalapur,500 m,11236,11106,1.2,37.4,1007,128.5,118.3,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-17,Kamalapur,1 km,6416,6416,0.0,21.2,2800,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-17,Kamalapur,1 km,6737,6737,0.0,22.2,2884,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-17,Kamalapur,1 km,6737,6737,0.0,22.2,2792,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-17,Kamalapur,1 km,7141,7141,0.0,23.6,2876,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-17,Kamalapur,1 km,7784,7784,0.0,25.7,3151,112.6,108.2,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-17,Kamalapur,1 km,8640,8640,0.0,28.5,3246,115.9,110.4,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-17,Kamalapur,1 km,9504,9504,0.0,31.4,3343,119.4,112.6,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-17,Kamalapur,1 km,10237,10169,0.7,34.0,3471,124.0,115.5,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-17,Kamalapur,1 km,10851,10779,0.7,36.0,3575,127.7,117.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2018,MRT6-17,Kamalapur,2 km,5966,5966,0.0,19.7,9520,100.0,100.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2019,MRT6-17,Kamalapur,2 km,6264,6264,0.0,20.7,9806,103.0,102.0,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2020,MRT6-17,Kamalapur,2 km,6264,6264,0.0,20.7,9494,99.7,98.8,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2021,MRT6-17,Kamalapur,2 km,6640,6640,0.0,21.9,9779,102.7,106.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2022,MRT6-17,Kamalapur,2 km,7238,7238,0.0,23.9,10715,112.6,108.2,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2023,MRT6-17,Kamalapur,2 km,8034,8034,0.0,26.5,11036,115.9,110.4,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2024,MRT6-17,Kamalapur,2 km,8837,8837,0.0,29.2,11367,119.4,112.6,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2025,MRT6-17,Kamalapur,2 km,9479,9456,0.2,31.3,11744,123.4,115.1,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No
+2026,MRT6-17,Kamalapur,2 km,10048,10023,0.2,33.2,12096,127.1,117.4,Under construction,Synthetic,M3-ECO,Low,See phase3_impact_methodology.md,Yes,No

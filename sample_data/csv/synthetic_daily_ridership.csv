@@ -1,0 +1,497 @@
+Date,Station_ID,Station_Name,Passenger_Entry,Passenger_Exit,Total_Passengers,Peak_Passengers,Off_Peak_Passengers,Weekday_Weekend,Holiday_Flag,Holiday_Name,Ramadan_Flag,Weather_Category,Data_Type,Source_ID,Data_Confidence,Methodology,Is_Modelled,Is_Verified
+2026-10-14,MRT6-01,Uttara North,44740,42484,87224,20651,24089,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-02,Uttara Center,8631,9005,17636,4003,4628,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-03,Uttara South,6840,6742,13582,3159,3681,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-04,Pallabi,37272,38276,75548,17252,20020,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-05,Mirpur 11,26533,26975,53508,12108,14425,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-06,Mirpur 10,41960,42744,84704,19697,22263,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-07,Kazipara,23508,22399,45907,10505,13003,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-08,Shewrapara,22108,22481,44589,10076,12032,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-09,Agargaon,29607,29131,58738,13311,16296,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-10,Bijoy Sarani,9104,8970,18074,4155,4949,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-11,Farmgate,30027,31511,61538,13406,16621,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-12,Karwan Bazar,39758,37920,77678,16866,22892,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-13,Shahbagh,22578,24797,47375,9898,12680,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-14,Dhaka University,19172,17885,37057,8405,10767,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-15,Bangladesh Secretariat,36774,37219,73993,16110,20664,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-16,Motijheel,60433,60506,120939,27274,33159,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-01,Uttara North,45657,44323,89980,21224,24433,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-02,Uttara Center,9056,9366,18422,4097,4959,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-03,Uttara South,7285,7012,14297,3464,3821,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-04,Pallabi,36296,40073,76369,16569,19727,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-05,Mirpur 11,28815,28009,56824,13228,15587,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-06,Mirpur 10,44712,44454,89166,20527,24185,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-07,Kazipara,21961,23472,45433,10142,11819,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-08,Shewrapara,24173,23371,47544,11364,12809,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-09,Agargaon,30642,30463,61105,13159,17483,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-10,Bijoy Sarani,9215,9385,18600,4085,5130,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-11,Farmgate,34614,32695,67309,15078,19536,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-12,Karwan Bazar,41258,39788,81046,17758,23500,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-13,Shahbagh,25358,25833,51191,11551,13807,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-14,Dhaka University,19312,18741,38053,8771,10541,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-15,Bangladesh Secretariat,40430,38802,79232,17749,22681,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-16,Motijheel,60757,63754,124511,26537,34220,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-01,Uttara North,13823,13066,26889,6610,7213,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-02,Uttara Center,2955,2768,5723,1450,1505,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-03,Uttara South,2047,2078,4125,972,1075,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-04,Pallabi,12350,11695,24045,6069,6281,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-05,Mirpur 11,8136,8307,16443,3992,4144,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-06,Mirpur 10,14060,13017,27077,6889,7171,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-07,Kazipara,7399,6878,14277,3562,3837,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-08,Shewrapara,7533,6859,14392,3734,3799,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-09,Agargaon,11469,8749,20218,5653,5816,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-10,Bijoy Sarani,3560,2726,6286,1753,1807,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-11,Farmgate,13433,9251,22684,6412,7021,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-12,Karwan Bazar,7028,12016,19044,3371,3657,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-13,Shahbagh,10581,7251,17832,5213,5368,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-14,Dhaka University,7375,5305,12680,3633,3742,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-15,Bangladesh Secretariat,7212,11563,18775,3604,3608,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-16,Motijheel,11982,19414,31396,5848,6134,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-01,Uttara North,33060,32264,65324,15364,17696,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-02,Uttara Center,6937,6819,13756,3167,3770,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-03,Uttara South,5556,5109,10665,2535,3021,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-04,Pallabi,31462,28700,60162,14324,17138,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-05,Mirpur 11,21224,20375,41599,9823,11401,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-06,Mirpur 10,33712,32127,65839,15652,18060,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-07,Kazipara,17663,16952,34615,7968,9695,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-08,Shewrapara,16116,17013,33129,7530,8586,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-09,Agargaon,26093,21921,48014,11962,14131,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-10,Bijoy Sarani,7918,6804,14722,3516,4402,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-11,Farmgate,27615,23523,51138,12279,15336,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-12,Karwan Bazar,23816,29604,53420,10368,13448,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-13,Shahbagh,22406,18400,40806,10144,12262,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-14,Dhaka University,15781,13427,29208,7079,8702,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-15,Bangladesh Secretariat,23018,28767,51785,9756,13262,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-16,Motijheel,36904,47476,84380,15731,21173,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-01,Uttara North,42387,43530,85917,19048,23339,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-02,Uttara Center,9188,9134,18322,4242,4946,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-03,Uttara South,6840,6852,13692,3143,3697,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-04,Pallabi,37790,38991,76781,17002,20788,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-05,Mirpur 11,26049,27508,53557,12058,13991,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-06,Mirpur 10,45733,43222,88955,21022,24711,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-07,Kazipara,24557,22795,47352,11502,13055,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-08,Shewrapara,22769,22875,45644,10364,12405,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-09,Agargaon,30118,29796,59914,13432,16686,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-10,Bijoy Sarani,9402,9169,18571,4194,5208,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-11,Farmgate,32986,32029,65015,14801,18185,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-12,Karwan Bazar,38033,39111,77144,16474,21559,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-13,Shahbagh,24188,25287,49475,10813,13375,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-14,Dhaka University,17701,18376,36077,7935,9766,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-15,Bangladesh Secretariat,37542,38149,75691,16082,21460,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-16,Motijheel,63423,61882,125305,27257,36166,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-01,Uttara North,41074,41752,82826,19418,21656,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-02,Uttara Center,9075,8753,17828,4138,4937,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-03,Uttara South,6545,6568,13113,2999,3546,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-04,Pallabi,39070,37105,76175,17731,21339,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-05,Mirpur 11,26956,26254,53210,12472,14484,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-06,Mirpur 10,40129,41784,81913,18766,21363,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-07,Kazipara,22534,21872,44406,10299,12235,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-08,Shewrapara,23419,21814,45233,10762,12657,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-09,Agargaon,27749,28580,56329,12438,15311,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-10,Bijoy Sarani,8686,8779,17465,3892,4794,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-11,Farmgate,30426,30720,61146,13405,17021,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-12,Karwan Bazar,38414,37243,75657,16737,21677,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-13,Shahbagh,25371,24022,49393,11301,14070,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-14,Dhaka University,16796,17554,34350,7442,9354,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-15,Bangladesh Secretariat,34830,36573,71403,14417,20413,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-16,Motijheel,57710,59411,117121,24963,32747,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-01,Uttara North,43968,41403,85371,20414,23554,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-02,Uttara Center,9023,8773,17796,4122,4901,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-03,Uttara South,6375,6580,12955,2869,3506,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-04,Pallabi,39219,37018,76237,17719,21500,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-05,Mirpur 11,26126,26266,52392,11839,14287,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-06,Mirpur 10,39064,41829,80893,18125,20939,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-07,Kazipara,21977,21868,43845,10324,11653,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-08,Shewrapara,23048,21821,44869,10667,12381,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-09,Agargaon,27825,28512,56337,12475,15350,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-10,Bijoy Sarani,8602,8757,17359,3896,4706,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-11,Farmgate,30997,30608,61605,13838,17159,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-12,Karwan Bazar,39662,37031,76693,16700,22962,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-13,Shahbagh,24086,24038,48124,10751,13335,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-14,Dhaka University,16849,17503,34352,7332,9517,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-15,Bangladesh Secretariat,34392,36481,70873,15005,19387,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-16,Motijheel,56667,59392,116059,24392,32275,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-01,Uttara North,47969,44913,92882,22413,25556,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-02,Uttara Center,9922,9541,19463,4727,5195,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-03,Uttara South,7140,7159,14299,3297,3843,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-04,Pallabi,40432,40513,80945,19201,21231,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-05,Mirpur 11,31117,28422,59539,14568,16549,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-06,Mirpur 10,44948,45218,90166,20539,24409,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-07,Kazipara,22601,23846,46447,10368,12233,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-08,Shewrapara,24150,23745,47895,11216,12934,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-09,Agargaon,31736,30917,62653,14289,17447,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-10,Bijoy Sarani,9336,9531,18867,4223,5113,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-11,Farmgate,33326,33317,66643,15175,18151,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-12,Karwan Bazar,39000,40749,79749,17031,21969,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-13,Shahbagh,26860,26103,52963,12122,14738,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-14,Dhaka University,17631,19072,36703,7882,9749,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-15,Bangladesh Secretariat,39447,39573,79020,16367,23080,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-16,Motijheel,61713,64709,126422,25899,35814,Weekday,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-01,Uttara North,43106,42615,85721,20337,22769,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-02,Uttara Center,8784,8987,17771,4055,4729,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-03,Uttara South,6718,6733,13451,3050,3668,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-04,Pallabi,39829,37976,77805,18607,21222,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-05,Mirpur 11,26054,26985,53039,12138,13916,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-06,Mirpur 10,42532,42641,85173,19723,22809,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-07,Kazipara,22886,22421,45307,10285,12601,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-08,Shewrapara,21880,22446,44326,10206,11674,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-09,Agargaon,29928,29125,59053,13135,16793,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-10,Bijoy Sarani,9439,8968,18407,4318,5121,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-11,Farmgate,29716,31544,61260,13377,16339,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-12,Karwan Bazar,37240,38223,75463,15795,21445,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-13,Shahbagh,26329,24575,50904,11602,14727,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-14,Dhaka University,18204,17935,36139,8170,10034,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-15,Bangladesh Secretariat,35526,37410,72936,15260,20266,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-16,Motijheel,61032,60619,121651,26988,34044,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-01,Uttara North,12973,13301,26274,6418,6555,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-02,Uttara Center,2934,2788,5722,1444,1490,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-03,Uttara South,2078,2093,4171,1006,1072,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-04,Pallabi,12219,11824,24043,5834,6385,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-05,Mirpur 11,8940,8334,17274,4399,4541,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-06,Mirpur 10,14622,13091,27713,7338,7284,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-07,Kazipara,7594,6936,14530,3746,3848,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-08,Shewrapara,7393,6939,14332,3652,3741,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-09,Agargaon,12104,8795,20899,5885,6219,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-10,Bijoy Sarani,3757,2748,6505,1871,1886,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-11,Farmgate,12880,9393,22273,6068,6812,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-12,Karwan Bazar,7103,12128,19231,3382,3721,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-13,Shahbagh,10540,7326,17866,5105,5435,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-14,Dhaka University,7782,5343,13125,3901,3881,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-15,Bangladesh Secretariat,7405,11662,19067,3628,3777,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-16,Motijheel,12001,19624,31625,5753,6248,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-01,Uttara North,37303,34884,72187,16942,20361,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-02,Uttara Center,8078,7401,15479,3703,4375,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-03,Uttara South,5909,5553,11462,2699,3210,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-04,Pallabi,33623,31288,64911,15890,17733,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-05,Mirpur 11,24762,22003,46765,11223,13539,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-06,Mirpur 10,35611,34988,70599,16170,19441,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-07,Kazipara,18482,18444,36926,8450,10032,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-08,Shewrapara,19180,18380,37560,8770,10410,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-09,Agargaon,27840,24049,51889,12183,15657,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-10,Bijoy Sarani,8501,7450,15951,3839,4662,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-11,Farmgate,31732,25612,57344,14081,17651,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-12,Karwan Bazar,23539,32887,56426,10199,13340,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-13,Shahbagh,25021,20095,45116,11312,13709,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-14,Dhaka University,18902,14603,33505,8237,10665,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-15,Bangladesh Secretariat,23014,31966,54980,10088,12926,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-16,Motijheel,40530,52424,92954,17848,22682,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-01,Uttara North,43979,42932,86911,20466,23513,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-02,Uttara Center,8698,9072,17770,4030,4668,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-03,Uttara South,7124,6792,13916,3349,3775,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-04,Pallabi,39462,38418,77880,17729,21733,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-05,Mirpur 11,27782,27131,54913,12910,14872,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-06,Mirpur 10,41761,43127,84888,19343,22418,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-07,Kazipara,23252,22590,45842,10635,12617,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-08,Shewrapara,21035,22690,43725,9870,11165,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-09,Agargaon,28991,29435,58426,12993,15998,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-10,Bijoy Sarani,8558,9055,17613,3796,4762,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-11,Farmgate,33420,31524,64944,15041,18379,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-12,Karwan Bazar,37184,38490,75674,15835,21349,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-13,Shahbagh,25109,24865,49974,11057,14052,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-14,Dhaka University,17808,18106,35914,8111,9697,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-15,Bangladesh Secretariat,37545,37479,75024,15991,21554,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-16,Motijheel,61028,61030,122058,26116,34912,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-01,Uttara North,43240,41713,84953,19392,23848,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-02,Uttara Center,8778,8817,17595,4075,4703,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-03,Uttara South,6929,6606,13535,3192,3737,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-04,Pallabi,36292,37548,73840,16402,19890,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-05,Mirpur 11,26381,26394,52775,12131,14250,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-06,Mirpur 10,41936,41839,83775,19342,22594,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-07,Kazipara,22695,22002,44697,10376,12319,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-08,Shewrapara,22058,22031,44089,10236,11822,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-09,Agargaon,27469,28741,56210,11988,15481,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-10,Bijoy Sarani,8914,8818,17732,3960,4954,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-11,Farmgate,31680,30788,62468,13869,17811,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-12,Karwan Bazar,35809,37649,73458,15330,20479,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-13,Shahbagh,24627,24220,48847,11285,13342,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-14,Dhaka University,17576,17634,35210,7985,9591,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-15,Bangladesh Secretariat,36909,36569,73478,15888,21021,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-16,Motijheel,59641,59565,119206,26255,33386,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-01,Uttara North,41180,44233,85413,19199,21981,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-02,Uttara Center,9762,9225,18987,4514,5248,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-03,Uttara South,6894,6932,13826,3239,3655,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-04,Pallabi,40205,39234,79439,18484,21721,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-05,Mirpur 11,27308,27770,55078,12085,15223,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-06,Mirpur 10,43382,44016,87398,20170,23212,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-07,Kazipara,24328,23086,47414,11507,12821,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-08,Shewrapara,25136,23039,48175,11469,13667,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-09,Agargaon,30438,30075,60513,13417,17021,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-10,Bijoy Sarani,9404,9258,18662,4182,5222,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-11,Farmgate,32438,32401,64839,14430,18008,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-12,Karwan Bazar,39601,39371,78972,17548,22053,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-13,Shahbagh,25055,25474,50529,11119,13936,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-14,Dhaka University,18731,18497,37228,8413,10318,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-15,Bangladesh Secretariat,39529,38297,77826,17226,22303,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-16,Motijheel,60329,62812,123141,25605,34724,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-01,Uttara North,44612,43684,88296,20731,23881,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-02,Uttara Center,9044,9232,18276,4293,4751,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-03,Uttara South,7100,6916,14016,3307,3793,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-04,Pallabi,40730,38988,79718,18839,21891,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-05,Mirpur 11,30474,27481,57955,14357,16117,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-06,Mirpur 10,42606,43819,86425,19522,23084,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-07,Kazipara,23365,23001,46366,11026,12339,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-08,Shewrapara,22848,23012,45860,10788,12060,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-09,Agargaon,29105,30018,59123,13119,15986,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-10,Bijoy Sarani,9065,9215,18280,4052,5013,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-11,Farmgate,32479,32210,64689,14577,17902,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-12,Karwan Bazar,38391,39315,77706,16557,21834,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-13,Shahbagh,25877,25270,51147,11750,14127,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-14,Dhaka University,18450,18393,36843,8239,10211,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-15,Bangladesh Secretariat,38368,38298,76666,17045,21323,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-16,Motijheel,59030,62692,121722,25154,33876,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-01,Uttara North,44602,43799,88401,20605,23997,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-02,Uttara Center,8803,9262,18065,4061,4742,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-03,Uttara South,7054,6937,13991,3293,3761,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-04,Pallabi,39489,39306,78795,18142,21347,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-05,Mirpur 11,27746,27721,55467,12601,15145,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-06,Mirpur 10,45639,43718,89357,20926,24713,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-07,Kazipara,21844,23150,44994,10224,11620,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-08,Shewrapara,22196,23135,45331,10153,12043,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-09,Agargaon,29832,30067,59899,13227,16605,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-10,Bijoy Sarani,9579,9241,18820,4302,5277,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-11,Farmgate,35247,32125,67372,15363,19884,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-12,Karwan Bazar,36825,39465,76290,16309,20516,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-13,Shahbagh,26228,25360,51588,11587,14641,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-14,Dhaka University,17569,18518,36087,7753,9816,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-15,Bangladesh Secretariat,38183,38344,76527,15997,22186,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-16,Motijheel,61806,62494,124300,27483,34323,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-01,Uttara North,13683,13482,27165,6778,6905,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-02,Uttara Center,3034,2841,5875,1499,1535,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-03,Uttara South,2214,2131,4345,1043,1171,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-04,Pallabi,12936,11982,24918,6311,6625,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-05,Mirpur 11,9476,8451,17927,4614,4862,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-06,Mirpur 10,14186,13384,27570,6942,7244,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-07,Kazipara,7877,7039,14916,3832,4045,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-08,Shewrapara,7430,7051,14481,3650,3780,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-09,Agargaon,11726,8969,20695,5878,5848,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-10,Bijoy Sarani,3741,2789,6530,1845,1896,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-11,Farmgate,13361,9504,22865,6631,6730,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-12,Karwan Bazar,7328,12291,19619,3484,3844,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-13,Shahbagh,10489,7442,17931,5151,5338,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-14,Dhaka University,7552,5433,12985,3690,3862,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-15,Bangladesh Secretariat,7424,11830,19254,3577,3847,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-16,Motijheel,12073,19911,31984,6075,5998,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-01,Uttara North,32798,33096,65894,14960,17838,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-02,Uttara Center,7510,6946,14456,3373,4137,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-03,Uttara South,5309,5221,10530,2501,2808,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-04,Pallabi,31872,29340,61212,14688,17184,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-05,Mirpur 11,22725,20762,43487,10718,12007,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-06,Mirpur 10,33906,32905,66811,15632,18274,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-07,Kazipara,18692,17300,35992,8502,10190,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-08,Shewrapara,18197,17314,35511,8306,9891,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-09,Agargaon,27518,22462,49980,12364,15154,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-10,Bijoy Sarani,8208,6982,15190,3745,4463,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-11,Farmgate,29236,24074,53310,13005,16231,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-12,Karwan Bazar,24931,30479,55410,10859,14072,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-13,Shahbagh,24025,18792,42817,10810,13215,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-14,Dhaka University,14768,13813,28581,6611,8157,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-15,Bangladesh Secretariat,22036,29749,51785,9576,12460,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-16,Motijheel,36586,49082,85668,15700,20886,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-01,Uttara North,43628,43289,86917,19839,23789,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-02,Uttara Center,9024,9123,18147,4145,4879,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-03,Uttara South,7099,6838,13937,3245,3854,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-04,Pallabi,40035,38602,78637,18455,21580,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-05,Mirpur 11,27236,27344,54580,12784,14452,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-06,Mirpur 10,43866,43236,87102,20003,23863,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-07,Kazipara,22438,22805,45243,10198,12240,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-08,Shewrapara,23707,22715,46422,10463,13244,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-09,Agargaon,26884,29750,56634,11961,14923,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-10,Bijoy Sarani,9000,9094,18094,4073,4927,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-11,Farmgate,33000,31726,64726,14709,18291,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-12,Karwan Bazar,40272,38415,78687,17417,22855,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-13,Shahbagh,25235,24967,50202,11210,14025,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-14,Dhaka University,17293,18199,35492,7720,9573,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-15,Bangladesh Secretariat,35730,37795,73525,15557,20173,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-16,Motijheel,60726,61275,122001,26722,34004,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-01,Uttara North,44068,45237,89305,20095,23973,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-02,Uttara Center,9928,9481,19409,4609,5319,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-03,Uttara South,7434,7113,14547,3492,3942,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-04,Pallabi,40831,40270,81101,18960,21871,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-05,Mirpur 11,27485,28561,56046,12687,14798,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-06,Mirpur 10,46220,44944,91164,21546,24674,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-07,Kazipara,24241,23714,47955,11574,12667,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-08,Shewrapara,22346,23804,46150,10873,11473,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-09,Agargaon,29065,30929,59994,12997,16068,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-10,Bijoy Sarani,9965,9468,19433,4406,5559,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-11,Farmgate,34037,33123,67160,15480,18557,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-12,Karwan Bazar,40586,40210,80796,17829,22757,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-13,Shahbagh,26989,26019,53008,11951,15038,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-14,Dhaka University,18308,18996,37304,8116,10192,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-15,Bangladesh Secretariat,39431,39242,78673,17446,21985,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-16,Motijheel,64062,63885,127947,27628,36434,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-01,Uttara North,43447,41302,84749,20543,22904,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-02,Uttara Center,8095,8764,16859,3821,4274,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-03,Uttara South,6213,6568,12781,2886,3327,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-04,Pallabi,36385,37254,73639,16660,19725,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-05,Mirpur 11,25366,26299,51665,11733,13633,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-06,Mirpur 10,42572,41419,83991,19823,22749,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-07,Kazipara,20941,21903,42844,9383,11558,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-08,Shewrapara,22644,21826,44470,10549,12095,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-09,Agargaon,28244,28472,56716,12798,15446,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-10,Bijoy Sarani,8151,8769,16920,3716,4435,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-11,Farmgate,31351,30596,61947,14323,17028,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-12,Karwan Bazar,37824,37189,75013,16452,21372,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-13,Shahbagh,23342,24127,47469,10688,12654,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-14,Dhaka University,17702,17505,35207,8157,9545,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-15,Bangladesh Secretariat,36554,36354,72908,15585,20969,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-16,Motijheel,58757,59241,117998,25872,32885,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-01,Uttara North,46904,42513,89417,22091,24813,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-02,Uttara Center,8788,9081,17869,3961,4827,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-03,Uttara South,6935,6793,13728,3166,3769,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-04,Pallabi,36915,38603,75518,17239,19676,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-05,Mirpur 11,27778,27106,54884,12675,15103,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-06,Mirpur 10,43816,42845,86661,19933,23883,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-07,Kazipara,22940,22581,45521,10669,12271,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-08,Shewrapara,22236,22600,44836,10143,12093,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-09,Agargaon,28288,29474,57762,12487,15801,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-10,Bijoy Sarani,9066,9044,18110,4109,4957,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-11,Farmgate,31600,31636,63236,14112,17488,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-12,Karwan Bazar,40229,38360,78589,17490,22739,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-13,Shahbagh,24795,24827,49622,11182,13613,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-14,Dhaka University,19129,17999,37128,8448,10681,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-15,Bangladesh Secretariat,37037,37560,74597,15580,21457,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-16,Motijheel,56322,61756,118078,24726,31596,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-01,Uttara North,51167,44577,95744,24039,27128,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-02,Uttara Center,9517,9537,19054,4292,5225,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-03,Uttara South,7227,7143,14370,3268,3959,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-04,Pallabi,37275,40718,77993,16702,20573,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-05,Mirpur 11,29451,28437,57888,13517,15934,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-06,Mirpur 10,43186,45307,88493,19375,23811,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-07,Kazipara,23659,23760,47419,11153,12506,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-08,Shewrapara,23404,23749,47153,10664,12740,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-09,Agargaon,31073,30999,62072,14137,16936,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-10,Bijoy Sarani,10112,9528,19640,4544,5568,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-11,Farmgate,32611,33437,66048,14634,17977,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-12,Karwan Bazar,38731,40845,79576,16938,21793,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-13,Shahbagh,26753,26192,52945,11768,14985,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-14,Dhaka University,19564,19052,38616,8504,11060,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-15,Bangladesh Secretariat,42690,39490,82180,18244,24446,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-16,Motijheel,61393,65042,126435,26353,35040,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-01,Uttara North,13219,12724,25943,6570,6649,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-02,Uttara Center,2662,2693,5355,1306,1356,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-03,Uttara South,2132,2017,4149,1023,1109,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-04,Pallabi,13024,11256,24280,6393,6631,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-05,Mirpur 11,8313,8047,16360,4061,4252,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-06,Mirpur 10,12531,12773,25304,5985,6546,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-07,Kazipara,7106,6680,13786,3496,3610,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-08,Shewrapara,7159,6671,13830,3553,3606,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-09,Agargaon,12112,8428,20540,5808,6304,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-10,Bijoy Sarani,3328,2647,5975,1643,1685,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-11,Farmgate,12698,9004,21702,6171,6527,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-12,Karwan Bazar,7277,11613,18890,3579,3698,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-13,Shahbagh,9656,7071,16727,4796,4860,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-14,Dhaka University,6992,5156,12148,3367,3625,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-15,Bangladesh Secretariat,7052,11211,18263,3384,3668,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-16,Motijheel,11571,18841,30412,5551,6020,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-01,Uttara North,32913,32678,65591,15319,17594,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-02,Uttara Center,7342,6878,14220,3364,3978,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-03,Uttara South,5275,5159,10434,2354,2921,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-04,Pallabi,30833,29126,59959,14564,16269,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-05,Mirpur 11,22068,20584,42652,10551,11517,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-06,Mirpur 10,35011,32353,67364,15790,19221,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-07,Kazipara,18398,17112,35510,8359,10039,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-08,Shewrapara,18644,17081,35725,8517,10127,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-09,Agargaon,25929,22331,48260,11285,14644,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-10,Bijoy Sarani,7690,6919,14609,3393,4297,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-11,Farmgate,27562,23945,51507,12505,15057,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-12,Karwan Bazar,23159,30320,53479,9789,13370,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-13,Shahbagh,22792,18692,41484,10388,12404,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-14,Dhaka University,15880,13647,29527,6953,8927,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-15,Bangladesh Secretariat,23378,29408,52786,10214,13164,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-16,Motijheel,37898,48539,86437,16429,21469,Weekend,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-01,Uttara North,41877,44994,86871,19569,22308,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-02,Uttara Center,9143,9401,18544,4312,4831,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-03,Uttara South,6936,7048,13984,3185,3751,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-04,Pallabi,41863,39808,81671,19591,22272,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-05,Mirpur 11,28800,28202,57002,13126,15674,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-06,Mirpur 10,45394,44619,90013,20735,24659,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-07,Kazipara,24365,23492,47857,11519,12846,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-08,Shewrapara,23599,23516,47115,10690,12909,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-09,Agargaon,30392,30605,60997,13531,16861,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-10,Bijoy Sarani,9308,9416,18724,4169,5139,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-11,Farmgate,30574,33132,63706,13537,17037,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-12,Karwan Bazar,39717,40017,79734,16789,22928,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-13,Shahbagh,27674,25782,53456,12443,15231,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-14,Dhaka University,17646,18891,36537,8087,9559,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-15,Bangladesh Secretariat,38295,39141,77436,16410,21885,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-16,Motijheel,65711,63230,128941,29158,36553,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-01,Uttara North,42244,43545,85789,19126,23118,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-02,Uttara Center,9881,9124,19005,4527,5354,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-03,Uttara South,6608,6861,13469,3049,3559,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-04,Pallabi,39651,38826,78477,18404,21247,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-05,Mirpur 11,28421,27367,55788,13425,14996,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-06,Mirpur 10,43361,43480,86841,19963,23398,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-07,Kazipara,22218,22892,45110,10037,12181,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-08,Shewrapara,23306,22843,46149,10763,12543,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-09,Agargaon,32015,29641,61656,14136,17879,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-10,Bijoy Sarani,8544,9181,17725,3864,4680,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-11,Farmgate,32031,32082,64113,14788,17243,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-12,Karwan Bazar,38291,39077,77368,16175,22116,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-13,Shahbagh,24389,25240,49629,11059,13330,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-14,Dhaka University,18454,18311,36765,8384,10070,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-15,Bangladesh Secretariat,36969,38201,75170,15873,21096,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-16,Motijheel,62160,61872,124032,27116,35044,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-01,Uttara North,42829,43842,86671,20357,22472,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-02,Uttara Center,9676,9187,18863,4501,5175,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-03,Uttara South,6956,6898,13854,3222,3734,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-04,Pallabi,37997,39211,77208,17302,20695,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-05,Mirpur 11,26531,27674,54205,12159,14372,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-06,Mirpur 10,42935,43816,86751,19828,23107,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-07,Kazipara,22453,23044,45497,10129,12324,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-08,Shewrapara,23006,23037,46043,10500,12506,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-09,Agargaon,30808,29874,60682,13553,17255,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-10,Bijoy Sarani,9715,9204,18919,4382,5333,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-11,Farmgate,32235,32270,64505,14029,18206,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-12,Karwan Bazar,38182,39181,77363,16438,21744,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-13,Shahbagh,25879,25341,51220,11377,14502,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-14,Dhaka University,19964,18395,38359,8966,10998,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-15,Bangladesh Secretariat,38521,38209,76730,16773,21748,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-16,Motijheel,63486,61990,125476,27457,36029,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-01,Uttara North,40670,43778,84448,18606,22064,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-02,Uttara Center,8942,9135,18077,4217,4725,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-03,Uttara South,7222,6847,14069,3323,3899,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-04,Pallabi,38995,38894,77889,17752,21243,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-05,Mirpur 11,29857,27279,57136,13331,16526,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-06,Mirpur 10,44118,43346,87464,20645,23473,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-07,Kazipara,21088,22964,44052,9910,11178,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-08,Shewrapara,24482,22806,47288,11736,12746,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-09,Agargaon,31519,29637,61156,14394,17125,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-10,Bijoy Sarani,9689,9147,18836,4448,5241,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-11,Farmgate,31725,32064,63789,14204,17521,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-12,Karwan Bazar,37265,39082,76347,16350,20915,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-13,Shahbagh,24919,25176,50095,11243,13676,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-14,Dhaka University,19157,18260,37417,8389,10768,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-15,Bangladesh Secretariat,36030,38165,74195,16020,20010,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-16,Motijheel,62510,61608,124118,27153,35357,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-01,Uttara North,41859,44017,85876,19079,22780,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-02,Uttara Center,9875,9190,19065,4641,5234,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-03,Uttara South,7035,6908,13943,3291,3744,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-04,Pallabi,39413,39153,78566,18422,20991,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-05,Mirpur 11,28455,27625,56080,13324,15131,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-06,Mirpur 10,43839,43799,87638,20251,23588,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-07,Kazipara,23697,23020,46717,10933,12764,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-08,Shewrapara,24639,22990,47629,11383,13256,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-09,Agargaon,29372,30154,59526,13160,16212,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-10,Bijoy Sarani,9440,9258,18698,4092,5348,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-11,Farmgate,32340,32421,64761,14364,17976,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-12,Karwan Bazar,40240,39481,79721,17216,23024,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-13,Shahbagh,24425,25522,49947,11119,13306,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-14,Dhaka University,18226,18530,36756,8101,10125,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-15,Bangladesh Secretariat,39008,38553,77561,16842,22166,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-16,Motijheel,61605,62847,124452,26153,35452,Weekday,0,,0,Clear,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-01,Uttara North,14778,13026,27804,7250,7528,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-02,Uttara Center,2982,2788,5770,1449,1533,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-03,Uttara South,2272,2091,4363,1130,1142,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-04,Pallabi,12970,11693,24663,6581,6389,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-05,Mirpur 11,8625,8314,16939,4346,4279,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-06,Mirpur 10,14070,13063,27133,6776,7294,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-07,Kazipara,7368,6896,14264,3566,3802,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-08,Shewrapara,7256,6886,14142,3450,3806,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-09,Agargaon,10987,8784,19771,5292,5695,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-10,Bijoy Sarani,3936,2716,6652,1972,1964,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-11,Farmgate,12651,9298,21949,6258,6393,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-12,Karwan Bazar,7274,11965,19239,3477,3797,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-13,Shahbagh,9226,7315,16541,4433,4793,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-14,Dhaka University,7461,5286,12747,3575,3886,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-15,Bangladesh Secretariat,7186,11534,18720,3531,3655,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-16,Motijheel,11971,19358,31329,5786,6185,Weekend,0,,0,Light Rain,Synthetic,M2-RID,Low,See phase2_synthetic_methodology.md,Yes,No

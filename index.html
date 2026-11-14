@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dhaka Metro Intelligence — MRT Line-6</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{
+  --bg:#07111F; --bg2:#0B1726; --card:#101F31; --card2:#15283D; --accent:#00D5C0; --accent2:#39A9FF; --violet:#A78BFA;
+  --warn:#FFB547; --crit:#FF5D73; --ok:#4ADE80; --text:#F1F5F9; --muted:#91A4B8; --border:rgba(255,255,255,.09);
+  --radius:14px; --shadow:0 10px 30px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(1200px 600px at 70% -10%,#0f2740 0%,transparent 60%),var(--bg);color:var(--text);font-family:Manrope,Inter,system-ui,sans-serif;font-size:13px;line-height:1.45}
+button,select,input{font-family:inherit;font-size:12px;color:var(--text)}
+a{color:var(--accent2)}
+.wrap{max-width:1640px;margin:0 auto;padding:0 16px 40px}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+h2{font-size:15px;margin:0;font-weight:700;letter-spacing:.02em}
+h3{font-size:12px;margin:0 0 8px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.card{background:linear-gradient(180deg,rgba(21,40,61,.75),rgba(16,31,49,.92));border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);backdrop-filter:blur(8px)}
+.pad{padding:14px}
+.row{display:flex;align-items:center;gap:8px}
+.sp{flex:1}
+i[data-lucide],svg.lucide{width:15px;height:15px;stroke-width:2}
+
+/* badges */
+.badge{display:inline-flex;align-items:center;gap:4px;font-size:9.5px;font-weight:800;letter-spacing:.09em;padding:2px 7px;border-radius:999px;border:1px solid;text-transform:uppercase;white-space:nowrap}
+.badge::before{content:"";width:6px;height:6px;border-radius:2px;background:currentColor}
+.b-actual{color:var(--ok);border-color:rgba(74,222,128,.4);background:rgba(74,222,128,.08)}
+.b-synthetic{color:var(--violet);border-color:rgba(167,139,250,.45);background:rgba(167,139,250,.09)}
+.b-estimated{color:var(--warn);border-color:rgba(255,181,71,.45);background:rgba(255,181,71,.08)}
+.b-forecast{color:var(--accent2);border-color:rgba(57,169,255,.45);background:rgba(57,169,255,.08)}
+.b-demo{color:var(--crit);border-color:rgba(255,93,115,.5);background:rgba(255,93,115,.1)}
+.b-synthetic::before{border-radius:50%}.b-estimated::before{transform:rotate(45deg)}.b-forecast::before{border-radius:0;height:3px}
+
+/* nav */
+header.nav{position:sticky;top:0;z-index:1200;background:rgba(7,17,31,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.nav-in{max-width:1640px;margin:0 auto;padding:9px 16px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .t1{font-weight:800;letter-spacing:.14em;font-size:13.5px}
+.brand .t2{font-size:10px;letter-spacing:.2em;color:var(--accent);font-weight:700}
+.tabs{display:flex;gap:4px;background:var(--bg2);border:1px solid var(--border);border-radius:999px;padding:3px}
+.tabs a{padding:6px 13px;border-radius:999px;color:var(--muted);text-decoration:none;font-weight:600;font-size:12px}
+.tabs a.on,.tabs a:hover{background:var(--card2);color:var(--text)}
+.nav-r{margin-left:auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:7px;background:var(--bg2);border:1px solid var(--border);border-radius:999px;padding:5px 11px;font-weight:700;font-size:11px;letter-spacing:.06em}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 0 rgba(0,213,192,.6);animation:pulse 1.8s infinite}
+.dot.off{background:var(--muted);animation:none}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(0,213,192,.55)}70%{box-shadow:0 0 0 9px rgba(0,213,192,0)}100%{box-shadow:0 0 0 0 rgba(0,213,192,0)}}
+.seg{display:inline-flex;background:var(--bg2);border:1px solid var(--border);border-radius:9px;padding:2px}
+.seg button{background:none;border:0;padding:5px 10px;border-radius:7px;color:var(--muted);font-weight:700;cursor:pointer}
+.seg button.on{background:var(--card2);color:var(--text);box-shadow:inset 0 0 0 1px rgba(0,213,192,.35)}
+.btn{background:var(--card2);border:1px solid var(--border);border-radius:9px;padding:6px 10px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-weight:700;transition:.15s}
+.btn:hover:not(:disabled){border-color:rgba(0,213,192,.55);transform:translateY(-1px)}
+.btn:disabled{opacity:.4;cursor:default}
+.btn.primary{background:linear-gradient(180deg,#0fe0cb,#00b8a6);color:#04221f;border-color:transparent}
+input[type=date],select{background:var(--bg2);border:1px solid var(--border);border-radius:9px;padding:5px 8px;color-scheme:dark}
+.clock{font-size:17px;font-weight:800;letter-spacing:.06em}
+.banner{margin:12px 0;padding:8px 14px;border-radius:10px;border:1px dashed rgba(167,139,250,.5);background:rgba(167,139,250,.07);display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-weight:600}
+.banner b{letter-spacing:.08em}
+
+/* KPIs */
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:12px}
+.kpi{padding:13px 14px;position:relative;overflow:hidden}
+.kpi .lab{display:flex;align-items:center;gap:7px;color:var(--muted);font-weight:700;font-size:11px;letter-spacing:.07em;text-transform:uppercase}
+.kpi .val{font-size:27px;font-weight:800;margin:6px 0 2px;letter-spacing:-.01em}
+.kpi .sub{font-size:11.5px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+.kpi .ico{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:rgba(0,213,192,.1);color:var(--accent)}
+.kpi .ico.anim{animation:bob 2.6s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-3px)}}
+.up{color:var(--ok)}.down{color:var(--crit)}
+.ring{position:absolute;right:12px;top:34px;width:62px;height:62px}
+.ring circle{fill:none;stroke-width:7;stroke-linecap:round;transform:rotate(-90deg);transform-origin:50% 50%}
+.ring .bg{stroke:rgba(255,255,255,.08)} .ring .fg{stroke:var(--accent);transition:stroke-dashoffset .8s ease}
+
+/* main */
+.main{display:grid;grid-template-columns:minmax(0,65fr) minmax(320px,35fr);gap:12px;align-items:start}
+#map{height:560px;border-radius:var(--radius) var(--radius) 0 0;background:#0a1626}
+.leaflet-tile-pane{filter:brightness(.82) contrast(1.15) sepia(.35) hue-rotate(172deg) saturate(1.7)}
+.leaflet-container{font-family:inherit;background:#0a1626}
+.leaflet-control-attribution{background:rgba(7,17,31,.75)!important;color:var(--muted)!important;font-size:9.5px}
+.leaflet-control-attribution a{color:var(--muted)!important}
+.leaflet-bar a{background:var(--card2)!important;color:var(--text)!important;border-color:var(--border)!important}
+.st-label{background:rgba(7,17,31,.82);border:1px solid var(--border);color:var(--text);font-weight:700;font-size:10.5px;padding:1px 6px;border-radius:6px;box-shadow:none}
+.st-label::before{display:none}
+.st-label.sel{border-color:var(--accent);color:var(--accent)}
+.pulse-ring{width:34px;height:34px;border-radius:50%;border:2px solid var(--accent);animation:ringp 1.6s ease-out infinite;box-shadow:0 0 14px rgba(0,213,192,.5)}
+@keyframes ringp{0%{transform:scale(.45);opacity:1}100%{transform:scale(1.25);opacity:0}}
+.train-ic{width:46px;height:46px;display:grid;place-items:center;pointer-events:none}
+.train-ic .rot{transition:transform .25s linear;filter:drop-shadow(0 0 7px rgba(0,213,192,.8))}
+.train-ic .hl{animation:hl 1.1s ease-in-out infinite}
+@keyframes hl{50%{opacity:.35}}
+.map-top{position:absolute;z-index:500;left:12px;top:12px;display:flex;gap:8px;flex-wrap:wrap;pointer-events:none}
+.map-top>*{pointer-events:auto}
+.mapwrap{position:relative}
+.legend{position:absolute;z-index:500;right:12px;bottom:26px;background:rgba(7,17,31,.85);border:1px solid var(--border);border-radius:10px;padding:8px 10px;font-size:10.5px}
+.legend div{display:flex;align-items:center;gap:6px;margin:2px 0}
+.lg{width:10px;height:10px;border-radius:50%;display:inline-block}
+
+/* controls */
+.ctrl{border-radius:0 0 var(--radius) var(--radius);border-top:0;padding:12px 14px}
+.ctrl .grid{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:10px}
+.stat{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:7px 9px}
+.stat .k{font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.stat .v{font-weight:800;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.prog{position:relative;height:34px;margin-top:12px}
+.prog .track{position:absolute;left:8px;right:8px;top:15px;height:4px;border-radius:4px;background:rgba(255,255,255,.1)}
+.prog .fill{position:absolute;left:8px;top:15px;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--accent),var(--accent2));width:0}
+.prog .tick{position:absolute;top:9px;width:16px;height:16px;margin-left:-8px;border-radius:50%;background:var(--bg2);border:2px solid #4b6076;cursor:pointer;padding:0;transition:.2s}
+.prog .tick.done{border-color:var(--accent);background:#0b3a3a}
+.prog .tick.cur{border-color:var(--accent);background:var(--accent);box-shadow:0 0 0 5px rgba(0,213,192,.18)}
+.prog .tick:hover{transform:scale(1.25)}
+.prog .tnum{position:absolute;top:26px;font-size:8.5px;color:var(--muted);transform:translateX(-50%)}
+
+/* station panel */
+.panel{max-height:806px;overflow:auto}
+.photo{position:relative;height:190px;border-radius:12px;overflow:hidden;background:#0a1626}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s ease}
+.photo img.show{opacity:1}
+.photo .cap{position:absolute;left:0;right:0;bottom:0;padding:18px 10px 7px;background:linear-gradient(transparent,rgba(4,10,18,.92));font-size:10px;color:#cbd5e1}
+.photo .cap a{color:#cbd5e1}
+.st-title{font-size:19px;font-weight:800;letter-spacing:.04em;margin:0;text-transform:uppercase}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.mini{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:7px 9px;min-width:0}
+.mini .k{display:flex;align-items:center;gap:5px;font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.mini .k svg{width:12px;height:12px;color:var(--accent)}
+.mini .v{font-size:15px;font-weight:800}
+.sec{margin-top:12px}
+.sec>.h{display:flex;align-items:center;gap:7px;margin-bottom:6px}
+.list{margin:0;padding:0;list-style:none}
+.list li{display:flex;gap:8px;padding:4px 0;border-bottom:1px dashed var(--border);font-size:12px}
+.list li svg{flex:none;margin-top:2px;color:var(--accent)}
+.list li span.k{color:var(--muted);min-width:78px}
+
+/* sections */
+section{margin-top:14px;scroll-margin-top:70px}
+.sech{display:flex;align-items:center;gap:10px;margin:18px 2px 10px;flex-wrap:wrap}
+.sech .line{flex:1;height:1px;background:var(--border)}
+.g12{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+.c3{grid-column:span 3}.c4{grid-column:span 4}.c5{grid-column:span 5}.c6{grid-column:span 6}.c7{grid-column:span 7}.c8{grid-column:span 8}.c12{grid-column:span 12}
+.ch{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+.ch .t{font-weight:700;font-size:13px}
+.cv{position:relative;height:230px}
+.cv.tall{height:330px}
+.note{font-size:11px;color:var(--muted);margin-top:6px}
+.fk{display:grid;grid-template-columns:repeat(7,1fr);gap:10px;margin-bottom:12px}
+.fk .mini .v{font-size:17px}
+.counter{font-size:22px;font-weight:800}
+table.t{width:100%;border-collapse:collapse;font-size:11.5px}
+table.t th{color:var(--muted);text-align:left;font-weight:700;font-size:10px;letter-spacing:.07em;text-transform:uppercase;padding:6px 8px;border-bottom:1px solid var(--border)}
+table.t td{padding:6px 8px;border-bottom:1px dashed var(--border);vertical-align:top}
+.ok{color:var(--ok)}.bad{color:var(--crit)}
+#flow svg{width:100%;height:190px;display:block}
+.flowdash{stroke-dasharray:6 10;animation:dash 1.6s linear infinite}
+.flowdash.rev{animation-direction:reverse}
+@keyframes dash{to{stroke-dashoffset:-32}}
+
+/* timeline */
+.tl{display:flex;gap:10px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x proximity}
+.tcard{flex:0 0 150px;scroll-snap-align:start;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;cursor:pointer;transition:.2s;position:relative}
+.tcard:hover{transform:translateY(-3px);border-color:rgba(57,169,255,.5)}
+.tcard.sel{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent),0 0 22px rgba(0,213,192,.28)}
+.tcard img{width:100%;height:74px;object-fit:cover;display:block;background:#0a1626}
+.tcard .b{padding:7px 9px}
+.tcard .n{font-size:9.5px;color:var(--muted);font-weight:800;letter-spacing:.1em}
+.tcard .nm{font-weight:800;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tcard .px{font-weight:800;color:var(--accent);font-size:13px}
+.tcard .arr{position:absolute;right:7px;top:7px;background:var(--accent);color:#04221f;font-size:9px;font-weight:800;padding:2px 6px;border-radius:999px;opacity:0;transition:.3s}
+.tcard.train .arr{opacity:1}
+.toast{position:fixed;right:16px;bottom:16px;z-index:3000;background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:10px 14px;box-shadow:var(--shadow);opacity:0;transform:translateY(10px);transition:.3s;max-width:420px}
+.toast.on{opacity:1;transform:none}
+#loading{position:fixed;inset:0;z-index:5000;background:var(--bg);display:grid;place-items:center;transition:opacity .5s}
+#loading .bar{width:220px;height:3px;background:rgba(255,255,255,.1);border-radius:3px;overflow:hidden;margin-top:14px}
+#loading .bar i{display:block;width:40%;height:100%;background:var(--accent);animation:ld 1.1s ease-in-out infinite}
+@keyframes ld{0%{margin-left:-40%}100%{margin-left:100%}}
+@media (max-width:1250px){.kpis{grid-template-columns:repeat(3,1fr)}.main{grid-template-columns:1fr}.panel{max-height:none}.fk{grid-template-columns:repeat(4,1fr)}.c3,.c4,.c5{grid-column:span 6}.c7,.c8{grid-column:span 12}.ctrl .grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:760px){.kpis{grid-template-columns:1fr 1fr}.c3,.c4,.c5,.c6{grid-column:span 12}.fk{grid-template-columns:1fr 1fr}#map{height:420px}.tabs{display:none}.prog .tnum{display:none}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div id="loading"><div style="text-align:center"><div style="font-weight:800;letter-spacing:.2em">DHAKA METRO INTELLIGENCE</div><div class="muted" id="loadmsg">Loading datasets…</div><div class="bar"><i></i></div></div></div>
+
+<header class="nav"><div class="nav-in">
+  <div class="brand">
+    <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg1" x1="0" x2="1"><stop offset="0" stop-color="#00D5C0"/><stop offset="1" stop-color="#39A9FF"/></linearGradient></defs>
+      <rect x="1.5" y="1.5" width="37" height="37" rx="10" fill="#0B1726" stroke="url(#lg1)" stroke-width="1.5"/>
+      <path d="M9 27V13l6 8 5-8 5 8 6-8v14" fill="none" stroke="url(#lg1)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="9" cy="30.5" r="1.6" fill="#00D5C0"/><circle cx="20" cy="30.5" r="1.6" fill="#00D5C0"/><circle cx="31" cy="30.5" r="1.6" fill="#39A9FF"/><path d="M9 30.5h22" stroke="#39A9FF" stroke-width="1" opacity=".6"/></svg>
+    <div><div class="t1">DHAKA METRO INTELLIGENCE</div><div class="t2">MRT LINE-6 · URBAN MOBILITY | INFRASTRUCTURE PERFORMANCE | ECONOMIC IMPACT</div></div>
+  </div>
+  <nav class="tabs" id="tabs"><a href="#overview">Project Overview</a><a href="#ops" class="on">Live Operations</a><a href="#stations">Station Intelligence</a><a href="#impact">Economic Impact</a></nav>
+  <div class="nav-r">
+    <span class="pill" id="simPill" title="Simulation status"><span class="dot" id="simDot"></span><span id="simTxt">SIMULATION RUNNING</span></span>
+    <div class="seg" id="modeSeg" title="Analysis mode"><button data-mode="hist">Historical Analytics</button><button data-mode="sim" class="on">Simulated Live Operations</button></div>
+    <input type="date" id="dateIn" title="Selected date" aria-label="Selected date">
+    <span class="clock num" id="clock" title="Simulation clock (not real time)">--:--</span>
+    <span id="navBadge" class="badge b-synthetic" title="Classification of the operational data on screen">Synthetic</span>
+    <button class="btn" id="fsBtn" title="Fullscreen" aria-label="Fullscreen"><i data-lucide="maximize"></i></button>
+  </div>
+</div></header>
+
+<div class="wrap">
+  <div class="banner" id="banner"><i data-lucide="shield-alert"></i><b id="bannerMain">SIMULATED OPERATIONS – NOT A REAL-TIME DMTCL FEED.</b><span class="muted" id="bannerSub"></span></div>
+
+  <!-- KPI -->
+  <div class="kpis" id="ops">
+    <div class="card kpi"><div class="lab"><span class="ico anim"><i data-lucide="users"></i></span>Daily ridership<span class="sp"></span><span class="badge b-synthetic" data-cls="ops">Synthetic</span></div>
+      <div class="val num" id="k1">–</div><div class="sub"><span id="k1a"></span><span id="k1b" class="muted"></span></div></div>
+    <div class="card kpi"><div class="lab"><span class="ico anim" style="animation-delay:.4s"><b style="font-size:15px">৳</b></span>Ticket revenue<span class="sp"></span><span class="badge b-synthetic" data-cls="ops">Synthetic</span></div>
+      <div class="val num" id="k2">–</div><div class="sub"><span id="k2a"></span><span id="k2b" class="muted"></span></div></div>
+    <div class="card kpi"><div class="lab"><span class="ico"><i data-lucide="train-front"></i></span>Active trains<span class="sp"></span><span class="badge b-synthetic" data-cls="ops">Synthetic</span></div>
+      <div class="val num" id="k3">–</div><div class="sub"><span id="k3a"></span><span id="k3b" class="muted"></span></div></div>
+    <div class="card kpi"><div class="lab"><span class="ico"><i data-lucide="gauge"></i></span>Capacity utilization<span class="sp"></span><span class="badge b-synthetic" data-cls="ops">Synthetic</span></div>
+      <div class="val num" id="k4">–</div><div class="sub"><span id="k4a"></span></div>
+      <svg class="ring" viewBox="0 0 70 70"><circle class="bg" cx="35" cy="35" r="28"/><circle class="fg" id="k4ring" cx="35" cy="35" r="28" stroke-dasharray="175.9" stroke-dashoffset="175.9"/></svg></div>
+    <div class="card kpi"><div class="lab"><span class="ico"><i data-lucide="timer"></i></span>Operational reliability<span class="sp"></span><span class="badge b-synthetic" data-cls="ops">Synthetic</span></div>
+      <div class="val num" id="k5">–</div><div class="sub"><span id="k5a"></span><span id="k5b"></span></div></div>
+  </div>
+
+  <!-- MAP + PANEL -->
+  <div class="main">
+    <div>
+      <div class="card mapwrap">
+        <div id="map" aria-label="Map of MRT Line-6"></div>
+        <div class="map-top"><span class="pill"><i data-lucide="map"></i><span id="geoTag">OpenStreetMap geometry</span></span><button class="btn" id="fitBtn"><i data-lucide="scan"></i>Fit route</button><button class="btn" id="followBtn"><i data-lucide="locate-fixed"></i><span>Panel follows train</span></button></div>
+        <div class="legend"><div><span class="lg" style="background:var(--accent);box-shadow:0 0 8px var(--accent)"></span>Selected station</div><div><span class="lg" style="background:#2b8f88"></span>Passed</div><div><span class="lg" style="background:#5a6b7d"></span>Upcoming</div><div><span class="lg" style="background:rgba(57,169,255,.35);width:14px;height:14px"></span>Passenger activity (entries)</div></div>
+      </div>
+      <div class="card ctrl">
+        <div class="row" style="flex-wrap:wrap">
+          <button class="btn primary" id="playBtn"><i data-lucide="play"></i>Play</button>
+          <button class="btn" id="pauseBtn"><i data-lucide="pause"></i>Pause</button>
+          <button class="btn" id="resetBtn"><i data-lucide="rotate-ccw"></i>Reset</button>
+          <button class="btn" id="prevBtn"><i data-lucide="skip-back"></i>Previous</button>
+          <button class="btn" id="nextBtn"><i data-lucide="skip-forward"></i>Next</button>
+          <select id="dirSel" title="Direction" aria-label="Direction"><option value="1">Uttara North → Motijheel</option><option value="-1">Motijheel → Uttara North</option></select>
+          <div class="seg" id="speedSeg" title="Playback speed"><button data-s="0.5">0.5x</button><button data-s="1" class="on">1x</button><button data-s="2">2x</button><button data-s="4">4x</button></div>
+          <select id="endSel" title="At the terminus" aria-label="At the terminus"><option value="reverse">At terminus: reverse</option><option value="restart">At terminus: restart</option><option value="stop">At terminus: stop</option></select>
+          <span class="sp"></span>
+          <label class="row muted" title="Simulation clock">Sim time <input type="range" id="timeRange" min="360" max="1380" step="5" style="width:150px"></label>
+        </div>
+        <div class="prog" id="prog"><div class="track"></div><div class="fill" id="progFill"></div></div>
+        <div class="grid">
+          <div class="stat"><div class="k">Current station</div><div class="v" id="cCur">–</div></div>
+          <div class="stat"><div class="k">Next station</div><div class="v" id="cNext">–</div></div>
+          <div class="stat"><div class="k">Direction</div><div class="v" id="cDir">–</div></div>
+          <div class="stat"><div class="k">Journey progress</div><div class="v num" id="cProg">0%</div></div>
+          <div class="stat"><div class="k">Journey time (simulated)</div><div class="v num" id="cTime">00:00</div></div>
+          <div class="stat"><div class="k">Train status</div><div class="v" id="cStatus">–</div></div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="card pad panel" id="stations">
+      <div class="row"><span class="badge b-synthetic" data-cls="ops">Synthetic</span><span class="muted" id="pStNo">Station –</span><span class="sp"></span><span class="pill" id="pPinned" style="display:none"><i data-lucide="pin"></i>Pinned</span></div>
+      <h2 class="st-title" id="pName" style="margin:6px 0 2px">–</h2><div class="muted" id="pArea"></div>
+      <div class="photo" style="margin-top:9px"><img id="phA" alt=""><img id="phB" alt=""><div class="cap" id="phCap"></div></div>
+
+      <div class="sec"><div class="h"><i data-lucide="info"></i><h3 style="margin:0">Station overview</h3><span class="sp"></span><span class="badge b-actual" title="Coordinates and opening dates from published sources">Actual</span></div>
+        <ul class="list">
+          <li><i data-lucide="map-pin"></i><span class="k">Coordinates</span><span id="pCoord" class="num"></span></li>
+          <li><i data-lucide="building-2"></i><span class="k">Character</span><span id="pChar"></span></li>
+          <li><i data-lucide="calendar-check"></i><span class="k">Status</span><span id="pStatus"></span></li>
+          <li><i data-lucide="bus"></i><span class="k">Connections</span><span id="pTrans"></span></li>
+        </ul><div class="note" id="pSummary"></div></div>
+
+      <div class="sec"><div class="h"><i data-lucide="users"></i><h3 style="margin:0">Passenger intelligence</h3><span class="sp"></span><span class="muted" id="pScope"></span></div>
+        <div class="grid3">
+          <div class="mini"><div class="k"><i data-lucide="log-in"></i>Entries</div><div class="v num" id="sEnt">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="log-out"></i>Exits</div><div class="v num" id="sExi">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="arrow-left-right"></i>Throughput</div><div class="v num" id="sThr">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="trending-up"></i>Peak hour</div><div class="v num" id="sPeak">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="clock"></i>Avg per hour</div><div class="v num" id="sAvg">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="bar-chart-3"></i>Vs line average</div><div class="v num" id="sCmp">–</div></div>
+        </div></div>
+
+      <div class="sec"><div class="h"><i data-lucide="wallet"></i><h3 style="margin:0">Financial intelligence</h3></div>
+        <div class="grid2">
+          <div class="mini"><div class="k"><i data-lucide="banknote"></i>Ticket revenue</div><div class="v num" id="sRev">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="ticket"></i>Average fare</div><div class="v num" id="sFare">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="receipt"></i>Transactions</div><div class="v num" id="sTx">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="pie-chart"></i>Revenue share</div><div class="v num" id="sShare">–</div></div>
+        </div></div>
+
+      <div class="sec"><div class="h"><i data-lucide="activity"></i><h3 style="margin:0">Operational intelligence</h3></div>
+        <div class="grid2">
+          <div class="mini"><div class="k"><i data-lucide="train-front"></i>Train arrivals</div><div class="v num" id="sArr">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="hourglass"></i>Avg waiting time</div><div class="v num" id="sWait">–</div></div>
+          <div class="mini" title="Estimated: busiest adjacent link load ÷ daily capacity in that direction"><div class="k"><i data-lucide="gauge"></i>Link utilization <span class="badge b-estimated" style="font-size:8px;padding:1px 5px">Est.</span></div><div class="v num" id="sUtil">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="check-circle-2"></i>On-time (line)</div><div class="v num" id="sOtp">–</div></div>
+        </div></div>
+
+      <div class="sec"><div class="h"><i data-lucide="map-pinned"></i><h3 style="margin:0">Surrounding area</h3><span class="sp"></span><span class="muted" title="Written for this dashboard; not a dataset">Descriptive context</span></div>
+        <ul class="list">
+          <li><i data-lucide="store"></i><span class="k">Commercial</span><span id="pCom"></span></li>
+          <li><i data-lucide="graduation-cap"></i><span class="k">Education</span><span id="pEdu"></span></li>
+          <li><i data-lucide="hospital"></i><span class="k">Healthcare</span><span id="pHea"></span></li>
+          <li><i data-lucide="users-round"></i><span class="k">Catchment pop.</span><span class="muted">500 m / 1 km population: not available from public sources</span></li>
+        </ul>
+        <div class="row" style="margin:8px 0 5px"><span class="badge b-synthetic">Synthetic</span><span class="muted">Simulated station-area indicators, 2026</span></div>
+        <table class="t" id="pCatch"></table></div>
+    </aside>
+  </div>
+
+  <!-- DEMAND -->
+  <section id="demand">
+    <div class="sech"><i data-lucide="line-chart"></i><h2>Passenger demand analytics</h2><span class="badge b-synthetic" data-cls="ops">Synthetic</span><div class="line"></div><span class="muted" id="demandScope"></span></div>
+    <div class="g12">
+      <div class="card pad c7"><div class="ch"><span class="t">Hourly passenger demand</span><span class="sp"></span><div class="seg" id="hourSeg"><button data-v="line" class="on">Whole line</button><button data-v="station">Selected station</button></div></div><div class="cv"><canvas id="chHour"></canvas></div><div class="note" id="hourNote"></div></div>
+      <div class="card pad c5"><div class="ch"><span class="t">Weekday versus weekend</span><span class="sp"></span><span class="muted">8 weeks to selected date</span></div><div class="cv"><canvas id="chDay"></canvas></div><div class="note">Average daily entries. The Bangladesh weekend is Friday–Saturday; Friday service is afternoon-only.</div></div>
+      <div class="card pad c5"><div class="ch"><span class="t">Station-wise passenger distribution</span><span class="sp"></span><div class="seg" id="distSeg"><button data-v="entries" class="on">Entries</button><button data-v="exits">Exits</button><button data-v="throughput">Throughput</button></div></div><div class="cv tall"><canvas id="chDist"></canvas></div></div>
+      <div class="card pad c7"><div class="ch"><span class="t">Passenger movement between stations</span><span class="sp"></span><span class="muted" id="flowScope"></span></div><div id="flow"></div><div class="note">Band thickness = average working-day passengers on each link (upper band southbound, lower band northbound). The selected station and its neighbours are highlighted.</div>
+        <div class="ch" style="margin-top:14px"><span class="t">Monthly ridership trend</span><span class="sp"></span><span class="badge b-synthetic">Synthetic</span><span class="badge b-actual">Actual marker</span></div><div class="cv" style="height:190px"><canvas id="chMonth"></canvas></div><div class="note" id="monthNote"></div></div>
+    </div>
+  </section>
+
+  <!-- FINANCE / OVERVIEW -->
+  <section id="overview">
+    <div class="sech"><i data-lucide="landmark"></i><h2>Project overview &amp; financial intelligence</h2><div class="line"></div><span class="badge b-actual">Actual</span><span class="muted">published project and audited figures</span><span class="badge b-synthetic">Synthetic</span><span class="muted">operating estimates</span></div>
+    <div class="fk" id="finKpis"></div>
+    <div class="g12">
+      <div class="card pad c4"><div class="ch"><span class="t">Original versus revised project cost</span><span class="sp"></span><span class="badge b-actual">Actual</span></div><div class="cv"><canvas id="chCost"></canvas></div><div class="note">Tk crore, by financing source. Source: RTHD project fact sheet (to September 2026).</div></div>
+      <div class="card pad c4"><div class="ch"><span class="t">Annual project expenditure</span><span class="sp"></span><span class="badge b-actual">Actual</span></div><div class="cv"><canvas id="chExp"></canvas></div><div class="note">Tk crore by fiscal year (July–June). FY2026-27 covers July–September 2026 only.</div></div>
+      <div class="card pad c4"><div class="ch"><span class="t">Revenue versus operating cost</span><span class="sp"></span><span class="badge b-estimated">Estimated</span></div><div class="cv"><canvas id="chRevOp"></canvas></div><div class="note">Tk crore, FY2025-26 prices. Fare revenue is audited to FY2024-25; operating cost is simulated — DMTCL has not published the line's operating cost.</div></div>
+      <div class="card pad c4"><div class="ch"><span class="t">Monthly ticket revenue</span><span class="sp"></span><span class="badge b-synthetic">Synthetic</span></div><div class="cv"><canvas id="chMRev"></canvas></div><div class="note">Tk crore. Simulated revenue runs 16–38% below audited sales before July 2024.</div></div>
+      <div class="card pad c4"><div class="ch"><span class="t">Revenue per passenger</span><span class="sp"></span><span class="badge b-synthetic">Synthetic</span></div><div class="cv"><canvas id="chRpp"></canvas></div><div class="note">Ticket revenue ÷ passenger boardings, Tk.</div></div>
+      <div class="card pad c4"><div class="ch"><span class="t">Cost changes by component, 3rd revision</span><span class="sp"></span><span class="badge b-actual">Actual</span></div><div class="cv"><canvas id="chComp"></canvas></div><div class="note">Tk crore. A full component-wise capital cost breakdown has not been published; only these changes are available (press report).</div></div>
+      <div class="card pad c12"><div class="ch"><span class="t">Project milestones</span><span class="sp"></span><span class="badge b-actual">Actual</span><span class="badge b-forecast">Forecast = official target</span></div><div id="miles" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:6px 18px"></div></div>
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <section id="impact">
+    <div class="sech"><i data-lucide="leaf"></i><h2>Environmental &amp; urban mobility impact</h2><span class="badge b-estimated">Estimated</span><div class="line"></div><span class="muted">Modelled from assumptions — not measured pollution or traffic data</span></div>
+    <div class="g12">
+      <div class="card pad c8">
+        <div class="ch"><span class="t">Modelled impact on the selected date</span><span class="sp"></span><span class="muted" id="envDate"></span></div>
+        <div class="grid3" style="grid-template-columns:repeat(4,1fr)">
+          <div class="mini"><div class="k"><i data-lucide="car"></i>Road vehicle-km avoided</div><div class="counter num" id="eVkm">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="fuel"></i>Fuel saved (litres)</div><div class="counter num" id="eFuel">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="cloud-off"></i>Road CO₂ avoided (t)</div><div class="counter num" id="eCo2">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="zap"></i>Electricity used (MWh)</div><div class="counter num" id="eKwh">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="factory"></i>Grid CO₂ caused (t)</div><div class="counter num" id="eGrid">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="scale"></i>Net CO₂ impact (t)</div><div class="counter num" id="eNet">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="hourglass"></i>Passenger-hours saved</div><div class="counter num" id="eHrs">–</div></div>
+          <div class="mini"><div class="k"><i data-lucide="timer-reset"></i>Avg minutes saved / trip</div><div class="counter num" id="eMin">–</div></div>
+        </div>
+        <div class="note" id="envNote"></div>
+        <div class="g12" style="margin-top:12px">
+          <div class="c6"><div class="ch"><span class="t">Road versus metro travel time</span></div><div class="cv" style="height:200px"><canvas id="chTime"></canvas></div><div class="note">Minutes. Published figures are marked Actual in the tooltip; the 7.7 km average-trip figures are modelled.</div></div>
+          <div class="c6"><div class="ch"><span class="t">Where metro passengers came from</span></div><div class="cv" style="height:200px"><canvas id="chMode"></canvas></div><div class="note">Share of passengers by previous mode. Bus (about 60%) and private vehicles (about 12%) follow a 2023 survey of 1,397 passengers; the rest of the split is assumed.</div></div>
+        </div>
+      </div>
+      <div class="card pad c4">
+        <div class="ch"><span class="t">Carbon balance</span><span class="sp"></span><span class="badge b-estimated">Estimated</span></div>
+        <div style="display:grid;place-items:center;padding:6px 0"><svg viewBox="0 0 160 160" width="170" height="170"><circle cx="80" cy="80" r="62" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="14"/><circle id="susRing" cx="80" cy="80" r="62" fill="none" stroke="#00D5C0" stroke-width="14" stroke-linecap="round" stroke-dasharray="389.6" stroke-dashoffset="389.6" transform="rotate(-90 80 80)" style="transition:stroke-dashoffset .9s ease"/><text x="80" y="76" text-anchor="middle" fill="#F1F5F9" font-size="28" font-weight="800" id="susPct">–</text><text x="80" y="97" text-anchor="middle" fill="#91A4B8" font-size="10">of grid CO₂ offset</text></svg></div>
+        <div class="note">Road CO₂ avoided as a share of the CO₂ from the metro's electricity. Below 100% means the line currently emits more than it avoids in this model: most riders came from full buses and the grid is carbon-intensive. A cleaner grid or a bigger shift from private vehicles would reverse it.</div>
+        <div class="ch" style="margin-top:12px"><span class="t">Station catchment</span><span class="sp"></span><label class="row muted"><input type="checkbox" id="catchChk" checked> show 500 m / 1 km rings on map</label></div>
+        <div class="note">Rings are drawn around the selected station on the map. Population within the rings is not available from public sources.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATA -->
+  <section id="data">
+    <div class="sech"><i data-lucide="database"></i><h2>Data sources, classifications and formulas</h2><div class="line"></div></div>
+    <div class="g12">
+      <div class="card pad c7"><div class="ch"><span class="t">Datasets</span><span class="sp"></span><label class="btn" for="csvIn"><i data-lucide="upload"></i>Import CSV files</label><input type="file" id="csvIn" accept=".csv" multiple hidden><button class="btn" id="resetData"><i data-lucide="undo-2"></i>Restore packaged data</button></div>
+        <table class="t" id="dsTable"></table><div class="note">Files are matched by name. Large files (hourly ridership, train operations) may take a few seconds. Imported data stays in this browser tab only.</div></div>
+      <div class="card pad c5"><div class="ch"><span class="t">Classification legend</span></div>
+        <table class="t"><tr><td><span class="badge b-actual">Actual</span></td><td>Published figure from a government, JICA, audited or press source.</td></tr><tr><td><span class="badge b-synthetic">Synthetic</span></td><td>Simulated record calibrated to published totals. Not an observation and not a DMTCL feed.</td></tr><tr><td><span class="badge b-estimated">Estimated</span></td><td>Calculated from actual and/or synthetic inputs with stated assumptions.</td></tr><tr><td><span class="badge b-forecast">Forecast</span></td><td>Future period or an official target.</td></tr></table>
+        <div class="ch" style="margin-top:12px"><span class="t">Metric definitions</span></div>
+        <table class="t" style="font-size:11px">
+          <tr><td>Daily ridership</td><td>Σ station entries (boardings). Entries and exits are never added together.</td></tr>
+          <tr><td>Station throughput</td><td>Entries + exits.</td></tr>
+          <tr><td>Capacity utilization</td><td>Passenger load on a train's busiest section ÷ 2,300 × 100.</td></tr>
+          <tr><td>Revenue per passenger</td><td>Ticket revenue ÷ passenger boardings.</td></tr>
+          <tr><td>Farebox recovery ratio</td><td>Farebox revenue ÷ operating expenses × 100.</td></tr>
+          <tr><td>Travel-time saving</td><td>Baseline road travel time − metro journey time (door to door).</td></tr>
+          <tr><td>Net CO₂ impact</td><td>Road CO₂ avoided − CO₂ from metro electricity (grid factor 0.70 kg/kWh, assumed).</td></tr>
+          <tr><td>Simulated-live values</td><td>Day total × share of hourly demand elapsed at the simulation clock.</td></tr>
+        </table><div class="note" id="geoNote"></div></div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="timeline">
+    <div class="sech"><i data-lucide="milestone"></i><h2>Station timeline</h2><span class="badge b-synthetic" data-cls="ops">Synthetic</span><div class="line"></div><span class="muted">Entries on the selected date · click a station</span></div>
+    <div class="tl" id="tl"></div>
+    <div class="note" id="credits"></div>
+  </section>
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="sample_data/dashboard_data.js" onerror="window.__dataMissing=true"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://unpkg.com/lucide@0.453.0/dist/umd/lucide.min.js"></script>
+<script>
+"use strict";
+/* =====================================================================================
+   DHAKA METRO INTELLIGENCE - application script
+   Modules: util · demo data · data model & CSV loader · simulation state · map & train ·
+            station panel · KPIs · charts · timeline · wiring
+   One shared simulation state object (S) drives the train, clock, panel, KPIs and charts.
+   ===================================================================================== */
+const $ = id => document.getElementById(id);
+const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const CR = 1e7;
+const C = {accent:"#00D5C0", blue:"#39A9FF", violet:"#E0895A" /* third chart hue: orange, validated for colour-blind separation against teal and blue */, warn:"#FFB547", crit:"#FF5D73", ok:"#4ADE80", text:"#F1F5F9", muted:"#91A4B8", grid:"rgba(255,255,255,.06)"};
+
+/* ---------- util ---------- */
+const fmtInt = v => v == null || isNaN(v) ? "–" : Math.round(v).toLocaleString("en-US");
+const fmtTk = v => { if (v == null || isNaN(v)) return "–"; const a = Math.abs(v); return a >= CR ? "৳" + (v / CR).toLocaleString("en-US", {minimumFractionDigits:2, maximumFractionDigits:2}) + " cr" : a >= 1e5 ? "৳" + (v / 1e5).toFixed(2) + " lakh" : "৳" + Math.round(v).toLocaleString("en-US"); };
+const fmtPct = (v, d = 1) => v == null || isNaN(v) ? "–" : v.toFixed(d) + "%";
+const hhmm = m => { m = Math.max(0, Math.round(m)); return String(Math.floor(m / 60) % 24).padStart(2, "0") + ":" + String(m % 60).padStart(2, "0"); };
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const ease = t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+const dayTypeOf = d => { const w = new Date(d + "T00:00:00").getDay(); return w === 5 ? "fri" : w === 6 ? "sat" : "wk"; };
+const clsBadge = t => { const k = (t || "").toLowerCase(); return `<span class="badge b-${["actual","synthetic","estimated","forecast"].includes(k) ? k : "demo"}">${t || "Unclassified"}</span>`; };
+function toast(msg, ms = 3200) { const t = $("toast"); t.textContent = msg; t.classList.add("on"); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove("on"), ms); }
+/** Animated number counter: tweens the element's value to `to` and formats with `fmt`. */
+function animateValue(el, to, fmt = fmtInt, dur = 650) {
+  if (!el) return; if (to == null || isNaN(to)) { el.textContent = "–"; el._v = null; return; }
+  const from = el._v == null ? 0 : el._v; el._v = to;
+  if (REDUCED || from === to) { el.textContent = fmt(to); return; }
+  const t0 = performance.now(); cancelAnimationFrame(el._raf);
+  const step = now => { const p = clamp((now - t0) / dur, 0, 1); el.textContent = fmt(from + (to - from) * (1 - Math.pow(1 - p, 3))); if (p < 1) el._raf = requestAnimationFrame(step); };
+  el._raf = requestAnimationFrame(step);
+  clearTimeout(el._to); el._to = setTimeout(() => { if (el._v === to) { cancelAnimationFrame(el._raf); el.textContent = fmt(to); } }, dur + 120);   // guarantees the final value even if frames are throttled
+}
+/** Seeded PRNG (mulberry32) - used only for the demonstration dataset. */
+function rng(seed) { return () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+
+/* ---------- demonstration dataset (used only if sample_data/dashboard_data.js is missing) ---------- */
+function buildDemoData() {
+  const names = ["Uttara North","Uttara Center","Uttara South","Pallabi","Mirpur 11","Mirpur 10","Kazipara","Shewrapara","Agargaon","Bijoy Sarani","Farmgate","Karwan Bazar","Shahbagh","Dhaka University","Bangladesh Secretariat","Motijheel"];
+  const ll = [[23.869085,90.367682],[23.859709,90.365127],[23.845911,90.363084],[23.826157,90.364212],[23.819103,90.365308],[23.808368,90.368279],[23.799249,90.372019],[23.790972,90.375542],[23.778448,90.380161],[23.766391,90.383121],[23.759078,90.387078],[23.751304,90.392815],[23.740056,90.396155],[23.731698,90.396843],[23.730042,90.407559],[23.728084,90.419071]];
+  const w = [9.5,2,1.5,8.5,6,9.5,5,5,6.5,2,7,8.5,5.5,4,8.3,13.5], r = rng(42), hours = [...Array(17)].map((_, i) => i + 6);
+  const prof = [2,6,11,10,6,5,4.5,4.5,5,6,8,10,10,7,5,3,1], dates = [], E = [], X = [], R = [], H = [], L = {status:[],pax:[],rev:[],pkm:[],sched:[],actual:[],cancelled:[],sets:[],otp:[],delay:[],interrupt:[],maxUtil:[],avgUtil:[],peakUtil:[],start:[],end:[],pkHw:[],offHw:[],openStations:[],weather:[],holiday:[],ramadan:[],pinned:[],trainKm:[],vkm:[],fuel:[],co2Road:[],pm25:[],kwh:[],co2Grid:[]};
+  const d0 = new Date("2026-08-16T00:00:00");
+  for (let k = 0; k < 90; k++) { const d = new Date(d0.getTime() + k * 864e5), iso = d.toISOString().slice(0, 10), wd = d.getDay(); dates.push(iso);
+    const tot = Math.round(455000 * (wd === 5 ? .3 : wd === 6 ? .78 : 1) * (.96 + r() * .08)); let se = 0;
+    w.forEach(x => { const e = Math.round(tot * x / 100 * (.95 + r() * .1)); E.push(e); X.push(Math.round(e * (.95 + r() * .1))); R.push(e * 40); se += e; });
+    const ps = prof.reduce((a, b) => a + b, 0); prof.forEach(p => H.push(Math.round(se * p / ps)));
+    L.status.push("Operating"); L.pax.push(se); L.rev.push(se * 40); L.pkm.push(se * 7.7); L.sched.push(wd === 5 ? 86 : 304); L.actual.push(wd === 5 ? 86 : 303); L.cancelled.push(wd === 5 ? 0 : 1); L.sets.push(wd === 5 ? 10 : 19);
+    L.otp.push(94 + r() * 3); L.delay.push(.6 + r() * .3); L.interrupt.push(0); L.maxUtil.push(.95); L.avgUtil.push(.42); L.peakUtil.push(.71); L.start.push(wd === 5 ? 870 : 390); L.end.push(wd === 5 ? 1290 : 1330); L.pkHw.push(5); L.offHw.push(8);
+    L.openStations.push(16); L.weather.push("Clear"); L.holiday.push(0); L.ramadan.push(0); L.pinned.push(0); L.trainKm.push(6000); L.vkm.push(se); L.fuel.push(se * .09); L.co2Road.push(se * .2); L.pm25.push(15); L.kwh.push(250000); L.co2Grid.push(175000); }
+  const sh = () => [...Array(16)].map(() => prof.map(p => +(p / prof.reduce((a, b) => a + b, 0)).toFixed(4)));
+  const cum = [0]; for (let i = 1; i < ll.length; i++) { const dy = (ll[i][0] - ll[i - 1][0]) * 111000, dx = (ll[i][1] - ll[i - 1][1]) * 102000; cum.push(Math.round(cum[i - 1] + Math.hypot(dx, dy))); }
+  return { meta:{title:"DHAKA METRO INTELLIGENCE", dataset:"DEMONSTRATION DATASET (generated in the browser)", demo:true, trainCapacity:2300, geoNote:"SCHEMATIC ROUTE: straight lines between station positions (demonstration data; track geometry not loaded).", disclaimer:"Demonstration values only.", contextNote:""},
+    stations: names.map((n, i) => ({id:"MRT6-" + String(i + 1).padStart(2, "0"), seq:i + 1, name:n, lat:ll[i][0], lng:ll[i][1], routeIndex:i, chainageM:cum[i], opening:"", status:"Operational", area:"Dhaka", character:"–", summary:"", commercial:"–", education:"–", health:"–", transport:"–", photo:{file:"", authentic:false}})),
+    route: ll, routeCum: cum, dates, hours, daily:{type:"Demonstration", entries:E, exits:X, revenue:R}, hourlyLine:{type:"Demonstration", values:H}, stationHourShape:{wk:{entry:sh(), exit:sh()}, sat:{entry:sh(), exit:sh()}, fri:{entry:sh(), exit:sh()}},
+    line:Object.assign({type:"Demonstration"}, L), monthly:{rows:[]}, links:{months:[], byMonth:{}}, finance:{revisions:{rows:[]}, yearly:{rows:[]}, audited:{rows:[]}, componentChanges:{rows:[]}, viability:{rows:[]}}, published:{rows:[]}, milestones:[],
+    impact:{annual:[], modes:[], travelTime:[], avgMinutesSaved:20, busMinutesSaved:29}, catchment:{byStation:[]} };
+}
+
+/* ---------- data model ---------- */
+const PACKAGED = window.MRT_DATA || null;
+let M = null;                       // active model (packaged, demo, or packaged + imported CSVs)
+const DS = {};                      // dataset status registry for the data table
+const DATASETS = {
+  "actual_ridership_statistics.csv": {req:["Period_Start","Metric","Value","Data_Type"], use:"Published ridership benchmarks (monthly trend marker)"},
+  "synthetic_daily_ridership.csv": {req:["Date","Station_ID","Passenger_Entry","Passenger_Exit"], use:"Station entries and exits by day"},
+  "synthetic_hourly_ridership.csv": {req:["Date","Hour","Station_ID","Passenger_Entry","Passenger_Exit"], use:"Hourly demand and station hour profiles"},
+  "synthetic_ticket_revenue.csv": {req:["Date","Station_ID","Gross_Revenue"], use:"Ticket revenue by station and day"},
+  "operational_performance_actual.csv": {req:["Effective_Date","Metric","Value"], use:"Published operating facts (reference)"},
+  "synthetic_train_operations.csv": {req:["Date","Trip_Status","Delay_Minutes","Capacity_Utilization","Scheduled_Departure","Train_ID"], use:"Trips, punctuality and capacity utilization"},
+  "synthetic_monthly_opex.csv": {req:["Month","Actual_or_Simulated_Expense_BDT"], use:"Monthly operating expenses"},
+  "fare_structure_history.csv": {req:["Record_Type","Item"], use:"Fare rules (reference)"},
+  "project_financial_history.csv": {req:["Fiscal_Year","ADP_Allocation_BDT","Actual_Expenditure_BDT"], use:"Annual project expenditure"},
+  "synthetic_environmental_impact.csv": {req:["Date","Estimated_Vehicle_KM_Avoided","Fuel_Saved_Litres","CO2_Emissions_Avoided_KG","Electricity_Consumption_KWH"], use:"Modelled environmental impact by day"},
+  "synthetic_station_economic_activity.csv": {req:["Year","Station_ID","Catchment_Radius","Estimated_Property_Value","Business_Count"], use:"Station-area indicators"},
+};
+const LINE_FIELDS = ["status","pax","rev","pkm","sched","actual","cancelled","sets","otp","delay","interrupt","maxUtil","avgUtil","peakUtil","start","end","pkHw","offHw","openStations","weather","holiday","ramadan","pinned","trainKm","vkm","fuel","co2Road","pm25","kwh","co2Grid"];
+function initModel(src, label) {
+  M = JSON.parse(JSON.stringify(src));
+  M.monthlyExtra = {}; (M.monthly.rows || []).forEach(r => M.monthlyExtra[r.month] = {opex:r.opex, kwh:r.kwh, energyCost:r.energyCost});
+  M.dateIndex = {}; M.dates.forEach((d, i) => M.dateIndex[d] = i);
+  Object.keys(DATASETS).forEach(n => DS[n] = {state:label, rows:null, cls:M.meta.demo ? "Demonstration" : (n.startsWith("synthetic") ? "Synthetic" : "Actual"), note:""});
+  rebuildMonthly();
+}
+function rebuildMonthly() {            // monthly aggregates are always derived from the daily arrays
+  const agg = {}; M.dates.forEach((d, i) => { const m = d.slice(0, 7), a = agg[m] || (agg[m] = {month:m, pax:0, rev:0}); a.pax += M.line.pax[i] || 0; a.rev += M.line.rev[i] || 0; });
+  M.months = Object.values(agg).sort((a, b) => a.month < b.month ? -1 : 1).map(a => Object.assign(a, M.monthlyExtra[a.month] || {}));
+}
+/** Re-align every per-date array to a new date list (used when an imported file changes the date range). */
+function reindex(newDates) {
+  const old = M.dateIndex, n = newDates.length, nh = M.hours.length;
+  const E = new Array(n * 16).fill(0), X = new Array(n * 16).fill(0), R = new Array(n * 16).fill(0), H = new Array(n * nh).fill(0), L = {};
+  LINE_FIELDS.forEach(f => L[f] = new Array(n).fill(null));
+  newDates.forEach((d, i) => { const o = old[d]; if (o == null) { L.status[i] = "Operating"; L.weather[i] = ""; return; }
+    for (let s = 0; s < 16; s++) { E[i * 16 + s] = M.daily.entries[o * 16 + s]; X[i * 16 + s] = M.daily.exits[o * 16 + s]; R[i * 16 + s] = M.daily.revenue[o * 16 + s]; }
+    for (let h = 0; h < nh; h++) H[i * nh + h] = M.hourlyLine.values[o * nh + h];
+    LINE_FIELDS.forEach(f => L[f][i] = M.line[f][o]); });
+  M.dates = newDates; M.dateIndex = {}; newDates.forEach((d, i) => M.dateIndex[d] = i);
+  M.daily.entries = E; M.daily.exits = X; M.daily.revenue = R; M.hourlyLine.values = H; Object.assign(M.line, L);
+}
+/** Minimal RFC-4180 CSV parser (quoted fields, embedded commas and newlines). Returns array of objects. */
+function parseCSV(text) {
+  if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+  const rows = []; let row = [], f = "", q = false;
+  for (let i = 0; i < text.length; i++) { const c = text[i];
+    if (q) { if (c === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; }
+    else if (c === '"') q = true; else if (c === ",") { row.push(f); f = ""; }
+    else if (c === "\n") { row.push(f); rows.push(row); row = []; f = ""; } else if (c !== "\r") f += c; }
+  if (f !== "" || row.length) { row.push(f); rows.push(row); }
+  const head = rows.shift() || []; return {head, rows: rows.filter(r => r.length > 1 || r[0] !== "").map(r => { const o = {}; head.forEach((h, i) => o[h] = r[i] === undefined ? "" : r[i]); return o; })};
+}
+const num = v => { const x = parseFloat(v); return isNaN(x) ? 0 : x; };
+const stationIdx = id => { const i = M.stations.findIndex(s => s.id === id); return i; };
+/** Per-dataset import handlers: validate -> aggregate -> write into the model. Each returns a short note. */
+const IMPORT = {
+  "synthetic_daily_ridership.csv"(rows) {
+    const dates = [...new Set(rows.map(r => r.Date))].filter(Boolean).sort(); reindex(dates);
+    M.daily.entries.fill(0); M.daily.exits.fill(0); let skipped = 0;
+    rows.forEach(r => { const d = M.dateIndex[r.Date], s = stationIdx(r.Station_ID); if (d == null || s < 0) { skipped++; return; } M.daily.entries[d * 16 + s] += num(r.Passenger_Entry); M.daily.exits[d * 16 + s] += num(r.Passenger_Exit); });
+    dates.forEach((d, i) => { let t = 0; for (let s = 0; s < 16; s++) t += M.daily.entries[i * 16 + s]; M.line.pax[i] = t; if (!M.line.status[i]) M.line.status[i] = "Operating"; });
+    return `${dates.length} days${skipped ? ", " + skipped + " rows skipped (unknown station)" : ""}`; },
+  "synthetic_ticket_revenue.csv"(rows) {
+    const touched = new Set(); rows.forEach(r => { const d = M.dateIndex[r.Date]; if (d != null) touched.add(d); });
+    touched.forEach(d => { for (let s = 0; s < 16; s++) M.daily.revenue[d * 16 + s] = 0; });
+    rows.forEach(r => { const d = M.dateIndex[r.Date], s = stationIdx(r.Station_ID); if (d != null && s >= 0) M.daily.revenue[d * 16 + s] += num(r.Gross_Revenue); });
+    touched.forEach(d => { let t = 0; for (let s = 0; s < 16; s++) t += M.daily.revenue[d * 16 + s]; M.line.rev[d] = t; }); return `${touched.size} days matched`; },
+  "synthetic_hourly_ridership.csv"(rows) {
+    const nh = M.hours.length, h0 = M.hours[0], touched = new Set(), se = {}, sx = {};
+    rows.forEach(r => { const d = M.dateIndex[r.Date]; if (d != null) touched.add(d); }); touched.forEach(d => { for (let h = 0; h < nh; h++) M.hourlyLine.values[d * nh + h] = 0; });
+    rows.forEach(r => { const d = M.dateIndex[r.Date], s = stationIdx(r.Station_ID), h = parseInt(r.Hour) - h0; if (d == null || s < 0 || h < 0 || h >= nh) return;
+      const e = num(r.Passenger_Entry); M.hourlyLine.values[d * nh + h] += e; const k = dayTypeOf(r.Date) + "|" + s; (se[k] || (se[k] = new Array(nh).fill(0)))[h] += e; (sx[k] || (sx[k] = new Array(nh).fill(0)))[h] += num(r.Passenger_Exit); });
+    ["wk","sat","fri"].forEach(dt => { for (let s = 0; s < 16; s++) { const a = se[dt + "|" + s], b = sx[dt + "|" + s]; if (a) { const t = a.reduce((p, c) => p + c, 0) || 1; M.stationHourShape[dt].entry[s] = a.map(v => v / t); } if (b) { const t = b.reduce((p, c) => p + c, 0) || 1; M.stationHourShape[dt].exit[s] = b.map(v => v / t); } } });
+    return `${touched.size} days matched; hour profiles recalculated`; },
+  "synthetic_train_operations.csv"(rows) {
+    const a = {}; rows.forEach(r => { const d = M.dateIndex[r.Date]; if (d == null) return; const o = a[d] || (a[d] = {n:0, op:0, on:0, dl:0, u:0, pu:0, pn:0, mu:0, sets:new Set()}); o.n++; if (r.Trip_Status !== "Operated") return;
+      o.op++; const dl = num(r.Delay_Minutes), u = num(r.Capacity_Utilization); o.dl += dl; if (dl < 2) o.on++; o.u += u; o.mu = Math.max(o.mu, u); o.sets.add(r.Train_ID); const h = parseInt((r.Scheduled_Departure || "").slice(0, 2)); if ([8, 9, 17, 18].includes(h)) { o.pu += u; o.pn++; } });
+    Object.entries(a).forEach(([d, o]) => { d = +d; M.line.sched[d] = o.n; M.line.actual[d] = o.op; M.line.cancelled[d] = o.n - o.op; M.line.otp[d] = o.op ? 100 * o.on / o.op : null; M.line.delay[d] = o.op ? o.dl / o.op : null; M.line.avgUtil[d] = o.op ? o.u / o.op : null; M.line.peakUtil[d] = o.pn ? o.pu / o.pn : null; M.line.maxUtil[d] = o.mu; M.line.sets[d] = o.sets.size; });
+    return `${Object.keys(a).length} days matched`; },
+  "synthetic_environmental_impact.csv"(rows) { let n = 0; rows.forEach(r => { const d = M.dateIndex[r.Date]; if (d == null) return; n++; M.line.vkm[d] = num(r.Estimated_Vehicle_KM_Avoided); M.line.fuel[d] = num(r.Fuel_Saved_Litres); M.line.co2Road[d] = num(r.CO2_Emissions_Avoided_KG); M.line.kwh[d] = num(r.Electricity_Consumption_KWH); M.line.co2Grid[d] = r.CO2_From_Electricity_KG !== undefined && r.CO2_From_Electricity_KG !== "" ? num(r.CO2_From_Electricity_KG) : num(r.Electricity_Consumption_KWH) * .7; }); return `${n} days matched`; },
+  "synthetic_monthly_opex.csv"(rows) { const a = {}; rows.forEach(r => a[r.Month] = (a[r.Month] || 0) + num(r.Actual_or_Simulated_Expense_BDT)); Object.entries(a).forEach(([m, v]) => (M.monthlyExtra[m] || (M.monthlyExtra[m] = {})).opex = v); return `${Object.keys(a).length} months`; },
+  "project_financial_history.csv"(rows) { let cum = 0; M.finance.yearly.rows = rows.map(r => { cum += num(r.Actual_Expenditure_BDT); return {fy:r.Fiscal_Year, alloc:num(r.ADP_Allocation_BDT), exp:num(r.Actual_Expenditure_BDT), cum, partial:r.Is_Partial_Year === "Yes"}; }); return `${rows.length} fiscal years`; },
+  "actual_ridership_statistics.csv"(rows) { M.published.rows = rows.map(r => ({start:r.Period_Start, end:r.Period_End, grain:r.Reporting_Grain, metric:r.Metric, value:num(r.Value), unit:r.Unit, coverage:r.Geographic_Coverage, notes:r.Notes, type:r.Data_Type, source:r.Source_ID})); return `${rows.length} published figures`; },
+  "synthetic_station_economic_activity.csv"(rows) { const yr = rows.reduce((m, r) => Math.max(m, parseInt(r.Year) || 0), 0); const by = [...Array(16)].map(() => ({})); rows.forEach(r => { const s = stationIdx(r.Station_ID); if (s >= 0 && parseInt(r.Year) === yr) by[s][r.Catchment_Radius] = {value:num(r.Estimated_Property_Value), premium:num(r.Assumed_Metro_Premium_Pct), rent:num(r.Average_Rent), business:num(r.Business_Count)}; }); M.catchment.byStation = by; return `year ${yr}`; },
+  "operational_performance_actual.csv"(rows) { M.opsFacts = rows; return `${rows.length} reference facts stored`; },
+  "fare_structure_history.csv"(rows) { M.fareRules = rows; return `${rows.length} fare records stored`; },
+};
+async function importFiles(files) {
+  for (const file of files) {
+    const name = file.name.toLowerCase(), spec = DATASETS[name];
+    if (!spec) { toast(`"${file.name}" is not a recognised dataset name – skipped.`); continue; }
+    try {
+      const {head, rows} = parseCSV(await file.text());
+      const missing = spec.req.filter(c => !head.includes(c));
+      if (missing.length) { DS[name] = {state:"Rejected", rows:rows.length, cls:"–", note:"Missing fields: " + missing.join(", ")}; continue; }
+      const cls = {}; rows.forEach(r => { const t = r.Data_Type || "Unclassified"; cls[t] = (cls[t] || 0) + 1; });
+      const note = IMPORT[name](rows);
+      DS[name] = {state:"Imported", rows:rows.length, cls:Object.entries(cls).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v.toLocaleString()}`).join(" · "), note};
+    } catch (e) { DS[name] = {state:"Error", rows:null, cls:"–", note:String(e.message || e)}; }
+  }
+  rebuildMonthly(); afterDataChange(); toast("Import finished – see the dataset table.");
+}
+
+/* ---------- accessors (all metric definitions live here) ---------- */
+const NS = 16;
+const dayStation = (d, s) => ({entries:M.daily.entries[d * NS + s] || 0, exits:M.daily.exits[d * NS + s] || 0, revenue:M.daily.revenue[d * NS + s] || 0});
+const hourlyLine = d => { const nh = M.hours.length; return M.hourlyLine.values.slice(d * nh, d * nh + nh); };
+const stationHourly = (d, s, kind) => { const sh = M.stationHourShape[dayTypeOf(M.dates[d])][kind === "exits" ? "exit" : "entry"][s] || []; const tot = dayStation(d, s)[kind === "exits" ? "exits" : "entries"]; return M.hours.map((_, i) => Math.round(tot * (sh[i] || 0))); };
+/** Share of the day's demand elapsed at clock minute `m` (used for simulated-live running totals). */
+function elapsedShare(d, m) { const h = hourlyLine(d), tot = h.reduce((a, b) => a + b, 0); if (!tot) return 0; let acc = 0; M.hours.forEach((hr, i) => { const a = hr * 60, b = a + 60; acc += h[i] * clamp((m - a) / (b - a), 0, 1); }); return acc / tot; }
+const prevOperating = d => { for (let i = d - 1; i >= 0; i--) if (M.line.status[i] === "Operating" && M.line.pax[i] > 0) return i; return null; };
+const isOperating = d => M.line.status[d] === "Operating" && (M.line.pax[d] || 0) > 0;
+
+/* ---------- shared simulation state ---------- */
+const S = { mode:"sim", date:0, clock:480, playing:true, speed:1, dir:1, endMode:"reverse", phase:"dwell", from:0, to:1, t:0, dwell:1.2, trainAt:0, pos:0, journeyMin:0, selected:0, follow:true, hourScope:"line", distMetric:"entries" };
+
+/* =====================================================================================  MAP & TRAIN  */
+let map, trainMarker, trailLine, pulseMarker, stMarkers = [], actBubbles = [], catchRings = [];
+const TRAIN_SVG = `<svg class="rot" width="40" height="40" viewBox="-20 -20 40 40"><g><rect x="-5" y="-15" width="10" height="30" rx="4.5" fill="#E8EEF3" stroke="#00D5C0" stroke-width="1.4"/><rect x="-5" y="-6" width="10" height="2.4" fill="#D7263D"/><rect x="-5" y="-3.2" width="10" height="2.4" fill="#12805C"/><rect x="-3.4" y="-13.5" width="6.8" height="4" rx="1.6" fill="#0B1726"/><circle class="hl" cx="-2.6" cy="-15.6" r="1.5" fill="#FFF3B0"/><circle class="hl" cx="2.6" cy="-15.6" r="1.5" fill="#FFF3B0"/><path d="M-5 5h10M-5 9h10" stroke="#9fb2c4" stroke-width=".8"/></g></svg>`;
+function pointAt(m) {                // lat/lng and bearing at chainage m along the route
+  const cum = M.routeCum, R = M.route; m = clamp(m, 0, cum[cum.length - 1]); let lo = 0, hi = cum.length - 1;
+  while (hi - lo > 1) { const mid = (lo + hi) >> 1; if (cum[mid] <= m) lo = mid; else hi = mid; }
+  const f = (m - cum[lo]) / Math.max(1, cum[hi] - cum[lo]), a = R[lo], b = R[hi];
+  const brg = Math.atan2((b[1] - a[1]) * Math.cos(a[0] * Math.PI / 180), b[0] - a[0]) * 180 / Math.PI;
+  return {lat:a[0] + (b[0] - a[0]) * f, lng:a[1] + (b[1] - a[1]) * f, brg, idx:lo};
+}
+function buildMap() {
+  map = L.map("map", {zoomControl:true, attributionControl:true, zoomSnap:.25}).setView([23.8, 90.39], 12);
+  addBasemap();
+  L.polyline(M.route, {color:"#0a2f3a", weight:9, opacity:.9}).addTo(map);
+  L.polyline(M.route, {color:"#1d6f78", weight:4, opacity:.95}).addTo(map);
+  trailLine = L.polyline([], {color:C.accent, weight:5, opacity:.95, className:"trail"}).addTo(map);
+  M.stations.forEach((s, i) => {
+    actBubbles[i] = L.circleMarker([s.lat, s.lng], {radius:6, color:"transparent", fillColor:C.blue, fillOpacity:.22, interactive:false}).addTo(map);
+    const mk = L.circleMarker([s.lat, s.lng], {radius:6.5, color:"#5a6b7d", weight:2.5, fillColor:"#0B1726", fillOpacity:1}).addTo(map);
+    mk.bindTooltip(`${s.seq}. ${s.name}`, {permanent:true, direction:i % 2 ? "left" : "right", offset:[i % 2 ? -9 : 9, 0], className:"st-label"});
+    mk.on("click", () => selectStation(i, {pin:true})); stMarkers[i] = mk;
+  });
+  pulseMarker = L.marker([M.stations[0].lat, M.stations[0].lng], {icon:L.divIcon({className:"", html:'<div class="pulse-ring"></div>', iconSize:[34, 34], iconAnchor:[17, 17]}), interactive:false, zIndexOffset:400}).addTo(map);
+  trainMarker = L.marker([M.stations[0].lat, M.stations[0].lng], {icon:L.divIcon({className:"", html:`<div class="train-ic">${TRAIN_SVG}</div>`, iconSize:[46, 46], iconAnchor:[23, 23]}), interactive:false, zIndexOffset:900}).addTo(map);
+  fitRoute(); $("geoTag").textContent = M.meta.demo ? "SCHEMATIC ROUTE (demonstration)" : "OpenStreetMap track geometry";
+  map.on("zoomend", () => { const z = map.getZoom(); document.querySelectorAll(".st-label").forEach(e => e.style.display = z < 11.5 ? "none" : ""); });
+}
+/** Basemap: Esri "World Dark Gray" canvas plus its label layer. These tiles need no API key and load from file:// pages
+    (the openstreetmap.org tile servers refuse requests without a referrer, and CARTO now requires a key).
+    If tiles keep failing, the basemap is dropped and the route and stations still draw from the packaged geometry. */
+function addBasemap() {
+  const base = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/";
+  const att = 'Basemap &copy; <a href="https://www.esri.com">Esri</a>, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  const layers = [L.tileLayer(base + "World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", {maxZoom:18, maxNativeZoom:16, attribution:att}),
+                  L.tileLayer(base + "World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}", {maxZoom:18, maxNativeZoom:16, opacity:.75})];
+  let errors = 0, loaded = 0, dropped = false;
+  layers.forEach(l => { l.addTo(map); l.on("tileload", () => loaded++);
+    l.on("tileerror", () => { if (dropped || ++errors < 10 || loaded > errors) return; dropped = true; layers.forEach(x => map.removeLayer(x));
+      $("geoTag").textContent = "Basemap unavailable – track geometry only"; toast("Map tiles could not be loaded. The route and stations are still drawn from the packaged geometry."); }); });
+}
+const fitRoute = () => map.fitBounds(L.latLngBounds(M.route), {padding:[26, 26]});
+function drawTrain() {
+  const p = pointAt(S.pos); trainMarker.setLatLng([p.lat, p.lng]);
+  const el = trainMarker.getElement(); if (el) { const r = el.querySelector(".rot"); if (r) r.style.transform = `rotate(${p.brg + (S.dir < 0 ? 180 : 0)}deg)`; }
+  const origin = S.dir > 0 ? 0 : M.route.length - 1, pts = [];
+  if (S.dir > 0) { for (let i = 0; i <= p.idx; i++) pts.push(M.route[i]); pts.push([p.lat, p.lng]); } else { pts.push([p.lat, p.lng]); for (let i = p.idx + 1; i <= origin; i++) pts.push(M.route[i]); }
+  trailLine.setLatLngs(pts);
+}
+function styleStations() {
+  M.stations.forEach((s, i) => { const passed = S.dir > 0 ? s.chainageM <= S.pos + 1 : s.chainageM >= S.pos - 1, sel = i === S.selected;
+    stMarkers[i].setStyle({color: sel ? C.accent : passed ? "#2b8f88" : "#5a6b7d", fillColor: sel ? C.accent : passed ? "#0b3a3a" : "#0B1726", radius: sel ? 8.5 : 6.5});
+    const tt = stMarkers[i].getTooltip(), te = tt && tt.getElement(); if (te) te.classList.toggle("sel", sel); });
+  const s = M.stations[S.selected]; pulseMarker.setLatLng([s.lat, s.lng]);
+}
+function styleActivity() { let mx = 1; for (let s = 0; s < NS; s++) mx = Math.max(mx, dayStation(S.date, s).entries); M.stations.forEach((_, i) => actBubbles[i].setRadius(5 + 22 * Math.sqrt(dayStation(S.date, i).entries / mx))); }
+function drawCatchment() { catchRings.forEach(r => r.remove()); catchRings = []; if (!$("catchChk").checked) return; const s = M.stations[S.selected];
+  [[1000, .05], [500, .09]].forEach(([r, o]) => catchRings.push(L.circle([s.lat, s.lng], {radius:r, color:C.blue, weight:1, dashArray:"4 5", fillColor:C.blue, fillOpacity:o, interactive:false}).addTo(map))); }
+
+/* ---------- train state machine (one shared state) ---------- */
+const chain = i => M.stations[i].chainageM;
+const segKm = (a, b) => Math.abs(chain(a) - chain(b)) / 1000;
+function setTrainAt(i, opts = {}) { S.trainAt = i; S.from = i; S.t = 0; S.phase = "dwell"; S.dwell = opts.dwell != null ? opts.dwell : 1.4; S.pos = chain(i); drawTrain(); onArrive(i, opts.silent); }
+function onArrive(i, silent) {
+  document.querySelectorAll(".tcard").forEach((c, k) => c.classList.toggle("train", k === i));
+  if (S.follow) selectStation(i, {fromTrain:true}); else styleStations();
+  if (!silent && window.gsap && !REDUCED) { const c = document.querySelector(`.tcard[data-i="${i}"]`); if (c) gsap.fromTo(c, {y:-6}, {y:0, duration:.5, ease:"bounce.out"}); }
+  updateControls();
+}
+function depart() {
+  const last = NS - 1, atEnd = (S.dir > 0 && S.trainAt === last) || (S.dir < 0 && S.trainAt === 0);
+  if (atEnd) {
+    if (S.endMode === "stop") { setPlaying(false); toast("Train has reached the terminus. Choose Reset, or change direction and press Play."); return; }
+    if (S.endMode === "restart") { S.journeyMin = 0; setTrainAt(S.dir > 0 ? 0 : last, {dwell:1.2}); return; }
+    S.dir *= -1; $("dirSel").value = String(S.dir); S.journeyMin = 0;
+  }
+  S.from = S.trainAt; S.to = S.trainAt + S.dir; S.t = 0; S.phase = "run"; updateControls();
+}
+let lastTs = 0, uiAcc = 0;
+function frame(ts) {
+  const dt = Math.min(.1, (ts - lastTs) / 1000 || 0); lastTs = ts;
+  if (S.playing && M) {
+    if (S.phase === "dwell") { S.dwell -= dt * S.speed; advanceClock(dt * S.speed * .35); if (S.dwell <= 0) depart(); }
+    else { const km = segKm(S.from, S.to), dur = Math.max(2.4, km * 2.1), simMin = km / 32 * 60 + .3; const stepT = dt * S.speed / dur; S.t += stepT; advanceClock(stepT * simMin);
+      const e = ease(clamp(S.t, 0, 1)); S.pos = chain(S.from) + (chain(S.to) - chain(S.from)) * e; drawTrain();
+      if (S.t >= 1) { const term = S.to === 0 || S.to === NS - 1; setTrainAt(S.to, {dwell: term ? 2.6 : 1.5}); } }
+    uiAcc += dt; if (uiAcc > .25) { uiAcc = 0; updateControls(); styleStations(); }
+  }
+  requestAnimationFrame(frame);
+}
+function advanceClock(min) { S.journeyMin += min; if (S.mode !== "sim") return; const before = Math.floor(S.clock / 5); S.clock += min; if (S.clock >= 1380) { S.clock = Math.max(360, (M.line.start[S.date] || 420) - 10); toast("Service day finished – the simulated day replays from the first train."); }
+  $("clock").textContent = hhmm(S.clock); if (Math.floor(S.clock / 5) !== before) onClockTick(); }
+function setPlaying(p) { S.playing = p; $("playBtn").disabled = p; $("pauseBtn").disabled = !p; $("simDot").classList.toggle("off", !p); $("simTxt").textContent = p ? "SIMULATION RUNNING" : "SIMULATION PAUSED"; $("cStatus").textContent = statusText(); }
+const statusText = () => !S.playing ? "Paused" : S.phase === "dwell" ? "Stopped at station" : "In motion";
+function updateControls() {
+  const total = M.routeCum[M.routeCum.length - 1], prog = S.dir > 0 ? S.pos / total : 1 - S.pos / total;
+  const nxt = S.phase === "run" ? S.to : S.trainAt + S.dir;
+  $("cCur").textContent = S.phase === "run" ? `Leaving ${M.stations[S.from].name}` : M.stations[S.trainAt].name;
+  $("cNext").textContent = nxt >= 0 && nxt < NS ? M.stations[nxt].name : "Terminus reached";
+  $("cDir").textContent = S.dir > 0 ? "Uttara North → Motijheel" : "Motijheel → Uttara North";
+  $("cProg").textContent = Math.round(prog * 100) + "%"; $("cTime").textContent = hhmm(S.journeyMin); $("cStatus").textContent = statusText();
+  $("progFill").style.width = `calc(${(S.pos / total) * 100}% - ${(S.pos / total) * 16}px)`;
+  document.querySelectorAll("#prog .tick").forEach((t, i) => { const passed = S.dir > 0 ? chain(i) <= S.pos + 1 : chain(i) >= S.pos - 1; t.classList.toggle("done", passed); t.classList.toggle("cur", S.phase === "dwell" && i === S.trainAt); });
+  if (document.activeElement !== $("timeRange")) $("timeRange").value = S.clock;
+}
+function buildProgress() { const total = M.routeCum[M.routeCum.length - 1], host = $("prog"); host.querySelectorAll(".tick,.tnum").forEach(e => e.remove());
+  M.stations.forEach((s, i) => { const x = `calc(8px + (100% - 16px) * ${s.chainageM / total})`; const b = document.createElement("button"); b.className = "tick"; b.style.left = x; b.title = `${s.seq}. ${s.name}`; b.setAttribute("aria-label", "Move train to " + s.name); b.onclick = () => { S.follow = true; syncFollow(); setTrainAt(i); }; host.appendChild(b);
+    const n = document.createElement("span"); n.className = "tnum"; n.style.left = x; n.textContent = s.seq; host.appendChild(n); }); }
+
+/* =====================================================================================  STATION PANEL  */
+let phFront = "phA";
+function setPhoto(s) {
+  const front = $(phFront), back = $(phFront === "phA" ? "phB" : "phA"), st = M.stations[s], src = st.photo && st.photo.file;
+  const fallback = "data:image/svg+xml;utf8," + encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380"><rect width="640" height="380" fill="#0B1726"/><path d="M0 250h640" stroke="#1d6f78" stroke-width="6"/><rect x="210" y="150" width="220" height="100" rx="8" fill="#15283D" stroke="#00D5C0"/><text x="320" y="205" fill="#91A4B8" font-family="sans-serif" font-size="16" text-anchor="middle">${st.name}</text><text x="320" y="300" fill="#91A4B8" font-family="sans-serif" font-size="14" text-anchor="middle">Illustrative placeholder – no verified photograph</text></svg>`);
+  back.onload = () => { back.classList.add("show"); front.classList.remove("show"); phFront = back.id; };
+  back.onerror = () => { back.onerror = null; back.src = fallback; $("phCap").textContent = "Illustrative placeholder – photograph unavailable"; };
+  back.alt = src ? `${st.name} metro station` : `Illustrative placeholder for ${st.name}`; back.src = src || fallback;
+  $("phCap").innerHTML = src ? `Photo: ${st.photo.author || "Wikimedia Commons contributor"} · <a href="${st.photo.page}" target="_blank" rel="noopener">${st.photo.license || "licence"}</a> · Wikimedia Commons` : "Illustrative placeholder – no verified photograph";
+}
+function selectStation(i, opts = {}) {
+  const changed = i !== S.selected || opts.force; S.selected = i;
+  if (opts.pin) { S.follow = false; syncFollow(); }
+  if (changed) { setPhoto(i); renderStationStatic(i); if (window.gsap && !REDUCED) gsap.fromTo("#pName", {opacity:.2, x:-8}, {opacity:1, x:0, duration:.35}); }
+  renderStationStats(); styleStations(); drawCatchment();
+  document.querySelectorAll(".tcard").forEach((c, k) => { c.classList.toggle("sel", k === i); if (k === i && changed) { const tl = $("tl"); tl.scrollTo({left: c.offsetLeft - tl.clientWidth / 2 + c.clientWidth / 2, behavior: REDUCED ? "auto" : "smooth"}); } });
+  if (changed) { renderHourChart(); renderDistChart(); renderDayChart(); renderFlow(); }
+}
+function syncFollow() { $("pPinned").style.display = S.follow ? "none" : ""; $("followBtn").querySelector("span").textContent = S.follow ? "Panel follows train" : "Resume following train"; $("followBtn").classList.toggle("primary", !S.follow); }
+function renderStationStatic(i) { const s = M.stations[i];
+  $("pStNo").textContent = `Station ${s.seq} of ${NS} · ${s.id}`; $("pName").textContent = s.name + " Station"; $("pArea").textContent = "Area: " + s.area;
+  $("pCoord").textContent = `${s.lat.toFixed(5)}° N, ${s.lng.toFixed(5)}° E`; $("pChar").textContent = s.character; $("pStatus").textContent = s.status + (s.opening ? ` · opened ${s.opening}` : ""); $("pTrans").textContent = s.transport; $("pSummary").textContent = s.summary;
+  $("pCom").textContent = s.commercial; $("pEdu").textContent = s.education; $("pHea").textContent = s.health;
+  const c = (M.catchment.byStation || [])[i] || {}, radii = ["500 m", "1 km", "2 km"].filter(r => c[r]);
+  $("pCatch").innerHTML = radii.length ? `<tr><th>Catchment</th><th>Property value (৳/sq ft)</th><th>Assumed metro premium</th><th>Businesses</th></tr>` + radii.map(r => `<tr><td>${r}</td><td class="num">${fmtInt(c[r].value)}</td><td class="num">${c[r].premium}%</td><td class="num">${fmtInt(c[r].business)}</td></tr>`).join("") : `<tr><td class="muted">No station-area dataset loaded.</td></tr>`;
+}
+function renderStationStats() {
+  const d = S.date, i = S.selected, ds = dayStation(d, i), share = S.mode === "sim" ? elapsedShare(d, S.clock) : 1, f = v => v * share;
+  const hr = stationHourly(d, i, "entries"), hx = stationHourly(d, i, "exits"), both = hr.map((v, k) => v + hx[k]), peak = Math.max(...both), act = both.filter(v => v > 0).length || 1;
+  let lineE = 0, lineR = 0, openN = 0; for (let s = 0; s < NS; s++) { const x = dayStation(d, s); lineE += x.entries; lineR += x.revenue; if (x.entries > 0) openN++; }
+  $("pScope").textContent = S.mode === "sim" ? `so far today, to ${hhmm(S.clock)}` : "full day";
+  animateValue($("sEnt"), f(ds.entries)); animateValue($("sExi"), f(ds.exits)); animateValue($("sThr"), f(ds.entries + ds.exits));
+  animateValue($("sPeak"), peak); animateValue($("sAvg"), (ds.entries + ds.exits) / act);
+  animateValue($("sCmp"), openN ? (ds.entries / (lineE / openN) - 1) * 100 : null, v => (v >= 0 ? "+" : "") + v.toFixed(0) + "%");
+  animateValue($("sRev"), f(ds.revenue), fmtTk); animateValue($("sFare"), ds.entries ? ds.revenue / ds.entries : null, v => "৳" + v.toFixed(1)); animateValue($("sTx"), f(ds.entries));
+  animateValue($("sShare"), lineR ? 100 * ds.revenue / lineR : null, v => v.toFixed(1) + "%");
+  const trips = M.line.actual[d] || 0, span = (M.line.end[d] || 0) - (M.line.start[d] || 0);
+  animateValue($("sArr"), ds.entries ? f(trips) : 0); animateValue($("sWait"), trips && span > 0 ? span / (trips / 2) / 2 : null, v => v.toFixed(1) + " min");
+  const lk = M.links.byMonth && M.links.byMonth[M.dates[d].slice(0, 7)], cap = (trips / 2) * (M.meta.trainCapacity || 2300);
+  const load = lk ? Math.max(i < NS - 1 ? lk.south[i] : 0, i > 0 ? lk.north[i - 1] : 0) : null;
+  animateValue($("sUtil"), load != null && cap ? 100 * load / cap : null, v => v.toFixed(0) + "%"); animateValue($("sOtp"), M.line.otp[d], v => v.toFixed(1) + "%");
+}
+
+/* =====================================================================================  KPIs  */
+function delta(el, cur, prev, suffix) { if (prev == null || !prev) { el.textContent = ""; return; } const p = (cur / prev - 1) * 100; el.className = p >= 0 ? "up" : "down"; el.textContent = `${p >= 0 ? "▲" : "▼"} ${Math.abs(p).toFixed(1)}% ${suffix}`; }
+function renderKPIs() {
+  const d = S.date, Ld = M.line, sim = S.mode === "sim", share = sim ? elapsedShare(d, S.clock) : 1, p = prevOperating(d), pShare = sim && p != null ? elapsedShare(p, S.clock) : 1;
+  const op = isOperating(d);
+  animateValue($("k1"), op ? Ld.pax[d] * share : 0); delta($("k1a"), Ld.pax[d] * share, p != null ? Ld.pax[p] * pShare : null, sim ? "vs previous day at this time" : "vs previous operating day");
+  $("k1b").textContent = op ? (sim ? `of ${fmtInt(Ld.pax[d])} day total` : (Ld.pinned[d] ? "day total pinned to a published figure" : "boardings (entries)")) : Ld.status[d] || "No service";
+  animateValue($("k2"), op ? Ld.rev[d] * share : 0, fmtTk); delta($("k2a"), Ld.rev[d] * share, p != null ? Ld.rev[p] * pShare : null, "vs previous");
+  $("k2b").textContent = op && Ld.pax[d] ? `৳${(Ld.rev[d] / Ld.pax[d]).toFixed(1)} per passenger` : "";
+  const inService = S.clock >= (Ld.start[d] || 0) && S.clock <= (Ld.end[d] || 0) + 40, peakNow = (S.clock >= 450 && S.clock < 660) || (S.clock >= 960 && S.clock < 1200);
+  const sets = !op ? 0 : !sim ? Ld.sets[d] : !inService ? 0 : peakNow || !Ld.offHw[d] ? Ld.sets[d] : Math.max(2, Math.round(Ld.sets[d] * (Ld.pkHw[d] || 1) / Ld.offHw[d]));
+  animateValue($("k3"), sets); $("k3a").textContent = op ? `${fmtInt(Ld.sched[d])} scheduled trips` : ""; $("k3b").textContent = op && Ld.sched[d] ? `${(100 * Ld.actual[d] / Ld.sched[d]).toFixed(1)}% service availability` : "";
+  const u = op ? (Ld.avgUtil[d] || 0) * 100 : 0; animateValue($("k4"), u, v => v.toFixed(0) + "%"); $("k4a").textContent = op ? `Peak hours ${fmtPct((Ld.peakUtil[d] || 0) * 100, 0)} · busiest train ${fmtPct((Ld.maxUtil[d] || 0) * 100, 0)}` : "";
+  $("k4ring").style.strokeDashoffset = 175.9 * (1 - clamp(u / 100, 0, 1));
+  animateValue($("k5"), op ? Ld.otp[d] : null, v => v.toFixed(1) + "%"); $("k5a").textContent = op ? `Avg delay ${(Ld.delay[d] || 0).toFixed(2)} min` : "";
+  const int = Ld.interrupt[d] || 0; $("k5b").className = int ? "down" : "up"; $("k5b").textContent = op ? (int ? `● ${int} min interruption` : "● No interruption") : "";
+}
+
+/* =====================================================================================  CHARTS  */
+const CH = {};
+function baseOpts(extra = {}) { return Object.assign({responsive:true, maintainAspectRatio:false, animation:{duration: REDUCED ? 0 : 500}, interaction:{mode:"index", intersect:false},
+  plugins:{legend:{labels:{color:C.muted, boxWidth:10, boxHeight:10, font:{size:11}}}, tooltip:{backgroundColor:"#0B1726", borderColor:"rgba(255,255,255,.12)", borderWidth:1, titleColor:C.text, bodyColor:C.text, padding:9}},
+  scales:{x:{ticks:{color:C.muted, font:{size:10}}, grid:{color:"transparent"}, border:{color:C.grid}}, y:{ticks:{color:C.muted, font:{size:10}}, grid:{color:C.grid}, border:{display:false}, beginAtZero:true}}}, extra); }
+const nowLine = {id:"nowLine", afterDatasetsDraw(ch) { if (S.mode !== "sim" || !ch.options.plugins.nowLine) return; const x = ch.scales.x, a = ch.chartArea, pos = (S.clock / 60 - M.hours[0]); if (pos < 0 || pos > M.hours.length - 1) return;
+  const px = x.getPixelForValue(Math.floor(pos)) + (x.getPixelForValue(Math.min(M.hours.length - 1, Math.floor(pos) + 1)) - x.getPixelForValue(Math.floor(pos))) * (pos % 1), c = ch.ctx; c.save(); c.strokeStyle = C.warn; c.setLineDash([4, 4]); c.lineWidth = 1.5; c.beginPath(); c.moveTo(px, a.top); c.lineTo(px, a.bottom); c.stroke(); c.fillStyle = C.warn; c.font = "700 10px Manrope"; c.fillText("sim " + hhmm(S.clock), Math.min(px + 5, a.right - 58), a.top + 10); c.restore(); }};
+function mk(id, cfg) { if (CH[id]) CH[id].destroy(); CH[id] = new Chart($(id), cfg); return CH[id]; }
+function renderHourChart() {
+  const d = S.date, st = S.hourScope === "station", labels = M.hours.map(h => String(h).padStart(2, "0") + ":00");
+  const e = st ? stationHourly(d, S.selected, "entries") : hourlyLine(d), sets = [{label: st ? `${M.stations[S.selected].name} entries` : "Line boardings", data:e, borderColor:C.accent, backgroundColor:"rgba(0,213,192,.16)", fill:true, tension:.35, borderWidth:2, pointRadius:0, pointHoverRadius:4}];
+  if (st) sets.push({label:`${M.stations[S.selected].name} exits`, data:stationHourly(d, S.selected, "exits"), borderColor:C.blue, backgroundColor:"rgba(57,169,255,.10)", fill:true, tension:.35, borderWidth:2, pointRadius:0, pointHoverRadius:4});
+  if (CH.chHour && CH.chHour.data.datasets.length === sets.length) { CH.chHour.data.datasets.forEach((ds, k) => { ds.data = sets[k].data; ds.label = sets[k].label; }); CH.chHour.update(); }
+  else mk("chHour", {type:"line", data:{labels, datasets:sets}, options:baseOpts({plugins:Object.assign(baseOpts().plugins, {nowLine:true, legend:{display:st, labels:{color:C.muted, boxWidth:10, boxHeight:10}}})}), plugins:[nowLine]});
+  $("hourNote").textContent = st ? "Station hours = the station's daily total × its average hour profile for this day type (profile-based synthetic estimate)." : "Line boardings by hour for the selected date. The dashed marker is the simulation clock.";
+}
+function renderDistChart() {
+  const d = S.date, m = S.distMetric, vals = M.stations.map((_, s) => { const x = dayStation(d, s); return m === "entries" ? x.entries : m === "exits" ? x.exits : x.entries + x.exits; });
+  const col = m === "exits" ? C.blue : m === "entries" ? C.accent : C.violet, bg = M.stations.map((_, s) => s === S.selected ? col : col + "66");
+  if (CH.chDist) { const ds = CH.chDist.data.datasets[0]; ds.data = vals; ds.backgroundColor = bg; ds.label = m[0].toUpperCase() + m.slice(1); CH.chDist.update(); return; }
+  mk("chDist", {type:"bar", data:{labels:M.stations.map(s => s.name), datasets:[{label:"Entries", data:vals, backgroundColor:bg, borderRadius:4, barPercentage:.78}]},
+    options:baseOpts({indexAxis:"y", onClick:(e, els) => { if (els.length) selectStation(els[0].index, {pin:true}); }, plugins:Object.assign(baseOpts().plugins, {legend:{display:false}, tooltip:Object.assign(baseOpts().plugins.tooltip, {callbacks:{afterBody:it => { const x = dayStation(S.date, it[0].dataIndex); return [`Entries ${fmtInt(x.entries)}`, `Exits ${fmtInt(x.exits)}`, `Throughput ${fmtInt(x.entries + x.exits)}`]; }}})}),
+      scales:{x:{ticks:{color:C.muted, font:{size:10}}, grid:{color:C.grid}, border:{display:false}}, y:{ticks:{color:C.muted, font:{size:10.5}}, grid:{display:false}, border:{color:C.grid}}}})});
+}
+function renderDayChart() {
+  const d = S.date, acc = {wk:[0, 0, 0], sat:[0, 0, 0], fri:[0, 0, 0]};
+  for (let i = Math.max(0, d - 55); i <= d; i++) { if (!isOperating(i)) continue; const t = dayTypeOf(M.dates[i]), a = acc[t]; let open = 0; for (let s = 0; s < NS; s++) if (dayStation(i, s).entries > 0) open++; a[0] += dayStation(i, S.selected).entries; a[1] += M.line.pax[i] / (open || 1); a[2]++; }
+  const k = ["wk", "sat", "fri"], sel = k.map(t => acc[t][2] ? Math.round(acc[t][0] / acc[t][2]) : 0), avg = k.map(t => acc[t][2] ? Math.round(acc[t][1] / acc[t][2]) : 0);
+  if (CH.chDay) { CH.chDay.data.datasets[0].data = sel; CH.chDay.data.datasets[0].label = M.stations[S.selected].name; CH.chDay.data.datasets[1].data = avg; CH.chDay.update(); return; }
+  mk("chDay", {type:"bar", data:{labels:["Working day (Sun–Thu)", "Saturday", "Friday"], datasets:[{label:M.stations[S.selected].name, data:sel, backgroundColor:C.accent, borderRadius:4}, {label:"Average station on the line", data:avg, backgroundColor:C.blue, borderRadius:4}]}, options:baseOpts()});
+}
+function renderFlow() {
+  const m = M.dates[S.date].slice(0, 7), lk = M.links.byMonth && M.links.byMonth[m], host = $("flow"); $("flowScope").textContent = lk ? `average working day, ${m}` : "";
+  if (!lk) { host.innerHTML = `<div class="note">No link-flow data for ${m}.</div>`; return; }
+  const W = 1000, x = i => 34 + i * (W - 68) / (NS - 1), mx = Math.max(1, ...lk.south, ...lk.north), near = i => Math.abs(i - S.selected) <= 1;
+  let h = `<svg viewBox="0 0 ${W} 190" role="img" aria-label="Passenger flow between stations">`;
+  for (let i = 0; i < NS - 1; i++) { const hot = near(i) && near(i + 1), ws = 2 + 26 * lk.south[i] / mx, wn = 2 + 26 * lk.north[i] / mx, op = hot ? 1 : .38;
+    h += `<line x1="${x(i)}" x2="${x(i + 1)}" y1="${78 - ws / 2}" y2="${78 - ws / 2}" stroke="${C.accent}" stroke-width="${ws}" opacity="${op * .55}"><title>${M.stations[i].name} → ${M.stations[i + 1].name}: ${fmtInt(lk.south[i])} passengers a day southbound</title></line>`;
+    h += `<line class="flowdash" x1="${x(i)}" x2="${x(i + 1)}" y1="${78 - ws / 2}" y2="${78 - ws / 2}" stroke="#E6FFFB" stroke-width="1.2" opacity="${op * .8}"/>`;
+    h += `<line x1="${x(i)}" x2="${x(i + 1)}" y1="${84 + wn / 2}" y2="${84 + wn / 2}" stroke="${C.blue}" stroke-width="${wn}" opacity="${op * .55}"><title>${M.stations[i + 1].name} → ${M.stations[i].name}: ${fmtInt(lk.north[i])} passengers a day northbound</title></line>`;
+    h += `<line class="flowdash rev" x1="${x(i)}" x2="${x(i + 1)}" y1="${84 + wn / 2}" y2="${84 + wn / 2}" stroke="#E6F4FF" stroke-width="1.2" opacity="${op * .8}"/>`; }
+  M.stations.forEach((s, i) => { const sel = i === S.selected; h += `<g style="cursor:pointer" data-i="${i}"><circle cx="${x(i)}" cy="81" r="${sel ? 8 : 5}" fill="${sel ? C.accent : "#0B1726"}" stroke="${near(i) ? C.accent : "#5a6b7d"}" stroke-width="2"/><text x="${x(i)}" y="${i % 2 ? 150 : 168}" text-anchor="middle" font-size="${sel ? 12 : 10.5}" font-weight="${sel ? 800 : 600}" fill="${sel ? C.accent : near(i) ? C.text : C.muted}">${s.name.replace("Bangladesh ", "").replace("Dhaka University", "Dhaka Univ.")}</text><line x1="${x(i)}" x2="${x(i)}" y1="${128}" y2="${i % 2 ? 138 : 156}" stroke="rgba(255,255,255,.12)"/></g>`; });
+  h += `<text x="6" y="16" font-size="10.5" fill="${C.accent}" font-weight="700">▶ Southbound (towards Motijheel)</text><text x="${W - 6}" y="16" text-anchor="end" font-size="10.5" fill="${C.blue}" font-weight="700">◀ Northbound (towards Uttara North)</text></svg>`;
+  host.innerHTML = h; host.querySelectorAll("g[data-i]").forEach(g => g.onclick = () => selectStation(+g.dataset.i, {pin:true}));
+}
+function renderMonthChart() {
+  const rows = M.months, labels = rows.map(r => r.month), vals = rows.map(r => r.pax), pub = labels.map(() => null);
+  (M.published.rows || []).forEach(p => { if (p.type === "Actual" && p.grain === "Month" && /Passengers carried/.test(p.metric)) { const i = labels.indexOf((p.start || "").slice(0, 7)); if (i >= 0) pub[i] = p.value; } });
+  mk("chMonth", {data:{labels, datasets:[{type:"bar", label:"Synthetic monthly boardings", data:vals, backgroundColor:labels.map(l => l === M.dates[S.date].slice(0, 7) ? C.accent : "rgba(0,213,192,.42)"), borderRadius:3, order:2}, {type:"line", label:"Published monthly total (Actual)", data:pub, showLine:false, pointStyle:"rectRot", pointRadius:7, pointBackgroundColor:C.ok, pointBorderColor:"#07111F", pointBorderWidth:2, order:1}]},
+    options:baseOpts({plugins:Object.assign(baseOpts().plugins, {tooltip:Object.assign(baseOpts().plugins.tooltip, {callbacks:{afterBody:it => { const i = it[0].dataIndex; if (i >= 12 && vals[i - 12]) return `Year on year: ${((vals[i] / vals[i - 12] - 1) * 100).toFixed(1)}%`; return ""; }}})}), scales:{x:{ticks:{color:C.muted, font:{size:9}, maxRotation:0, autoSkip:true, maxTicksLimit:12}, grid:{display:false}}, y:{ticks:{color:C.muted, font:{size:10}, callback:v => (v / 1e6) + "M"}, grid:{color:C.grid}, border:{display:false}}}})});
+  const full = rows.filter(r => r.month < M.dates[M.dates.length - 1].slice(0, 7)), last = full[full.length - 1], prev = last && rows.find(r => r.month === (parseInt(last.month) - 1) + last.month.slice(4));
+  $("monthNote").textContent = (last && prev ? `Latest full month ${last.month}: ${fmtInt(last.pax)} boardings, ${((last.pax / prev.pax - 1) * 100).toFixed(1)}% year on year. ` : "") + "DMTCL has published only one monthly total (January 2023, about 350,000), shown as the green marker; all bars are calibrated synthetic values. The last month may be partial.";
+}
+function renderFinance() {
+  const F = M.finance, rev = F.revisions.rows || [], yr = F.yearly.rows || [], aud = F.audited.rows || [], via = F.viability.rows || [], o = rev[0], l = rev[rev.length - 1];
+  const fy26 = via.find(r => r.fy === "2025-26"), lastAud = aud[aud.length - 1], cum = yr.length ? yr[yr.length - 1].cum : null;
+  const items = [["Original approved cost", o ? fmtTk(o.total) : "–", "Actual", o ? o.approved : ""], ["Latest revised cost", l ? fmtTk(l.total) : "–", "Actual", l ? "3rd revision, " + l.approved : ""], ["Cost escalation", o && l ? "+" + ((l.total / o.total - 1) * 100).toFixed(1) + "%" : "–", "Estimated", "latest vs original"],
+    ["Cumulative expenditure", fmtTk(cum), "Actual", "to 30 Sep 2026"], ["Annual ticket revenue", lastAud ? fmtTk(lastAud.gross) : "–", "Actual", lastAud ? "FY" + lastAud.fy + ", audited gross" : ""], ["Operating expenditure", fy26 ? fmtTk(fy26.opex) : "–", "Synthetic", "FY2025-26, simulated"], ["Farebox recovery ratio", fy26 && fy26.farebox ? (fy26.farebox * 100).toFixed(0) + "%" : "–", "Synthetic", "FY2025-26, excludes debt"]];
+  $("finKpis").innerHTML = items.map(i => `<div class="mini"><div class="k">${i[0]}</div><div class="v num">${i[1]}</div><div class="row" style="margin-top:4px;gap:5px">${clsBadge(i[2])}</div><div class="muted" style="font-size:10px;margin-top:3px">${i[3]}</div></div>`).join("");
+  const cr = v => +(v / CR).toFixed(1), tip = baseOpts().plugins.tooltip;
+  mk("chCost", {type:"bar", data:{labels:rev.map(r => r.revision.replace(" DPP", "")), datasets:[{label:"Government of Bangladesh", data:rev.map(r => cr(r.gob)), backgroundColor:C.accent, borderRadius:4, borderColor:"#101F31", borderWidth:2}, {label:"JICA loan", data:rev.map(r => cr(r.pa)), backgroundColor:C.blue, borderRadius:4, borderColor:"#101F31", borderWidth:2}]}, options:baseOpts({scales:{x:{stacked:true, ticks:{color:C.muted, font:{size:10}}, grid:{display:false}}, y:{stacked:true, ticks:{color:C.muted, font:{size:10}}, grid:{color:C.grid}, border:{display:false}}}, plugins:Object.assign(baseOpts().plugins, {tooltip:Object.assign({}, tip, {callbacks:{footer:it => "Total " + fmtInt(it.reduce((a, b) => a + b.parsed.y, 0)) + " crore"}})})})});
+  mk("chExp", {type:"bar", data:{labels:yr.map(r => r.fy), datasets:[{label:"Actual expenditure", data:yr.map(r => cr(r.exp)), backgroundColor:yr.map(r => r.partial ? "rgba(0,213,192,.4)" : C.accent), borderRadius:4}]}, options:baseOpts({plugins:Object.assign(baseOpts().plugins, {legend:{display:false}, tooltip:Object.assign({}, tip, {callbacks:{afterBody:it => { const r = yr[it[0].dataIndex]; return [`Allocation ${fmtInt(cr(r.alloc))} crore`, `Cumulative ${fmtInt(cr(r.cum))} crore`, r.partial ? "Partial year" : ""]; }}})}), scales:{x:{ticks:{color:C.muted, font:{size:9}, maxRotation:60, minRotation:45}, grid:{display:false}}, y:{ticks:{color:C.muted, font:{size:10}}, grid:{color:C.grid}, border:{display:false}}}})});
+  const v4 = via.filter(r => r.fy <= "2026-27");
+  mk("chRevOp", {type:"bar", data:{labels:v4.map(r => r.fy + (r.period === "Forecast" ? " (F)" : "")), datasets:[{label:"Fare revenue", data:v4.map(r => cr(r.fare)), backgroundColor:C.accent, borderRadius:4}, {label:"Operating cost (simulated)", data:v4.map(r => cr(r.opex)), backgroundColor:C.violet, borderRadius:4}]}, options:baseOpts({plugins:Object.assign(baseOpts().plugins, {tooltip:Object.assign({}, tip, {callbacks:{afterBody:it => { const r = v4[it[0].dataIndex]; return [`Farebox recovery ${r.farebox ? (r.farebox * 100).toFixed(0) + "%" : "–"}`, `Estimated debt service ${fmtInt(cr(r.debt))} crore`]; }}})})})});
+  const ms = M.months;
+  mk("chMRev", {type:"line", data:{labels:ms.map(r => r.month), datasets:[{label:"Ticket revenue", data:ms.map(r => cr(r.rev)), borderColor:C.accent, backgroundColor:"rgba(0,213,192,.12)", fill:true, tension:.3, borderWidth:2, pointRadius:0, pointHoverRadius:4}]}, options:baseOpts({plugins:Object.assign(baseOpts().plugins, {legend:{display:false}}), scales:{x:{ticks:{color:C.muted, font:{size:9}, maxTicksLimit:8, maxRotation:0}, grid:{display:false}}, y:{ticks:{color:C.muted, font:{size:10}}, grid:{color:C.grid}, border:{display:false}, beginAtZero:true}}})});
+  mk("chRpp", {type:"line", data:{labels:ms.map(r => r.month), datasets:[{label:"Revenue per passenger (৳)", data:ms.map(r => r.pax ? +(r.rev / r.pax).toFixed(2) : null), borderColor:C.blue, tension:.3, borderWidth:2, pointRadius:0, pointHoverRadius:4}]}, options:baseOpts({plugins:Object.assign(baseOpts().plugins, {legend:{display:false}}), scales:{x:{ticks:{color:C.muted, font:{size:9}, maxTicksLimit:8, maxRotation:0}, grid:{display:false}}, y:{ticks:{color:C.muted, font:{size:10}}, grid:{color:C.grid}, border:{display:false}, beginAtZero:false}}})});
+  const cp = (F.componentChanges.rows || []).slice().sort((a, b) => a.change - b.change);
+  mk("chComp", {type:"bar", data:{labels:cp.map(r => r.component.length > 34 ? r.component.slice(0, 33) + "…" : r.component), datasets:[{label:"Change", data:cp.map(r => cr(r.change)), backgroundColor:cp.map(r => r.change < 0 ? C.blue : C.violet), borderRadius:4}]}, options:baseOpts({indexAxis:"y", plugins:Object.assign(baseOpts().plugins, {legend:{display:false}, tooltip:Object.assign({}, tip, {callbacks:{title:it => cp[it[0].dataIndex].component, label:it => (it.parsed.x < 0 ? "Reduced by " : "Increased by ") + fmtInt(Math.abs(it.parsed.x)) + " crore"}})}), scales:{x:{ticks:{color:C.muted, font:{size:10}}, grid:{color:C.grid}, border:{display:false}}, y:{ticks:{color:C.muted, font:{size:9.5}}, grid:{display:false}}}})});
+  $("miles").innerHTML = (M.milestones || []).map(m => `<div class="row" style="align-items:flex-start;gap:8px;padding:3px 0;border-bottom:1px dashed var(--border)"><span class="num muted" style="min-width:74px">${m.date}</span><span style="flex:1">${m.text.replace("TARGET: ", "")}</span>${m.type === "Forecast" ? '<span class="badge b-forecast">Target</span>' : ""}</div>`).join("") || '<span class="muted">No milestone data loaded.</span>';
+}
+function renderImpactStatic() {
+  const I = M.impact, tt = I.travelTime || [], md = I.modes || [], tip = baseOpts().plugins.tooltip;
+  mk("chTime", {type:"bar", data:{labels:tt.map(t => t.label.length > 40 ? t.label.slice(0, 39) + "…" : t.label), datasets:[{label:"Minutes", data:tt.map(t => t.minutes), backgroundColor:tt.map(t => /metro/i.test(t.label) ? C.accent : C.blue), borderRadius:4}]}, options:baseOpts({indexAxis:"y", plugins:Object.assign(baseOpts().plugins, {legend:{display:false}, tooltip:Object.assign({}, tip, {callbacks:{title:it => tt[it[0].dataIndex].label, afterLabel:it => "Classification: " + tt[it.dataIndex].type}})}), scales:{x:{ticks:{color:C.muted, font:{size:10}}, grid:{color:C.grid}, border:{display:false}}, y:{ticks:{color:C.muted, font:{size:9.5}}, grid:{display:false}}}})});
+  mk("chMode", {type:"bar", data:{labels:md.map(m => m.mode), datasets:[{label:"Share of metro passengers", data:md.map(m => +(m.share * 100).toFixed(1)), backgroundColor:C.accent, borderRadius:4}]}, options:baseOpts({indexAxis:"y", plugins:Object.assign(baseOpts().plugins, {legend:{display:false}, tooltip:Object.assign({}, tip, {callbacks:{label:it => it.parsed.x + "% of passengers"}})}), scales:{x:{ticks:{color:C.muted, font:{size:10}, callback:v => v + "%"}, grid:{color:C.grid}, border:{display:false}}, y:{ticks:{color:C.muted, font:{size:10}}, grid:{display:false}}}})});
+}
+function renderImpactDay() {
+  const d = S.date, Ld = M.line, mins = M.impact.avgMinutesSaved || 0, t = v => v / 1000;
+  $("envDate").textContent = M.dates[d] + " · full day";
+  animateValue($("eVkm"), Ld.vkm[d]); animateValue($("eFuel"), Ld.fuel[d]); animateValue($("eCo2"), t(Ld.co2Road[d]), v => v.toFixed(1)); animateValue($("eKwh"), t(Ld.kwh[d]), v => v.toFixed(1));
+  animateValue($("eGrid"), t(Ld.co2Grid[d]), v => v.toFixed(1)); const net = t((Ld.co2Road[d] || 0) - (Ld.co2Grid[d] || 0)); animateValue($("eNet"), net, v => (v > 0 ? "+" : "") + v.toFixed(1)); $("eNet").style.color = net < 0 ? C.crit : C.ok;
+  animateValue($("eHrs"), (Ld.pax[d] || 0) * mins / 60); animateValue($("eMin"), mins, v => v.toFixed(1));
+  const pct = Ld.co2Grid[d] ? 100 * Ld.co2Road[d] / Ld.co2Grid[d] : 0; $("susPct").textContent = pct.toFixed(0) + "%"; $("susRing").style.strokeDashoffset = 389.6 * (1 - clamp(pct / 100, 0, 1)); $("susRing").style.stroke = pct >= 100 ? C.ok : pct >= 60 ? C.accent : C.warn;
+  $("envNote").textContent = `Net CO₂ = road CO₂ avoided − grid CO₂ caused; a negative value is a net increase. Passenger-hours = boardings × ${mins.toFixed(1)} modelled minutes saved per trip. ` + (M.impact.note || "");
+}
+
+/* =====================================================================================  TIMELINE, DATA TABLE  */
+function buildTimeline() { $("tl").innerHTML = M.stations.map((s, i) => `<div class="tcard" data-i="${i}" role="button" tabindex="0" aria-label="${s.name}"><span class="arr">TRAIN</span>${s.photo && s.photo.file ? `<img loading="lazy" src="${s.photo.file}" alt="${s.name} metro station" onerror="this.style.visibility='hidden'">` : `<div style="height:74px;display:grid;place-items:center" class="muted">no photo</div>`}<div class="b"><div class="n">STATION ${String(s.seq).padStart(2, "0")}</div><div class="nm">${s.name}</div><div class="px num" id="tp${i}">–</div></div></div>`).join("");
+  document.querySelectorAll(".tcard").forEach(c => { const go = () => selectStation(+c.dataset.i, {pin:true}); c.onclick = go; c.onkeydown = e => { if (e.key === "Enter") go(); }; });
+  $("credits").innerHTML = M.meta.demo ? "" : "Station photographs: Wikimedia Commons contributors under CC BY 4.0 / CC BY-SA 4.0 — see IMAGE_SOURCES.md. Map data © OpenStreetMap contributors."; }
+function renderTimelineCounts() { const sh = S.mode === "sim" ? elapsedShare(S.date, S.clock) : 1; M.stations.forEach((_, i) => animateValue($("tp" + i), dayStation(S.date, i).entries * sh)); }
+function renderDataTable() { $("dsTable").innerHTML = `<tr><th>Dataset</th><th>Status</th><th>Rows</th><th>Classification</th><th>Used for</th></tr>` + Object.entries(DATASETS).map(([n, sp]) => { const s = DS[n] || {}; const ok = s.state === "Imported" || s.state === "Packaged"; return `<tr><td><code>${n}</code></td><td class="${ok ? "ok" : "bad"}">${s.state || "–"}${s.note ? `<div class="muted" style="font-size:10px">${s.note}</div>` : ""}</td><td class="num">${s.rows == null ? "pre-aggregated" : fmtInt(s.rows)}</td><td>${s.cls || "–"}</td><td class="muted">${sp.use}</td></tr>`; }).join(""); }
+
+/* =====================================================================================  ORCHESTRATION  */
+function setDate(idx, quiet) {
+  S.date = clamp(idx, 0, M.dates.length - 1); $("dateIn").value = M.dates[S.date];
+  if (S.mode === "sim") { const st = M.line.start[S.date] || 420; if (S.clock < st - 15 || S.clock > (M.line.end[S.date] || 1300) + 30) S.clock = st + 60; $("clock").textContent = hhmm(S.clock); }
+  const Ld = M.line, d = S.date; $("demandScope").textContent = `${M.dates[d]} · ${["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][new Date(M.dates[d] + "T00:00:00").getDay()]}${Ld.holiday[d] ? " · public holiday" : ""}${Ld.ramadan[d] ? " · Ramadan" : ""}${Ld.weather[d] ? " · " + Ld.weather[d] : ""}`;
+  if (!isOperating(d) && !quiet) toast(`${M.dates[d]}: ${Ld.status[d] || "no service"} – no passenger service on this date.`);
+  renderAllDynamic();
+}
+function renderAllDynamic() { renderKPIs(); renderStationStats(); styleActivity(); renderHourChart(); renderDistChart(); renderDayChart(); renderFlow(); renderMonthChart(); renderImpactDay(); renderTimelineCounts(); updateBanner(); }
+function onClockTick() { renderKPIs(); renderStationStats(); renderTimelineCounts(); if (CH.chHour) CH.chHour.draw(); }
+function updateBanner() { const sim = S.mode === "sim", demo = M.meta.demo;
+  $("bannerMain").textContent = sim ? "SIMULATED OPERATIONS – NOT A REAL-TIME DMTCL FEED." : "HISTORICAL ANALYTICS – REPLAY OF A SYNTHETIC OPERATING DAY.";
+  $("bannerSub").textContent = (demo ? "DEMONSTRATION DATASET in use (packaged data file not found). " : "") + (sim ? `Running totals to the simulation clock for ${M.dates[S.date]}. Values are synthetic, calibrated to published totals.` : `Full-day values for ${M.dates[S.date]}. Operating figures are synthetic; project cost and audited revenue are actual.`);
+  $("navBadge").className = "badge " + (demo ? "b-demo" : "b-synthetic"); $("navBadge").textContent = demo ? "Demonstration" : "Synthetic ops";
+  document.querySelectorAll('[data-cls="ops"]').forEach(b => { b.className = "badge " + (demo ? "b-demo" : "b-synthetic"); b.textContent = demo ? "Demonstration" : "Synthetic"; });
+  $("clock").style.opacity = sim ? 1 : .45; $("clock").title = sim ? "Simulation clock (not real time)" : "Clock is not used in Historical Analytics mode"; $("timeRange").disabled = !sim; }
+function setMode(m) { S.mode = m; document.querySelectorAll("#modeSeg button").forEach(b => b.classList.toggle("on", b.dataset.mode === m)); renderAllDynamic(); toast(m === "sim" ? "Simulated Live Operations: values accumulate with the simulation clock." : "Historical Analytics: full-day values for the selected date."); }
+function afterDataChange() { S.date = clamp(S.date, 0, M.dates.length - 1); $("dateIn").min = M.dates[0]; $("dateIn").max = M.dates[M.dates.length - 1]; renderDataTable(); renderFinance(); renderImpactStatic(); selectStation(S.selected, {force:true}); setDate(S.date, true); }
+
+function wire() {
+  $("playBtn").onclick = () => setPlaying(true); $("pauseBtn").onclick = () => setPlaying(false);
+  $("resetBtn").onclick = () => { S.journeyMin = 0; S.follow = true; syncFollow(); setTrainAt(S.dir > 0 ? 0 : NS - 1); };
+  $("nextBtn").onclick = () => { const n = S.trainAt + S.dir; if (S.phase === "run") setTrainAt(S.to); else if (n >= 0 && n < NS) setTrainAt(n); else toast("Already at the terminus for this direction."); };
+  $("prevBtn").onclick = () => { const n = S.phase === "run" ? S.from : S.trainAt - S.dir; if (n >= 0 && n < NS) setTrainAt(n); else toast("Already at the first station for this direction."); };
+  $("dirSel").onchange = e => { S.dir = +e.target.value; S.journeyMin = 0; setTrainAt(S.phase === "run" ? S.from : S.trainAt); };
+  $("endSel").onchange = e => S.endMode = e.target.value;
+  document.querySelectorAll("#speedSeg button").forEach(b => b.onclick = () => { S.speed = +b.dataset.s; document.querySelectorAll("#speedSeg button").forEach(x => x.classList.toggle("on", x === b)); });
+  document.querySelectorAll("#modeSeg button").forEach(b => b.onclick = () => setMode(b.dataset.mode));
+  document.querySelectorAll("#hourSeg button").forEach(b => b.onclick = () => { S.hourScope = b.dataset.v; document.querySelectorAll("#hourSeg button").forEach(x => x.classList.toggle("on", x === b)); if (CH.chHour) { CH.chHour.destroy(); CH.chHour = null; } renderHourChart(); });
+  document.querySelectorAll("#distSeg button").forEach(b => b.onclick = () => { S.distMetric = b.dataset.v; document.querySelectorAll("#distSeg button").forEach(x => x.classList.toggle("on", x === b)); renderDistChart(); });
+  $("dateIn").onchange = e => { const i = M.dateIndex[e.target.value]; if (i == null) { toast("No data for that date."); $("dateIn").value = M.dates[S.date]; } else setDate(i); };
+  $("timeRange").oninput = e => { S.clock = +e.target.value; $("clock").textContent = hhmm(S.clock); onClockTick(); };
+  $("fitBtn").onclick = fitRoute; $("followBtn").onclick = () => { S.follow = !S.follow; syncFollow(); if (S.follow) selectStation(S.trainAt, {fromTrain:true}); };
+  $("catchChk").onchange = drawCatchment;
+  $("fsBtn").onclick = () => { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => toast("Fullscreen is not available in this browser.")); };
+  $("csvIn").onchange = e => { if (e.target.files.length) importFiles([...e.target.files]); e.target.value = ""; };
+  $("resetData").onclick = () => { initModel(PACKAGED || buildDemoData(), PACKAGED ? "Packaged" : "Demonstration"); afterDataChange(); toast("Packaged data restored."); };
+  const secs = ["overview", "ops", "stations", "impact"], links = [...document.querySelectorAll("#tabs a")];
+  const io = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) links.forEach(a => a.classList.toggle("on", a.getAttribute("href") === "#" + en.target.id)); }), {rootMargin:"-45% 0px -50% 0px"});
+  secs.forEach(s => { const el = $(s); if (el) io.observe(el); });
+  document.addEventListener("keydown", e => { if (e.target.matches("input,select,textarea")) return; if (e.code === "Space") { e.preventDefault(); setPlaying(!S.playing); } if (e.key === "ArrowRight") $("nextBtn").click(); if (e.key === "ArrowLeft") $("prevBtn").click(); });
+}
+function boot() {
+  const missing = [["Leaflet", window.L], ["Chart.js", window.Chart]].filter(x => !x[1]).map(x => x[0]);
+  if (missing.length) { $("loadmsg").innerHTML = `Could not load ${missing.join(" and ")} from the CDN.<br>Check the internet connection and reload.`; return; }
+  Chart.defaults.font.family = "Manrope, Inter, sans-serif"; Chart.defaults.color = C.muted;
+  initModel(PACKAGED || buildDemoData(), PACKAGED ? "Packaged" : "Demonstration");
+  if (window.lucide) lucide.createIcons();
+  buildMap(); buildProgress(); buildTimeline(); wire();
+  $("geoNote").textContent = M.meta.geoNote + " " + (M.meta.contextNote || "");
+  $("dateIn").min = M.dates[0]; $("dateIn").max = M.dates[M.dates.length - 1];
+  // default date: latest full operating working day
+  let d = M.dates.length - 1; while (d > 0 && (!isOperating(d) || dayTypeOf(M.dates[d]) !== "wk")) d--;
+  S.date = d; S.clock = 485; $("clock").textContent = hhmm(S.clock);
+  // optional shareable view: ?date=YYYY-MM-DD&mode=hist|sim&station=1..16&time=HH:MM&play=0
+  const q = new URLSearchParams(location.search), qd = M.dateIndex[q.get("date")], qs = parseInt(q.get("station")), qt = /^(\d{1,2}):(\d{2})$/.exec(q.get("time") || "");
+  if (qd != null) { d = qd; S.date = d; } if (q.get("mode") === "hist") { S.mode = "hist"; document.querySelectorAll("#modeSeg button").forEach(x => x.classList.toggle("on", x.dataset.mode === "hist")); }
+  if (qt) { S.clock = clamp(+qt[1] * 60 + +qt[2], 360, 1375); $("clock").textContent = hhmm(S.clock); }
+  const st0 = qs >= 1 && qs <= NS ? qs - 1 : 0;
+  renderDataTable(); renderFinance(); renderImpactStatic(); setDate(d, true); selectStation(st0, {force:true}); setTrainAt(st0, {silent:true, dwell:2}); syncFollow(); setPlaying(q.get("play") !== "0");
+  requestAnimationFrame(ts => { lastTs = ts; requestAnimationFrame(frame); });
+  const ld = $("loading"); ld.style.opacity = 0; setTimeout(() => ld.remove(), 550);
+  if (!PACKAGED) toast("Packaged data file not found – showing a clearly labelled demonstration dataset.", 6000);
+}
+window.addEventListener("load", () => { try { boot(); } catch (e) { console.error(e); $("loadmsg").textContent = "The dashboard failed to start: " + e.message; } });
+</script>
+</body>
+</html>

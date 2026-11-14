@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150" role="img" aria-label="Illustration of an MRT Line-6 train (not a photograph)">
+  <title>MRT Line-6 six-car train - illustration</title>
+  <rect width="640" height="150" fill="#07111F"/>
+  <path d="M0 122h640" stroke="#1d6f78" stroke-width="4"/>
+  <path d="M0 128h640" stroke="#0a2f3a" stroke-width="8"/>
+  <g>
+    <path d="M40 112 L40 62 Q40 44 62 44 L548 44 Q590 44 606 74 L614 100 Q616 112 604 112 Z" fill="#E8EEF3" stroke="#9fb2c4" stroke-width="2"/>
+    <rect x="40" y="84" width="572" height="7" fill="#D7263D"/>
+    <rect x="40" y="92" width="574" height="7" fill="#12805C"/>
+    <path d="M556 52 Q584 54 598 78 L560 78 Z" fill="#0B1726"/>
+    <g fill="#0B1726"><rect x="62" y="56" width="52" height="22" rx="4"/><rect x="150" y="56" width="52" height="22" rx="4"/><rect x="238" y="56" width="52" height="22" rx="4"/><rect x="326" y="56" width="52" height="22" rx="4"/><rect x="414" y="56" width="52" height="22" rx="4"/><rect x="496" y="56" width="44" height="22" rx="4"/></g>
+    <g fill="#c9d4de" stroke="#9fb2c4"><rect x="122" y="54" width="20" height="54" rx="2"/><rect x="210" y="54" width="20" height="54" rx="2"/><rect x="298" y="54" width="20" height="54" rx="2"/><rect x="386" y="54" width="20" height="54" rx="2"/><rect x="474" y="54" width="16" height="54" rx="2"/></g>
+    <circle cx="606" cy="104" r="4" fill="#FFF3B0"/>
+    <g fill="#15283D" stroke="#39A9FF" stroke-width="2"><circle cx="96" cy="116" r="9"/><circle cx="180" cy="116" r="9"/><circle cx="460" cy="116" r="9"/><circle cx="544" cy="116" r="9"/></g>
+    <path d="M300 44 L318 22 L350 22 L332 44" fill="none" stroke="#9fb2c4" stroke-width="2"/><path d="M0 20h640" stroke="#39A9FF" stroke-width="1" opacity=".5"/>
+  </g>
+  <text x="14" y="144" fill="#91A4B8" font-family="sans-serif" font-size="10">Illustration only - stainless body with red and green bands, based on the MRT Line-6 livery</text>
+</svg>

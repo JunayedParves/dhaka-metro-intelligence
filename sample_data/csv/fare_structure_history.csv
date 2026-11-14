@@ -1,0 +1,29 @@
+Record_Type,Effective_From,Effective_To,Item,Value,Fare_Product,Origin_Station,Destination_Station,Fare_BDT,Notes,Source_ID,Data_Type,Data_Confidence,Methodology,Is_Modelled,Is_Verified
+Rule,2022-12-29,,Fare basis,"Tk 5 per km, set by DTCA under the Metro Rail Act 2015",,,,,,S017; S025,Actual,Medium,Transcribed from source,No,Yes
+Rule,2022-12-29,,Minimum fare (BDT),20,Single Journey Ticket,,,,,S025,Actual,Medium,Transcribed from source,No,Yes
+Rule,2022-12-29,,"Maximum fare, Uttara North-Motijheel (BDT)",100,Single Journey Ticket,,,,,S025,Actual,Medium,Transcribed from source,No,Yes
+Rule,2022-12-29,,Smart-card discount (percent),10,MRT Pass / Rapid Pass,,,,,S017,Actual,Medium,Transcribed from source,No,Yes
+Tax,2022-12-29,2026-06-30,VAT on metro tickets,Exempt (15% VAT on AC rail waived); extended by NBR gazette 23 Dec 2025 to 30 Jun 2026,All,,,,,S024,Actual,Low,Transcribed from source,No,No
+Tax,2026-07-01,2028-06-30,VAT on metro tickets,Extension to 30 Jun 2028 PROPOSED in FY27 budget speech; enactment not confirmed,All,,,,,S024,Actual,Low,Transcribed from source,No,No
+Rule,2022-12-29,,Fare revision since launch,None identified in sources reviewed (not positively confirmed),All,,,,,S012,Actual,Medium,Transcribed from source,No,No
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara North,Pallabi,30,,S023,Actual,Low,Transcribed from source,No,No
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara North,Mirpur 11,30,,S023,Actual,Low,Transcribed from source,No,No
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara North,Mirpur 10,40,,S023,Actual,Low,Transcribed from source,No,No
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara North,Kazipara,40,,S023,Actual,Low,Transcribed from source,No,No
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara North,Shewrapara,50,,S023,Actual,Low,Transcribed from source,No,No
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara North,Agargaon,60,,S023,Actual,Low,Transcribed from source,No,No
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara North,Bijoy Sarani,60,,S023,Actual,Low,Transcribed from source,No,No
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara North,Farmgate,70,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara North,Bangladesh Secretariat,90,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara North,Motijheel,100,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara Center,Farmgate,70,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara Center,Bangladesh Secretariat,90,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Uttara Center,Motijheel,100,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Mirpur 10,Farmgate,30,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Mirpur 10,Karwan Bazar,40,,S023,Actual,Low,Transcribed from source,No,No
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Mirpur 10,Bangladesh Secretariat,50,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Mirpur 10,Motijheel,60,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Agargaon,Farmgate,20,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Agargaon,Bangladesh Secretariat,40,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Agargaon,Motijheel,50,,S018,Actual,Medium,Transcribed from source,No,Yes
+Station pair,2022-12-29,,Single journey fare,,Single Journey Ticket,Farmgate,Motijheel,40,S013 (Oct 2026) quotes Tk 28 for this pair - unexplained discrepancy,S023,Actual,Low,Transcribed from source,No,No

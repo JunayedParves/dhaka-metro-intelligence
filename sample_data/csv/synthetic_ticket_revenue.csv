@@ -1,0 +1,1489 @@
+Date,Station_ID,Fare_Product,Ticket_Count,Passenger_Count,Average_Fare,Gross_Revenue,Refund_Amount,Net_Revenue,Data_Type,Source_ID,Data_Confidence,Methodology,Is_Modelled,Is_Verified
+2026-10-14,MRT6-01,Single Journey Ticket,14891,14891,63.83,950493,794,949699,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-01,MRT Pass,16681,16681,57.45,958323,0,958323,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-01,Rapid Pass,13168,13168,57.45,756502,0,756502,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-02,Single Journey Ticket,2873,2873,57.97,166548,201,166347,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-02,MRT Pass,3218,3218,52.17,167883,0,167883,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-02,Rapid Pass,2540,2540,52.17,132512,0,132512,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-03,Single Journey Ticket,2277,2277,50.14,114169,242,113927,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-03,MRT Pass,2550,2550,45.13,115082,0,115082,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-03,Rapid Pass,2013,2013,45.13,90847,0,90847,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-04,Single Journey Ticket,12406,12406,41.26,511872,556,511316,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-04,MRT Pass,13896,13896,37.14,516097,0,516097,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-04,Rapid Pass,10970,10970,37.14,407426,0,407426,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-05,Single Journey Ticket,8831,8831,40.57,358274,449,357825,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-05,MRT Pass,9893,9893,36.51,361193,0,361193,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-05,Rapid Pass,7809,7809,36.51,285107,0,285107,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-06,Single Journey Ticket,13966,13966,36.96,516183,509,515674,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-06,MRT Pass,15644,15644,33.26,520319,0,520319,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-06,Rapid Pass,12350,12350,33.26,410761,0,410761,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-07,Single Journey Ticket,7824,7824,36.07,282212,460,281752,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-07,MRT Pass,8765,8765,32.46,284512,0,284512,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-07,Rapid Pass,6919,6919,32.46,224591,0,224591,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-08,Single Journey Ticket,7358,7358,36.19,266286,248,266038,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-08,MRT Pass,8243,8243,32.57,268475,0,268475,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-08,Rapid Pass,6507,6507,32.57,211933,0,211933,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-09,Single Journey Ticket,9854,9854,33.43,329419,878,328541,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-09,MRT Pass,11039,11039,30.09,332164,0,332164,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-09,Rapid Pass,8714,8714,30.09,262204,0,262204,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-10,Single Journey Ticket,3030,3030,32.08,97202,102,97100,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-10,MRT Pass,3394,3394,28.87,97985,0,97985,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-10,Rapid Pass,2680,2680,28.87,77372,0,77372,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-11,Single Journey Ticket,9994,9994,35.21,351889,482,351407,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-11,MRT Pass,11195,11195,31.69,354770,0,354770,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-11,Rapid Pass,8838,8838,31.69,280076,0,280076,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-12,Single Journey Ticket,13233,13233,38.11,504310,777,503533,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-12,MRT Pass,14823,14823,34.3,508429,0,508429,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-12,Rapid Pass,11702,11702,34.3,401379,0,401379,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-13,Single Journey Ticket,7515,7515,35.91,269864,147,269717,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-13,MRT Pass,8418,8418,32.32,272070,0,272070,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-13,Rapid Pass,6645,6645,32.32,214766,0,214766,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-14,Single Journey Ticket,6381,6381,39.14,249752,329,249423,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-14,MRT Pass,7148,7148,35.23,251824,0,251824,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-14,Rapid Pass,5643,5643,35.23,198803,0,198803,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-15,Single Journey Ticket,12240,12240,44.7,547128,416,546712,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-15,MRT Pass,13711,13711,40.23,551594,0,551594,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-15,Rapid Pass,10823,10823,40.23,435409,0,435409,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-16,Single Journey Ticket,20114,20114,53.9,1084145,3333,1080812,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-16,MRT Pass,22532,22532,48.51,1093027,0,1093027,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-14,MRT6-16,Rapid Pass,17787,17787,48.51,862847,0,862847,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-01,Single Journey Ticket,15192,15192,63.83,969705,1524,968181,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-01,MRT Pass,17018,17018,57.44,977514,0,977514,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-01,Rapid Pass,13447,13447,57.44,772396,0,772396,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-02,Single Journey Ticket,3013,3013,57.99,174724,106,174618,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-02,MRT Pass,3376,3376,52.19,176193,0,176193,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-02,Rapid Pass,2667,2667,52.19,139191,0,139191,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-03,Single Journey Ticket,2424,2424,50.27,121854,162,121692,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-03,MRT Pass,2715,2715,45.24,122827,0,122827,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-03,Rapid Pass,2146,2146,45.24,97085,0,97085,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-04,Single Journey Ticket,12077,12077,41.19,497452,603,496849,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-04,MRT Pass,13529,13529,37.07,501520,0,501520,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-04,Rapid Pass,10690,10690,37.07,396278,0,396278,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-05,Single Journey Ticket,9588,9588,40.55,388793,1506,387287,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-05,MRT Pass,10741,10741,36.49,391939,0,391939,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-05,Rapid Pass,8486,8486,36.49,309654,0,309654,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-06,Single Journey Ticket,14878,14878,37.05,551230,1066,550164,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-06,MRT Pass,16666,16666,33.35,555811,0,555811,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-06,Rapid Pass,13168,13168,33.35,439153,0,439153,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-07,Single Journey Ticket,7307,7307,36.21,264586,390,264196,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-07,MRT Pass,8186,8186,32.59,266782,0,266782,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-07,Rapid Pass,6468,6468,32.59,210792,0,210792,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-08,Single Journey Ticket,8044,8044,36.19,291112,568,290544,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-08,MRT Pass,9010,9010,32.58,293546,0,293546,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-08,Rapid Pass,7119,7119,32.58,231937,0,231937,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-09,Single Journey Ticket,10196,10196,33.42,340750,784,339966,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-09,MRT Pass,11422,11422,30.08,343574,0,343574,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-09,Rapid Pass,9024,9024,30.08,271442,0,271442,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-10,Single Journey Ticket,3066,3066,32.06,98296,142,98154,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-10,MRT Pass,3435,3435,28.85,99100,0,99100,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-10,Rapid Pass,2714,2714,28.85,78299,0,78299,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-11,Single Journey Ticket,11518,11518,35.11,404397,581,403816,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-11,MRT Pass,12902,12902,31.6,407703,0,407703,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-11,Rapid Pass,10194,10194,31.6,322130,0,322130,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-12,Single Journey Ticket,13728,13728,38.13,523449,654,522795,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-12,MRT Pass,15379,15379,34.31,527653,0,527653,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-12,Rapid Pass,12151,12151,34.31,416901,0,416901,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-13,Single Journey Ticket,8438,8438,35.84,302418,731,301687,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-13,MRT Pass,9452,9452,32.25,304827,0,304827,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-13,Rapid Pass,7468,7468,32.25,240843,0,240843,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-14,Single Journey Ticket,6426,6426,39.49,253763,381,253382,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-14,MRT Pass,7198,7198,35.54,255817,0,255817,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-14,Rapid Pass,5688,5688,35.54,202152,0,202152,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-15,Single Journey Ticket,13453,13453,44.55,599331,819,598512,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-15,MRT Pass,15070,15070,40.1,604307,0,604307,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-15,Rapid Pass,11907,11907,40.1,477471,0,477471,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-16,Single Journey Ticket,20216,20216,53.84,1088429,1391,1087038,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-16,MRT Pass,22647,22647,48.45,1097247,0,1097247,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-15,MRT6-16,Rapid Pass,17894,17894,48.45,866964,0,866964,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-01,Single Journey Ticket,4598,4598,60.54,278363,688,277675,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-01,MRT Pass,5151,5151,54.49,280678,0,280678,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-01,Rapid Pass,4074,4074,54.49,221992,0,221992,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-02,Single Journey Ticket,983,983,54.14,53220,61,53159,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-02,MRT Pass,1101,1101,48.72,53641,0,53641,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-02,Rapid Pass,871,871,48.72,42435,0,42435,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-03,Single Journey Ticket,681,681,46.49,31660,28,31632,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-03,MRT Pass,763,763,41.84,31924,0,31924,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-03,Rapid Pass,603,603,41.84,25230,0,25230,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-04,Single Journey Ticket,4108,4108,39.15,160828,266,160562,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-04,MRT Pass,4602,4602,35.24,162174,0,162174,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-04,Rapid Pass,3640,3640,35.24,128274,0,128274,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-05,Single Journey Ticket,2706,2706,38.41,103937,133,103804,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-05,MRT Pass,3032,3032,34.57,104816,0,104816,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-05,Rapid Pass,2398,2398,34.57,82899,0,82899,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-06,Single Journey Ticket,4677,4677,35.75,167203,142,167061,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-06,MRT Pass,5239,5239,32.17,168539,0,168539,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-06,Rapid Pass,4144,4144,32.17,133312,0,133312,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-07,Single Journey Ticket,2461,2461,34.78,85594,166,85428,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-07,MRT Pass,2757,2757,31.31,86322,0,86322,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-07,Rapid Pass,2181,2181,31.31,68287,0,68287,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-08,Single Journey Ticket,2506,2506,35.17,88136,75,88061,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-08,MRT Pass,2807,2807,31.65,88842,0,88842,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-08,Rapid Pass,2220,2220,31.65,70263,0,70263,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-09,Single Journey Ticket,3815,3815,33.49,127764,129,127635,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-09,MRT Pass,4274,4274,30.14,128818,0,128818,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-09,Rapid Pass,3380,3380,30.14,101873,0,101873,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-10,Single Journey Ticket,1184,1184,31.95,37829,27,37802,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-10,MRT Pass,1327,1327,28.76,38165,0,38165,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-10,Rapid Pass,1049,1049,28.76,30169,0,30169,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-11,Single Journey Ticket,4468,4468,34.92,156023,303,155720,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-11,MRT Pass,5006,5006,31.42,157289,0,157289,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-11,Rapid Pass,3959,3959,31.42,124392,0,124392,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-12,Single Journey Ticket,2338,2338,36.17,84565,148,84417,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-12,MRT Pass,2619,2619,32.55,85248,0,85248,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-12,Rapid Pass,2071,2071,32.55,67411,0,67411,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-13,Single Journey Ticket,3520,3520,35.02,123270,462,122808,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-13,MRT Pass,3943,3943,31.52,124283,0,124283,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-13,Rapid Pass,3118,3118,31.52,98279,0,98279,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-14,Single Journey Ticket,2453,2453,38.15,93582,117,93465,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-14,MRT Pass,2748,2748,34.33,94339,0,94339,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-14,Rapid Pass,2174,2174,34.33,74633,0,74633,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-15,Single Journey Ticket,2399,2399,41.13,98671,196,98475,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-15,MRT Pass,2688,2688,37.02,99510,0,99510,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-15,Rapid Pass,2125,2125,37.02,78668,0,78668,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-16,Single Journey Ticket,3986,3986,50.68,202010,145,201865,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-16,MRT Pass,4465,4465,45.61,203649,0,203649,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-16,MRT6-16,Rapid Pass,3531,3531,45.61,161049,0,161049,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-01,Single Journey Ticket,10994,10994,63.39,696910,933,695977,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-01,MRT Pass,12317,12317,57.05,702685,0,702685,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-01,Rapid Pass,9749,9749,57.05,556180,0,556180,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-02,Single Journey Ticket,2307,2307,57.63,132952,272,132680,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-02,MRT Pass,2584,2584,51.87,134032,0,134032,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-02,Rapid Pass,2046,2046,51.87,106126,0,106126,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-03,Single Journey Ticket,1848,1848,49.96,92326,134,92192,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-03,MRT Pass,2070,2070,44.96,93067,0,93067,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-03,Rapid Pass,1638,1638,44.96,73644,0,73644,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-04,Single Journey Ticket,10463,10463,41.17,430762,298,430464,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-04,MRT Pass,11721,11721,37.06,434380,0,434380,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-04,Rapid Pass,9278,9278,37.06,343843,0,343843,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-05,Single Journey Ticket,7058,7058,40.55,286202,326,285876,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-05,MRT Pass,7907,7907,36.49,288526,0,288526,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-05,Rapid Pass,6259,6259,36.49,228391,0,228391,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-06,Single Journey Ticket,11211,11211,36.89,413574,808,412766,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-06,MRT Pass,12560,12560,33.2,416992,0,416992,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-06,Rapid Pass,9941,9941,33.2,330041,0,330041,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-07,Single Journey Ticket,5874,5874,36.06,211816,166,211650,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-07,MRT Pass,6580,6580,32.46,213587,0,213587,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-07,Rapid Pass,5209,5209,32.46,169084,0,169084,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-08,Single Journey Ticket,5360,5360,36.19,193978,93,193885,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-08,MRT Pass,6004,6004,32.57,195550,0,195550,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-08,Rapid Pass,4752,4752,32.57,154773,0,154773,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-09,Single Journey Ticket,8677,8677,33.43,290072,505,289567,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-09,MRT Pass,9721,9721,30.08,292408,0,292408,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-09,Rapid Pass,7695,7695,30.08,231466,0,231466,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-10,Single Journey Ticket,2633,2633,32.06,84414,98,84316,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-10,MRT Pass,2950,2950,28.85,85108,0,85108,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-10,Rapid Pass,2335,2335,28.85,67365,0,67365,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-11,Single Journey Ticket,9184,9184,35.16,322909,331,322578,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-11,MRT Pass,10288,10288,31.65,325615,0,325615,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-11,Rapid Pass,8143,8143,31.65,257726,0,257726,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-12,Single Journey Ticket,7920,7920,38.15,302148,323,301825,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-12,MRT Pass,8873,8873,34.33,304610,0,304610,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-12,Rapid Pass,7023,7023,34.33,241100,0,241100,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-13,Single Journey Ticket,7451,7451,35.88,267342,123,267219,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-13,MRT Pass,8348,8348,32.3,269640,0,269640,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-13,Rapid Pass,6607,6607,32.3,213406,0,213406,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-14,Single Journey Ticket,5248,5248,39.39,206719,129,206590,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-14,MRT Pass,5879,5879,35.45,208411,0,208411,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-14,Rapid Pass,4654,4654,35.45,164984,0,164984,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-15,Single Journey Ticket,7655,7655,44.49,340571,512,340059,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-15,MRT Pass,8575,8575,40.04,343343,0,343343,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-15,Rapid Pass,6788,6788,40.04,271792,0,271792,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-16,Single Journey Ticket,12273,12273,53.68,658815,1521,657294,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-16,MRT Pass,13749,13749,48.31,664214,0,664214,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-17,MRT6-16,Rapid Pass,10882,10882,48.31,525709,0,525709,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-01,Single Journey Ticket,14092,14092,63.74,898224,884,897340,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-01,MRT Pass,15787,15787,57.36,905542,0,905542,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-01,Rapid Pass,12508,12508,57.36,717459,0,717459,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-02,Single Journey Ticket,3055,3055,58.38,178351,391,177960,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-02,MRT Pass,3422,3422,52.54,179792,0,179792,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-02,Rapid Pass,2711,2711,52.54,142436,0,142436,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-03,Single Journey Ticket,2274,2274,50.38,114564,94,114470,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-03,MRT Pass,2548,2548,45.34,115526,0,115526,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-03,Rapid Pass,2018,2018,45.34,91496,0,91496,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-04,Single Journey Ticket,12564,12564,41.47,521029,915,520114,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-04,MRT Pass,14075,14075,37.32,525279,0,525279,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-04,Rapid Pass,11151,11151,37.32,416155,0,416155,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-05,Single Journey Ticket,8660,8660,40.64,351942,338,351604,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-05,MRT Pass,9702,9702,36.57,354802,0,354802,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-05,Rapid Pass,7687,7687,36.57,281114,0,281114,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-06,Single Journey Ticket,15204,15204,37.01,562700,733,561967,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-06,MRT Pass,17034,17034,33.31,567403,0,567403,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-06,Rapid Pass,13495,13495,33.31,449518,0,449518,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-07,Single Journey Ticket,8164,8164,36.22,295700,493,295207,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-07,MRT Pass,9147,9147,32.6,298192,0,298192,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-07,Rapid Pass,7246,7246,32.6,236220,0,236220,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-08,Single Journey Ticket,7570,7570,36.15,273656,259,273397,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-08,MRT Pass,8480,8480,32.53,275854,0,275854,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-08,Rapid Pass,6719,6719,32.53,218569,0,218569,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-09,Single Journey Ticket,10013,10013,33.41,334534,458,334076,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-09,MRT Pass,11218,11218,30.07,337325,0,337325,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-09,Rapid Pass,8887,8887,30.07,267232,0,267232,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-10,Single Journey Ticket,3126,3126,32.04,100157,188,99969,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-10,MRT Pass,3502,3502,28.83,100963,0,100963,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-10,Rapid Pass,2774,2774,28.83,79974,0,79974,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-11,Single Journey Ticket,10967,10967,35.11,385051,228,384823,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-11,MRT Pass,12286,12286,31.6,388238,0,388238,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-11,Rapid Pass,9733,9733,31.6,307563,0,307563,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-12,Single Journey Ticket,12644,12644,38.08,481484,729,480755,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-12,MRT Pass,14166,14166,34.27,485469,0,485469,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-12,Rapid Pass,11223,11223,34.27,384612,0,384612,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-13,Single Journey Ticket,8042,8042,36.14,290638,137,290501,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-13,MRT Pass,9009,9009,32.52,292973,0,292973,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-13,Rapid Pass,7137,7137,32.52,232095,0,232095,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-14,Single Journey Ticket,5885,5885,39.18,230574,241,230333,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-14,MRT Pass,6593,6593,35.26,232469,0,232469,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-14,Rapid Pass,5223,5223,35.26,184163,0,184163,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-15,Single Journey Ticket,12481,12481,44.49,555280,333,554947,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-15,MRT Pass,13983,13983,40.04,559879,0,559879,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-15,Rapid Pass,11078,11078,40.04,443563,0,443563,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-16,Single Journey Ticket,21086,21086,53.91,1136746,1470,1135276,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-16,MRT Pass,23622,23622,48.52,1146139,0,1146139,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-18,MRT6-16,Rapid Pass,18715,18715,48.52,908052,0,908052,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-01,Single Journey Ticket,13652,13652,63.9,872363,776,871587,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-01,MRT Pass,15294,15294,57.51,879558,0,879558,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-01,Rapid Pass,12128,12128,57.51,697481,0,697481,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-02,Single Journey Ticket,3016,3016,57.9,174626,193,174433,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-02,MRT Pass,3379,3379,52.11,176080,0,176080,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-02,Rapid Pass,2680,2680,52.11,139655,0,139655,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-03,Single Journey Ticket,2175,2175,50.15,109076,65,109011,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-03,MRT Pass,2437,2437,45.14,110006,0,110006,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-03,Rapid Pass,1933,1933,45.14,87256,0,87256,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-04,Single Journey Ticket,12986,12986,41.38,537361,983,536378,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-04,MRT Pass,14548,14548,37.24,541768,0,541768,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-04,Rapid Pass,11536,11536,37.24,429601,0,429601,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-05,Single Journey Ticket,8959,8959,40.65,364183,515,363668,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-05,MRT Pass,10038,10038,36.59,367290,0,367290,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-05,Rapid Pass,7959,7959,36.59,291220,0,291220,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-06,Single Journey Ticket,13337,13337,37.0,493469,421,493048,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-06,MRT Pass,14943,14943,33.3,497602,0,497602,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-06,Rapid Pass,11849,11849,33.3,394572,0,394572,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-07,Single Journey Ticket,7489,7489,36.13,270578,436,270142,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-07,MRT Pass,8391,8391,32.52,272875,0,272875,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-07,Rapid Pass,6654,6654,32.52,216388,0,216388,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-08,Single Journey Ticket,7784,7784,36.08,280847,220,280627,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-08,MRT Pass,8720,8720,32.48,283226,0,283226,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-08,Rapid Pass,6915,6915,32.48,224599,0,224599,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-09,Single Journey Ticket,9223,9223,33.4,308048,453,307595,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-09,MRT Pass,10333,10333,30.06,310610,0,310610,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-09,Rapid Pass,8193,8193,30.06,246282,0,246282,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-10,Single Journey Ticket,2887,2887,32.06,92557,120,92437,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-10,MRT Pass,3234,3234,28.85,93301,0,93301,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-10,Rapid Pass,2565,2565,28.85,74000,0,74000,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-11,Single Journey Ticket,10112,10112,35.17,355639,595,355044,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-11,MRT Pass,11330,11330,31.66,358708,0,358708,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-11,Rapid Pass,8984,8984,31.66,284433,0,284433,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-12,Single Journey Ticket,12768,12768,38.13,486844,2479,484365,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-12,MRT Pass,14304,14304,34.32,490913,0,490913,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-12,Rapid Pass,11342,11342,34.32,389257,0,389257,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-13,Single Journey Ticket,8433,8433,35.96,303251,262,302989,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-13,MRT Pass,9447,9447,32.36,305705,0,305705,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-13,Rapid Pass,7491,7491,32.36,242409,0,242409,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-14,Single Journey Ticket,5583,5583,39.19,218798,490,218308,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-14,MRT Pass,6254,6254,35.27,220579,0,220579,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-14,Rapid Pass,4959,4959,35.27,174904,0,174904,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-15,Single Journey Ticket,11576,11576,44.7,517447,653,516794,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-15,MRT Pass,12970,12970,40.23,521783,0,521783,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-15,Rapid Pass,10284,10284,40.23,413725,0,413725,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-16,Single Journey Ticket,19181,19181,53.78,1031554,675,1030879,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-16,MRT Pass,21489,21489,48.4,1040068,0,1040068,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-19,MRT6-16,Rapid Pass,17040,17040,48.4,824736,0,824736,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-01,Single Journey Ticket,14609,14609,63.83,932492,2410,930082,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-01,MRT Pass,16368,16368,57.45,940342,0,940342,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-01,Rapid Pass,12991,12991,57.45,746333,0,746333,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-02,Single Journey Ticket,2998,2998,58.13,174274,159,174115,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-02,MRT Pass,3359,3359,52.32,175743,0,175743,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-02,Rapid Pass,2666,2666,52.32,139485,0,139485,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-03,Single Journey Ticket,2118,2118,49.95,105794,129,105665,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-03,MRT Pass,2373,2373,44.95,106666,0,106666,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-03,Rapid Pass,1884,1884,44.95,84686,0,84686,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-04,Single Journey Ticket,13031,13031,41.16,536356,490,535866,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-04,MRT Pass,14600,14600,37.04,540784,0,540784,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-04,Rapid Pass,11588,11588,37.04,429220,0,429220,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-05,Single Journey Ticket,8681,8681,40.45,351146,410,350736,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-05,MRT Pass,9726,9726,36.41,354124,0,354124,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-05,Rapid Pass,7719,7719,36.41,281049,0,281049,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-06,Single Journey Ticket,12980,12980,36.97,479871,1004,478867,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-06,MRT Pass,14542,14542,33.28,483958,0,483958,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-06,Rapid Pass,11542,11542,33.28,384118,0,384118,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-07,Single Journey Ticket,7302,7302,36.14,263894,267,263627,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-07,MRT Pass,8182,8182,32.53,266160,0,266160,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-07,Rapid Pass,6493,6493,32.53,211217,0,211217,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-08,Single Journey Ticket,7658,7658,36.24,277526,487,277039,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-08,MRT Pass,8580,8580,32.62,279880,0,279880,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-08,Rapid Pass,6810,6810,32.62,222142,0,222142,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-09,Single Journey Ticket,9246,9246,33.41,308909,708,308201,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-09,MRT Pass,10358,10358,30.07,311465,0,311465,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-09,Rapid Pass,8221,8221,30.07,247205,0,247205,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-10,Single Journey Ticket,2858,2858,32.03,91542,145,91397,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-10,MRT Pass,3202,3202,28.83,92314,0,92314,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-10,Rapid Pass,2542,2542,28.83,73286,0,73286,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-11,Single Journey Ticket,10300,10300,35.18,362354,843,361511,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-11,MRT Pass,11539,11539,31.67,365440,0,365440,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-11,Rapid Pass,9158,9158,31.67,290034,0,290034,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-12,Single Journey Ticket,13179,13179,38.07,501725,660,501065,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-12,MRT Pass,14765,14765,34.26,505849,0,505849,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-12,Rapid Pass,11718,11718,34.26,401459,0,401459,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-13,Single Journey Ticket,8003,8003,35.81,286587,464,286123,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-13,MRT Pass,8967,8967,32.23,289006,0,289006,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-13,Rapid Pass,7116,7116,32.23,229349,0,229349,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-14,Single Journey Ticket,5599,5599,39.46,220937,240,220697,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-14,MRT Pass,6272,6272,35.51,222719,0,222719,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-14,Rapid Pass,4978,4978,35.51,176769,0,176769,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-15,Single Journey Ticket,11428,11428,44.67,510489,441,510048,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-15,MRT Pass,12803,12803,40.2,514681,0,514681,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-15,Rapid Pass,10161,10161,40.2,408472,0,408472,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-16,Single Journey Ticket,18829,18829,53.78,1012624,2164,1010460,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-16,MRT Pass,21095,21095,48.4,1020998,0,1020998,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-20,MRT6-16,Rapid Pass,16743,16743,48.4,810361,0,810361,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-01,Single Journey Ticket,15934,15934,63.38,1009897,2722,1007175,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-01,MRT Pass,17853,17853,57.05,1018514,0,1018514,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-01,Rapid Pass,14182,14182,57.05,809083,0,809083,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-02,Single Journey Ticket,3296,3296,57.99,191135,270,190865,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-02,MRT Pass,3693,3693,52.19,192738,0,192738,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-02,Rapid Pass,2933,2933,52.19,153073,0,153073,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-03,Single Journey Ticket,2372,2372,50.14,118932,115,118817,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-03,MRT Pass,2657,2657,45.12,119884,0,119884,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-03,Rapid Pass,2111,2111,45.12,95248,0,95248,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-04,Single Journey Ticket,13430,13430,41.28,554390,620,553770,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-04,MRT Pass,15048,15048,37.15,559033,0,559033,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-04,Rapid Pass,11954,11954,37.15,444091,0,444091,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-05,Single Journey Ticket,10336,10336,40.64,420055,489,419566,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-05,MRT Pass,11581,11581,36.57,423517,0,423517,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-05,Rapid Pass,9200,9200,36.57,336444,0,336444,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-06,Single Journey Ticket,14931,14931,36.95,551700,351,551349,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-06,MRT Pass,16728,16728,33.26,556373,0,556373,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-06,Rapid Pass,13289,13289,33.26,441992,0,441992,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-07,Single Journey Ticket,7507,7507,36.25,272129,501,271628,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-07,MRT Pass,8412,8412,32.62,274399,0,274399,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-07,Rapid Pass,6682,6682,32.62,217967,0,217967,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-08,Single Journey Ticket,8022,8022,36.16,290076,527,289549,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-08,MRT Pass,8988,8988,32.54,292470,0,292470,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-08,Rapid Pass,7140,7140,32.54,232336,0,232336,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-09,Single Journey Ticket,10542,10542,33.42,352314,450,351864,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-09,MRT Pass,11811,11811,30.08,355275,0,355275,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-09,Rapid Pass,9383,9383,30.08,282241,0,282241,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-10,Single Journey Ticket,3101,3101,32.04,99356,40,99316,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-10,MRT Pass,3475,3475,28.83,100184,0,100184,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-10,Rapid Pass,2760,2760,28.83,79571,0,79571,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-11,Single Journey Ticket,11070,11070,35.19,389553,695,388858,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-11,MRT Pass,12403,12403,31.67,392803,0,392803,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-11,Rapid Pass,9853,9853,31.67,312045,0,312045,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-12,Single Journey Ticket,12955,12955,38.24,495399,777,494622,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-12,MRT Pass,14515,14515,34.41,499461,0,499461,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-12,Rapid Pass,11530,11530,34.41,396747,0,396747,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-13,Single Journey Ticket,8922,8922,35.75,318962,241,318721,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-13,MRT Pass,9997,9997,32.17,321603,0,321603,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-13,Rapid Pass,7941,7941,32.17,255462,0,255462,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-14,Single Journey Ticket,5857,5857,39.07,228833,446,228387,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-14,MRT Pass,6562,6562,35.16,230720,0,230720,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-14,Rapid Pass,5212,5212,35.16,183254,0,183254,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-15,Single Journey Ticket,13103,13103,44.51,583215,565,582650,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-15,MRT Pass,14681,14681,40.06,588121,0,588121,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-15,Rapid Pass,11663,11663,40.06,467220,0,467220,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-16,Single Journey Ticket,20500,20500,53.72,1101260,1334,1099926,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-16,MRT Pass,22968,22968,48.35,1110503,0,1110503,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-21,MRT6-16,Rapid Pass,18245,18245,48.35,882146,0,882146,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-01,Single Journey Ticket,14315,14315,63.75,912581,1511,911070,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-01,MRT Pass,16039,16039,57.38,920318,0,920318,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-01,Rapid Pass,12752,12752,57.38,731710,0,731710,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-02,Single Journey Ticket,2917,2917,57.94,169011,181,168830,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-02,MRT Pass,3268,3268,52.15,170426,0,170426,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-02,Rapid Pass,2599,2599,52.15,135538,0,135538,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-03,Single Journey Ticket,2231,2231,50.11,111795,90,111705,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-03,MRT Pass,2500,2500,45.09,112725,0,112725,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-03,Rapid Pass,1987,1987,45.09,89594,0,89594,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-04,Single Journey Ticket,13226,13226,41.18,544647,440,544207,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-04,MRT Pass,14820,14820,37.06,549229,0,549229,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-04,Rapid Pass,11783,11783,37.06,436678,0,436678,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-05,Single Journey Ticket,8652,8652,40.62,351444,1509,349935,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-05,MRT Pass,9694,9694,36.56,354413,0,354413,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-05,Rapid Pass,7708,7708,36.56,281804,0,281804,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-06,Single Journey Ticket,14124,14124,36.97,522164,2052,520112,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-06,MRT Pass,15825,15825,33.28,526656,0,526656,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-06,Rapid Pass,12583,12583,33.28,418762,0,418762,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-07,Single Journey Ticket,7600,7600,36.23,275348,417,274931,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-07,MRT Pass,8515,8515,32.6,277589,0,277589,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-07,Rapid Pass,6771,6771,32.6,220735,0,220735,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-08,Single Journey Ticket,7266,7266,36.07,262085,240,261845,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-08,MRT Pass,8141,8141,32.47,264338,0,264338,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-08,Rapid Pass,6473,6473,32.47,210178,0,210178,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-09,Single Journey Ticket,9938,9938,33.42,332128,1469,330659,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-09,MRT Pass,11136,11136,30.08,334971,0,334971,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-09,Rapid Pass,8854,8854,30.08,266328,0,266328,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-10,Single Journey Ticket,3135,3135,32.06,100508,122,100386,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-10,MRT Pass,3512,3512,28.86,101356,0,101356,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-10,Rapid Pass,2792,2792,28.86,80577,0,80577,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-11,Single Journey Ticket,9868,9868,35.14,346762,137,346625,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-11,MRT Pass,11057,11057,31.62,349622,0,349622,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-11,Rapid Pass,8791,8791,31.62,277971,0,277971,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-12,Single Journey Ticket,12367,12367,38.09,471059,905,470154,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-12,MRT Pass,13856,13856,34.28,474984,0,474984,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-12,Rapid Pass,11017,11017,34.28,377663,0,377663,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-13,Single Journey Ticket,8743,8743,35.84,313349,325,313024,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-13,MRT Pass,9797,9797,32.26,316051,0,316051,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-13,Rapid Pass,7789,7789,32.26,251273,0,251273,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-14,Single Journey Ticket,6045,6045,39.2,236964,237,236727,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-14,MRT Pass,6773,6773,35.28,238951,0,238951,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-14,Rapid Pass,5386,5386,35.28,190018,0,190018,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-15,Single Journey Ticket,11797,11797,44.61,526264,759,525505,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-15,MRT Pass,13219,13219,40.15,530743,0,530743,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-15,Rapid Pass,10510,10510,40.15,421976,0,421976,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-16,Single Journey Ticket,20268,20268,53.92,1092851,1212,1091639,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-16,MRT Pass,22709,22709,48.53,1102068,0,1102068,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-22,MRT6-16,Rapid Pass,18055,18055,48.53,876209,0,876209,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-01,Single Journey Ticket,4307,4307,60.54,260746,188,260558,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-01,MRT Pass,4826,4826,54.49,262969,0,262969,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-01,Rapid Pass,3840,3840,54.49,209242,0,209242,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-02,Single Journey Ticket,974,974,54.14,52732,50,52682,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-02,MRT Pass,1091,1091,48.72,53154,0,53154,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-02,Rapid Pass,869,869,48.72,42338,0,42338,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-03,Single Journey Ticket,690,690,46.49,32078,20,32058,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-03,MRT Pass,773,773,41.84,32342,0,32342,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-03,Rapid Pass,615,615,41.84,25732,0,25732,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-04,Single Journey Ticket,4057,4057,39.15,158832,226,158606,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-04,MRT Pass,4545,4545,35.24,160166,0,160166,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-04,Rapid Pass,3617,3617,35.24,127463,0,127463,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-05,Single Journey Ticket,2968,2968,38.41,114001,117,113884,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-05,MRT Pass,3326,3326,34.57,114980,0,114980,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-05,Rapid Pass,2646,2646,34.57,91472,0,91472,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-06,Single Journey Ticket,4854,4854,35.75,173530,141,173389,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-06,MRT Pass,5439,5439,32.17,174973,0,174973,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-06,Rapid Pass,4329,4329,32.17,139264,0,139264,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-07,Single Journey Ticket,2521,2521,34.78,87680,91,87589,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-07,MRT Pass,2825,2825,31.31,88451,0,88451,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-07,Rapid Pass,2248,2248,31.31,70385,0,70385,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-08,Single Journey Ticket,2454,2454,35.17,86307,49,86258,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-08,MRT Pass,2750,2750,31.65,87038,0,87038,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-08,Rapid Pass,2189,2189,31.65,69282,0,69282,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-09,Single Journey Ticket,4018,4018,33.49,134563,189,134374,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-09,MRT Pass,4503,4503,30.14,135720,0,135720,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-09,Rapid Pass,3583,3583,30.14,107992,0,107992,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-10,Single Journey Ticket,1247,1247,31.95,39842,27,39815,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-10,MRT Pass,1398,1398,28.76,40206,0,40206,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-10,Rapid Pass,1112,1112,28.76,31981,0,31981,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-11,Single Journey Ticket,4276,4276,34.92,149318,253,149065,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-11,MRT Pass,4791,4791,31.42,150533,0,150533,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-11,Rapid Pass,3813,3813,31.42,119804,0,119804,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-12,Single Journey Ticket,2358,2358,36.17,85289,126,85163,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-12,MRT Pass,2642,2642,32.55,85997,0,85997,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-12,Rapid Pass,2103,2103,32.55,68453,0,68453,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-13,Single Journey Ticket,3499,3499,35.02,122535,218,122317,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-13,MRT Pass,3921,3921,31.52,123590,0,123590,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-13,Rapid Pass,3120,3120,31.52,98342,0,98342,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-14,Single Journey Ticket,2583,2583,38.15,98541,98,98443,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-14,MRT Pass,2895,2895,34.33,99385,0,99385,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-14,Rapid Pass,2304,2304,34.33,79096,0,79096,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-15,Single Journey Ticket,2458,2458,41.13,101098,71,101027,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-15,MRT Pass,2755,2755,37.02,101990,0,101990,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-15,Rapid Pass,2192,2192,37.02,81148,0,81148,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-16,Single Journey Ticket,3984,3984,50.68,201909,306,201603,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-16,MRT Pass,4464,4464,45.61,203603,0,203603,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-23,MRT6-16,Rapid Pass,3553,3553,45.61,162052,0,162052,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-01,Single Journey Ticket,12380,12380,63.48,785882,931,784951,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-01,MRT Pass,13873,13873,57.13,792564,0,792564,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-01,Rapid Pass,11050,11050,57.13,631286,0,631286,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-02,Single Journey Ticket,2681,2681,58.22,156088,400,155688,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-02,MRT Pass,3004,3004,52.39,157380,0,157380,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-02,Rapid Pass,2393,2393,52.39,125369,0,125369,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-03,Single Journey Ticket,1961,1961,50.31,98658,224,98434,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-03,MRT Pass,2198,2198,45.28,99525,0,99525,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-03,Rapid Pass,1750,1750,45.28,79240,0,79240,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-04,Single Journey Ticket,11159,11159,41.57,463880,431,463449,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-04,MRT Pass,12504,12504,37.41,467775,0,467775,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-04,Rapid Pass,9960,9960,37.41,372604,0,372604,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-05,Single Journey Ticket,8218,8218,40.52,332993,325,332668,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-05,MRT Pass,9209,9209,36.47,335852,0,335852,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-05,Rapid Pass,7335,7335,36.47,267507,0,267507,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-06,Single Journey Ticket,11819,11819,36.95,436712,405,436307,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-06,MRT Pass,13243,13243,33.26,440462,0,440462,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-06,Rapid Pass,10549,10549,33.26,350860,0,350860,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-07,Single Journey Ticket,6134,6134,36.27,222480,297,222183,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-07,MRT Pass,6873,6873,32.64,224335,0,224335,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-07,Rapid Pass,5475,5475,32.64,178704,0,178704,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-08,Single Journey Ticket,6366,6366,36.22,230577,320,230257,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-08,MRT Pass,7133,7133,32.6,232536,0,232536,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-08,Rapid Pass,5681,5681,32.6,185201,0,185201,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-09,Single Journey Ticket,9240,9240,33.42,308801,461,308340,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-09,MRT Pass,10353,10353,30.08,311418,0,311418,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-09,Rapid Pass,8247,8247,30.08,248070,0,248070,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-10,Single Journey Ticket,2821,2821,32.06,90441,192,90249,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-10,MRT Pass,3162,3162,28.85,91224,0,91224,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-10,Rapid Pass,2518,2518,28.85,72644,0,72644,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-11,Single Journey Ticket,10532,10532,35.03,368936,360,368576,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-11,MRT Pass,11801,11801,31.53,372086,0,372086,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-11,Rapid Pass,9399,9399,31.53,296350,0,296350,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-12,Single Journey Ticket,7812,7812,38.14,297950,356,297594,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-12,MRT Pass,8754,8754,34.33,300525,0,300525,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-12,Rapid Pass,6973,6973,34.33,239383,0,239383,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-13,Single Journey Ticket,8304,8304,35.82,297449,436,297013,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-13,MRT Pass,9305,9305,32.24,299993,0,299993,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-13,Rapid Pass,7412,7412,32.24,238963,0,238963,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-14,Single Journey Ticket,6273,6273,39.34,246780,380,246400,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-14,MRT Pass,7030,7030,35.4,248862,0,248862,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-14,Rapid Pass,5599,5599,35.4,198205,0,198205,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-15,Single Journey Ticket,7638,7638,44.74,341724,673,341051,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-15,MRT Pass,8559,8559,40.26,344585,0,344585,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-15,Rapid Pass,6817,6817,40.26,274452,0,274452,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-16,Single Journey Ticket,13452,13452,53.74,722910,1861,721049,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-16,MRT Pass,15073,15073,48.37,729081,0,729081,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-24,MRT6-16,Rapid Pass,12005,12005,48.37,580682,0,580682,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-01,Single Journey Ticket,14592,14592,63.66,928927,1935,926992,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-01,MRT Pass,16351,16351,57.3,936912,0,936912,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-01,Rapid Pass,13036,13036,57.3,746963,0,746963,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-02,Single Journey Ticket,2886,2886,58.03,167475,217,167258,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-02,MRT Pass,3234,3234,52.23,168912,0,168912,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-02,Rapid Pass,2578,2578,52.23,134649,0,134649,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-03,Single Journey Ticket,2364,2364,49.91,117987,71,117916,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-03,MRT Pass,2649,2649,44.92,118993,0,118993,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-03,Rapid Pass,2111,2111,44.92,94826,0,94826,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-04,Single Journey Ticket,13093,13093,41.27,540348,1088,539260,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-04,MRT Pass,14672,14672,37.14,544918,0,544918,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-04,Rapid Pass,11697,11697,37.14,434427,0,434427,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-05,Single Journey Ticket,9218,9218,40.54,373698,264,373434,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-05,MRT Pass,10329,10329,36.49,376905,0,376905,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-05,Rapid Pass,8235,8235,36.49,300495,0,300495,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-06,Single Journey Ticket,13856,13856,36.96,512118,1670,510448,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-06,MRT Pass,15527,15527,33.26,516428,0,516428,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-06,Rapid Pass,12378,12378,33.26,411692,0,411692,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-07,Single Journey Ticket,7715,7715,36.05,278126,561,277565,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-07,MRT Pass,8645,8645,32.45,280530,0,280530,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-07,Rapid Pass,6892,6892,32.45,223645,0,223645,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-08,Single Journey Ticket,6979,6979,36.09,251872,261,251611,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-08,MRT Pass,7821,7821,32.48,254026,0,254026,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-08,Rapid Pass,6235,6235,32.48,202513,0,202513,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-09,Single Journey Ticket,9619,9619,33.39,321178,1064,320114,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-09,MRT Pass,10779,10779,30.05,323909,0,323909,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-09,Rapid Pass,8593,8593,30.05,258220,0,258220,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-10,Single Journey Ticket,2839,2839,32.05,90990,109,90881,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-10,MRT Pass,3182,3182,28.85,91801,0,91801,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-10,Rapid Pass,2537,2537,28.85,73192,0,73192,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-11,Single Journey Ticket,11089,11089,35.12,389446,525,388921,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-11,MRT Pass,12425,12425,31.61,392754,0,392754,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-11,Rapid Pass,9906,9906,31.61,313129,0,313129,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-12,Single Journey Ticket,12338,12338,38.07,469708,2257,467451,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-12,MRT Pass,13825,13825,34.26,473644,0,473644,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-12,Rapid Pass,11021,11021,34.26,377579,0,377579,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-13,Single Journey Ticket,8331,8331,35.89,299000,791,298209,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-13,MRT Pass,9336,9336,32.3,301553,0,301553,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-13,Rapid Pass,7442,7442,32.3,240377,0,240377,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-14,Single Journey Ticket,5909,5909,39.41,232874,488,232386,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-14,MRT Pass,6621,6621,35.47,234847,0,234847,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-14,Rapid Pass,5278,5278,35.47,187211,0,187211,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-15,Single Journey Ticket,12457,12457,44.45,553714,549,553165,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-15,MRT Pass,13959,13959,40.01,558500,0,558500,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-15,Rapid Pass,11129,11129,40.01,445271,0,445271,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-16,Single Journey Ticket,20249,20249,53.82,1089801,2449,1087352,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-16,MRT Pass,22690,22690,48.44,1099104,0,1099104,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-25,MRT6-16,Rapid Pass,18089,18089,48.44,876231,0,876231,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-01,Single Journey Ticket,14343,14343,63.75,914366,1878,912488,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-01,MRT Pass,16072,16072,57.38,922211,0,922211,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-01,Rapid Pass,12825,12825,57.38,735898,0,735898,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-02,Single Journey Ticket,2912,2912,58.23,169566,132,169434,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-02,MRT Pass,3263,3263,52.4,170981,0,170981,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-02,Rapid Pass,2603,2603,52.4,136397,0,136397,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-03,Single Journey Ticket,2298,2298,50.04,114992,109,114883,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-03,MRT Pass,2576,2576,45.03,115997,0,115997,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-03,Rapid Pass,2055,2055,45.03,92537,0,92537,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-04,Single Journey Ticket,12038,12038,41.24,496447,1002,495445,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-04,MRT Pass,13490,13490,37.12,500749,0,500749,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-04,Rapid Pass,10764,10764,37.12,399560,0,399560,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-05,Single Journey Ticket,8751,8751,40.31,352753,296,352457,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-05,MRT Pass,9806,9806,36.28,355762,0,355762,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-05,Rapid Pass,7824,7824,36.28,283855,0,283855,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-06,Single Journey Ticket,13910,13910,37.01,514809,1017,513792,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-06,MRT Pass,15588,15588,33.31,519236,0,519236,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-06,Rapid Pass,12438,12438,33.31,414310,0,414310,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-07,Single Journey Ticket,7528,7528,36.35,273643,693,272950,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-07,MRT Pass,8436,8436,32.72,276026,0,276026,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-07,Rapid Pass,6731,6731,32.72,220238,0,220238,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-08,Single Journey Ticket,7317,7317,36.3,265607,506,265101,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-08,MRT Pass,8199,8199,32.67,267861,0,267861,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-08,Rapid Pass,6542,6542,32.67,213727,0,213727,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-09,Single Journey Ticket,9112,9112,33.4,304341,343,303998,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-09,MRT Pass,10210,10210,30.06,306913,0,306913,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-09,Rapid Pass,8147,8147,30.06,244899,0,244899,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-10,Single Journey Ticket,2957,2957,32.06,94801,170,94631,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-10,MRT Pass,3313,3313,28.86,95613,0,95613,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-10,Rapid Pass,2644,2644,28.86,76306,0,76306,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-11,Single Journey Ticket,10508,10508,35.14,369251,458,368793,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-11,MRT Pass,11776,11776,31.63,372475,0,372475,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-11,Rapid Pass,9396,9396,31.63,297195,0,297195,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-12,Single Journey Ticket,11878,11878,38.19,453621,887,452734,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-12,MRT Pass,13310,13310,34.37,457465,0,457465,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-12,Rapid Pass,10621,10621,34.37,365044,0,365044,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-13,Single Journey Ticket,8169,8169,36.03,294329,493,293836,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-13,MRT Pass,9154,9154,32.42,296773,0,296773,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-13,Rapid Pass,7304,7304,32.42,236796,0,236796,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-14,Single Journey Ticket,5830,5830,39.25,228828,614,228214,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-14,MRT Pass,6533,6533,35.32,230746,0,230746,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-14,Rapid Pass,5213,5213,35.32,184123,0,184123,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-15,Single Journey Ticket,12243,12243,44.52,545058,1048,544010,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-15,MRT Pass,13719,13719,40.07,549720,0,549720,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-15,Rapid Pass,10947,10947,40.07,438646,0,438646,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-16,Single Journey Ticket,19783,19783,53.86,1065512,1596,1063916,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-16,MRT Pass,22169,22169,48.48,1074753,0,1074753,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-26,MRT6-16,Rapid Pass,17689,17689,48.48,857563,0,857563,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-01,Single Journey Ticket,13656,13656,63.55,867839,2699,865140,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-01,MRT Pass,15303,15303,57.2,875332,0,875332,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-01,Rapid Pass,12221,12221,57.2,699041,0,699041,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-02,Single Journey Ticket,3237,3237,57.86,187293,247,187046,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-02,MRT Pass,3628,3628,52.07,188910,0,188910,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-02,Rapid Pass,2897,2897,52.07,150847,0,150847,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-03,Single Journey Ticket,2286,2286,49.95,114186,99,114087,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-03,MRT Pass,2562,2562,44.95,115162,0,115162,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-03,Rapid Pass,2046,2046,44.95,91968,0,91968,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-04,Single Journey Ticket,13332,13332,41.28,550345,735,549610,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-04,MRT Pass,14941,14941,37.16,555208,0,555208,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-04,Rapid Pass,11932,11932,37.16,443393,0,443393,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-05,Single Journey Ticket,9056,9056,40.55,367221,562,366659,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-05,MRT Pass,10148,10148,36.49,370301,0,370301,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-05,Rapid Pass,8104,8104,36.49,295715,0,295715,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-06,Single Journey Ticket,14386,14386,36.99,532138,423,531715,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-06,MRT Pass,16121,16121,33.29,536668,0,536668,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-06,Rapid Pass,12875,12875,33.29,428609,0,428609,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-07,Single Journey Ticket,8067,8067,36.22,292187,374,291813,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-07,MRT Pass,9041,9041,32.6,294737,0,294737,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-07,Rapid Pass,7220,7220,32.6,235372,0,235372,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-08,Single Journey Ticket,8335,8335,36.15,301310,487,300823,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-08,MRT Pass,9341,9341,32.54,303956,0,303956,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-08,Rapid Pass,7460,7460,32.54,242748,0,242748,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-09,Single Journey Ticket,10094,10094,33.4,337140,354,336786,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-09,MRT Pass,11311,11311,30.06,340009,0,340009,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-09,Rapid Pass,9033,9033,30.06,271532,0,271532,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-10,Single Journey Ticket,3118,3118,32.07,99994,96,99898,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-10,MRT Pass,3495,3495,28.86,100866,0,100866,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-10,Rapid Pass,2791,2791,28.86,80548,0,80548,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-11,Single Journey Ticket,10757,10757,35.17,378324,709,377615,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-11,MRT Pass,12054,12054,31.66,381630,0,381630,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-11,Rapid Pass,9627,9627,31.66,304791,0,304791,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-12,Single Journey Ticket,13132,13132,38.18,501380,774,500606,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-12,MRT Pass,14716,14716,34.36,505642,0,505642,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-12,Rapid Pass,11753,11753,34.36,403833,0,403833,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-13,Single Journey Ticket,8308,8308,35.77,297177,2276,294901,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-13,MRT Pass,9311,9311,32.19,299721,0,299721,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-13,Rapid Pass,7436,7436,32.19,239365,0,239365,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-14,Single Journey Ticket,6211,6211,39.13,243036,430,242606,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-14,MRT Pass,6961,6961,35.22,245166,0,245166,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-14,Rapid Pass,5559,5559,35.22,195788,0,195788,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-15,Single Journey Ticket,13108,13108,44.44,582520,1463,581057,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-15,MRT Pass,14689,14689,39.99,587413,0,587413,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-15,Rapid Pass,11732,11732,39.99,469163,0,469163,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-16,Single Journey Ticket,20006,20006,53.77,1075723,1746,1073977,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-16,MRT Pass,22419,22419,48.39,1084855,0,1084855,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-27,MRT6-16,Rapid Pass,17904,17904,48.39,866375,0,866375,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-01,Single Journey Ticket,14790,14790,63.58,940348,865,939483,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-01,MRT Pass,16574,16574,57.22,948364,0,948364,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-01,Rapid Pass,13248,13248,57.22,758051,0,758051,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-02,Single Journey Ticket,2998,2998,58.08,174124,251,173873,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-02,MRT Pass,3360,3360,52.27,175627,0,175627,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-02,Rapid Pass,2686,2686,52.27,140397,0,140397,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-03,Single Journey Ticket,2354,2354,50.13,118006,217,117789,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-03,MRT Pass,2638,2638,45.12,119027,0,119027,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-03,Rapid Pass,2108,2108,45.12,95113,0,95113,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-04,Single Journey Ticket,13502,13502,41.09,554797,2079,552718,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-04,MRT Pass,15132,15132,36.98,559581,0,559581,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-04,Rapid Pass,12096,12096,36.98,447310,0,447310,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-05,Single Journey Ticket,10103,10103,40.67,410889,338,410551,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-05,MRT Pass,11321,11321,36.6,414349,0,414349,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-05,Rapid Pass,9050,9050,36.6,331230,0,331230,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-06,Single Journey Ticket,14124,14124,36.9,521176,783,520393,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-06,MRT Pass,15829,15829,33.21,525681,0,525681,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-06,Rapid Pass,12653,12653,33.21,420206,0,420206,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-07,Single Journey Ticket,7746,7746,36.23,280638,395,280243,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-07,MRT Pass,8680,8680,32.61,283055,0,283055,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-07,Rapid Pass,6939,6939,32.61,226281,0,226281,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-08,Single Journey Ticket,7575,7575,36.22,274366,176,274190,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-08,MRT Pass,8488,8488,32.6,276709,0,276709,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-08,Rapid Pass,6785,6785,32.6,221191,0,221191,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-09,Single Journey Ticket,9649,9649,33.42,322470,280,322190,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-09,MRT Pass,10813,10813,30.07,325147,0,325147,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-09,Rapid Pass,8643,8643,30.07,259895,0,259895,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-10,Single Journey Ticket,3005,3005,32.07,96370,370,96000,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-10,MRT Pass,3368,3368,28.86,97200,0,97200,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-10,Rapid Pass,2692,2692,28.86,77691,0,77691,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-11,Single Journey Ticket,10767,10767,35.17,378675,491,378184,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-11,MRT Pass,12067,12067,31.65,381921,0,381921,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-11,Rapid Pass,9645,9645,31.65,305264,0,305264,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-12,Single Journey Ticket,12727,12727,38.12,485153,437,484716,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-12,MRT Pass,14263,14263,34.31,489364,0,489364,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-12,Rapid Pass,11401,11401,34.31,391168,0,391168,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-13,Single Journey Ticket,8578,8578,35.83,307350,755,306595,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-13,MRT Pass,9614,9614,32.25,310052,0,310052,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-13,Rapid Pass,7685,7685,32.25,247841,0,247841,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-14,Single Journey Ticket,6117,6117,39.19,239725,384,239341,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-14,MRT Pass,6854,6854,35.27,241741,0,241741,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-14,Rapid Pass,5479,5479,35.27,193244,0,193244,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-15,Single Journey Ticket,12720,12720,44.6,567312,579,566733,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-15,MRT Pass,14254,14254,40.14,572156,0,572156,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-15,Rapid Pass,11394,11394,40.14,457355,0,457355,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-16,Single Journey Ticket,19569,19569,53.69,1050660,3271,1047389,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-16,MRT Pass,21931,21931,48.33,1059925,0,1059925,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-28,MRT6-16,Rapid Pass,17530,17530,48.33,847225,0,847225,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-01,Single Journey Ticket,14782,14782,63.55,939396,739,938657,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-01,MRT Pass,16566,16566,57.2,947575,0,947575,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-01,Rapid Pass,13254,13254,57.2,758129,0,758129,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-02,Single Journey Ticket,2917,2917,57.95,169040,207,168833,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-02,MRT Pass,3270,3270,52.16,170563,0,170563,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-02,Rapid Pass,2616,2616,52.16,136451,0,136451,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-03,Single Journey Ticket,2338,2338,50.13,117204,141,117063,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-03,MRT Pass,2620,2620,45.12,118214,0,118214,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-03,Rapid Pass,2096,2096,45.12,94572,0,94572,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-04,Single Journey Ticket,13087,13087,41.4,541802,945,540857,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-04,MRT Pass,14667,14667,37.26,546492,0,546492,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-04,Rapid Pass,11735,11735,37.26,437246,0,437246,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-05,Single Journey Ticket,9196,9196,40.56,372990,501,372489,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-05,MRT Pass,10305,10305,36.51,376236,0,376236,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-05,Rapid Pass,8245,8245,36.51,301025,0,301025,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-06,Single Journey Ticket,15126,15126,36.98,559359,1252,558107,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-06,MRT Pass,16951,16951,33.28,564129,0,564129,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-06,Rapid Pass,13562,13562,33.28,451343,0,451343,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-07,Single Journey Ticket,7240,7240,36.05,261002,410,260592,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-07,MRT Pass,8113,8113,32.45,263267,0,263267,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-07,Rapid Pass,6491,6491,32.45,210633,0,210633,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-08,Single Journey Ticket,7356,7356,36.14,265846,296,265550,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-08,MRT Pass,8244,8244,32.52,268095,0,268095,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-08,Rapid Pass,6596,6596,32.52,214502,0,214502,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-09,Single Journey Ticket,9887,9887,33.4,330226,225,330001,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-09,MRT Pass,11080,11080,30.06,333065,0,333065,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-09,Rapid Pass,8865,8865,30.06,266482,0,266482,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-10,Single Journey Ticket,3175,3175,32.07,101822,78,101744,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-10,MRT Pass,3558,3558,28.87,102719,0,102719,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-10,Rapid Pass,2846,2846,28.87,82164,0,82164,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-11,Single Journey Ticket,11682,11682,35.16,410739,608,410131,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-11,MRT Pass,13091,13091,31.65,414330,0,414330,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-11,Rapid Pass,10474,10474,31.65,331502,0,331502,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-12,Single Journey Ticket,12204,12204,38.1,464972,1651,463321,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-12,MRT Pass,13678,13678,34.29,469019,0,469019,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-12,Rapid Pass,10943,10943,34.29,375235,0,375235,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-13,Single Journey Ticket,8692,8692,35.76,310826,653,310173,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-13,MRT Pass,9742,9742,32.18,313498,0,313498,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-13,Rapid Pass,7794,7794,32.18,250811,0,250811,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-14,Single Journey Ticket,5823,5823,39.31,228902,462,228440,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-14,MRT Pass,6525,6525,35.38,230855,0,230855,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-14,Rapid Pass,5221,5221,35.38,184719,0,184719,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-15,Single Journey Ticket,12655,12655,44.52,563401,768,562633,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-15,MRT Pass,14182,14182,40.07,568273,0,568273,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-15,Rapid Pass,11346,11346,40.07,454634,0,454634,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-16,Single Journey Ticket,20484,20484,53.85,1103063,2212,1100851,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-16,MRT Pass,22956,22956,48.47,1112677,0,1112677,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-29,MRT6-16,Rapid Pass,18366,18366,48.47,890200,0,890200,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-01,Single Journey Ticket,4533,4533,60.54,274428,1178,273250,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-01,MRT Pass,5081,5081,54.49,276864,0,276864,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-01,Rapid Pass,4069,4069,54.49,221720,0,221720,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-02,Single Journey Ticket,1005,1005,54.14,54411,129,54282,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-02,MRT Pass,1127,1127,48.72,54907,0,54907,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-02,Rapid Pass,902,902,48.72,43945,0,43945,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-03,Single Journey Ticket,734,734,46.49,34124,45,34079,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-03,MRT Pass,822,822,41.84,34392,0,34392,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-03,Rapid Pass,658,658,41.84,27531,0,27531,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-04,Single Journey Ticket,4286,4286,39.15,167797,222,167575,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-04,MRT Pass,4803,4803,35.24,169258,0,169258,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-04,Rapid Pass,3847,3847,35.24,135568,0,135568,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-05,Single Journey Ticket,3139,3139,38.41,120569,288,120281,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-05,MRT Pass,3519,3519,34.57,121652,0,121652,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-05,Rapid Pass,2818,2818,34.57,97418,0,97418,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-06,Single Journey Ticket,4700,4700,35.75,168025,253,167772,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-06,MRT Pass,5268,5268,32.17,169472,0,169472,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-06,Rapid Pass,4218,4218,32.17,135693,0,135693,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-07,Single Journey Ticket,2610,2610,34.78,90776,89,90687,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-07,MRT Pass,2925,2925,31.31,91582,0,91582,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-07,Rapid Pass,2342,2342,31.31,73328,0,73328,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-08,Single Journey Ticket,2462,2462,35.17,86589,80,86509,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-08,MRT Pass,2759,2759,31.65,87322,0,87322,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-08,Rapid Pass,2209,2209,31.65,69915,0,69915,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-09,Single Journey Ticket,3885,3885,33.49,130109,98,130011,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-09,MRT Pass,4354,4354,30.14,131230,0,131230,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-09,Rapid Pass,3487,3487,30.14,105098,0,105098,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-10,Single Journey Ticket,1240,1240,31.95,39618,28,39590,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-10,MRT Pass,1389,1389,28.76,39948,0,39948,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-10,Rapid Pass,1112,1112,28.76,31981,0,31981,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-11,Single Journey Ticket,4427,4427,34.92,154591,258,154333,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-11,MRT Pass,4961,4961,31.42,155875,0,155875,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-11,Rapid Pass,3973,3973,31.42,124832,0,124832,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-12,Single Journey Ticket,2428,2428,36.17,87821,126,87695,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-12,MRT Pass,2721,2721,32.55,88569,0,88569,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-12,Rapid Pass,2179,2179,32.55,70926,0,70926,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-13,Single Journey Ticket,3475,3475,35.02,121695,105,121590,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-13,MRT Pass,3895,3895,31.52,122770,0,122770,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-13,Rapid Pass,3119,3119,31.52,98311,0,98311,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-14,Single Journey Ticket,2502,2502,38.15,95451,121,95330,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-14,MRT Pass,2804,2804,34.33,96261,0,96261,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-14,Rapid Pass,2246,2246,34.33,77105,0,77105,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-15,Single Journey Ticket,2460,2460,41.13,101180,119,101061,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-15,MRT Pass,2757,2757,37.02,102064,0,102064,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-15,Rapid Pass,2207,2207,37.02,81703,0,81703,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-16,Single Journey Ticket,4000,4000,50.68,202720,566,202154,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-16,MRT Pass,4483,4483,45.61,204470,0,204470,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-30,MRT6-16,Rapid Pass,3590,3590,45.61,163740,0,163740,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-01,Single Journey Ticket,10864,10864,63.66,691602,1308,690294,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-01,MRT Pass,12175,12175,57.29,697506,0,697506,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-01,Rapid Pass,9759,9759,57.29,559093,0,559093,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-02,Single Journey Ticket,2488,2488,58.01,144329,408,143921,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-02,MRT Pass,2788,2788,52.21,145561,0,145561,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-02,Rapid Pass,2234,2234,52.21,116637,0,116637,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-03,Single Journey Ticket,1758,1758,50.24,88322,147,88175,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-03,MRT Pass,1971,1971,45.22,89129,0,89129,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-03,Rapid Pass,1580,1580,45.22,71448,0,71448,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-04,Single Journey Ticket,10557,10557,41.22,435160,527,434633,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-04,MRT Pass,11832,11832,37.1,438967,0,438967,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-04,Rapid Pass,9483,9483,37.1,351819,0,351819,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-05,Single Journey Ticket,7527,7527,40.75,306725,518,306207,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-05,MRT Pass,8436,8436,36.68,309432,0,309432,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-05,Rapid Pass,6762,6762,36.68,248030,0,248030,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-06,Single Journey Ticket,11231,11231,36.96,415098,268,414830,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-06,MRT Pass,12587,12587,33.26,418644,0,418644,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-06,Rapid Pass,10088,10088,33.26,335527,0,335527,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-07,Single Journey Ticket,6191,6191,36.17,223928,264,223664,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-07,MRT Pass,6939,6939,32.55,225864,0,225864,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-07,Rapid Pass,5562,5562,32.55,181043,0,181043,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-08,Single Journey Ticket,6028,6028,36.27,218636,232,218404,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-08,MRT Pass,6755,6755,32.64,220483,0,220483,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-08,Rapid Pass,5414,5414,32.64,176713,0,176713,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-09,Single Journey Ticket,9115,9115,33.42,304623,415,304208,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-09,MRT Pass,10215,10215,30.08,307267,0,307267,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-09,Rapid Pass,8188,8188,30.08,246295,0,246295,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-10,Single Journey Ticket,2719,2719,32.06,87171,208,86963,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-10,MRT Pass,3047,3047,28.86,87936,0,87936,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-10,Rapid Pass,2442,2442,28.86,70476,0,70476,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-11,Single Journey Ticket,9684,9684,35.16,340489,445,340044,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-11,MRT Pass,10853,10853,31.64,343389,0,343389,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-11,Rapid Pass,8699,8699,31.64,275236,0,275236,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-12,Single Journey Ticket,8258,8258,38.15,315043,134,314909,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-12,MRT Pass,9255,9255,34.33,317724,0,317724,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-12,Rapid Pass,7418,7418,34.33,254660,0,254660,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-13,Single Journey Ticket,7958,7958,35.98,286329,308,286021,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-13,MRT Pass,8919,8919,32.38,288797,0,288797,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-13,Rapid Pass,7148,7148,32.38,231452,0,231452,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-14,Single Journey Ticket,4892,4892,39.31,192305,229,192076,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-14,MRT Pass,5482,5482,35.38,193953,0,193953,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-14,Rapid Pass,4394,4394,35.38,155460,0,155460,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-15,Single Journey Ticket,7299,7299,44.65,325900,477,325423,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-15,MRT Pass,8180,8180,40.18,328672,0,328672,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-15,Rapid Pass,6557,6557,40.18,263460,0,263460,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-16,Single Journey Ticket,12118,12118,53.74,651221,637,650584,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-16,MRT Pass,13582,13582,48.36,656826,0,656826,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-10-31,MRT6-16,Rapid Pass,10886,10886,48.36,526447,0,526447,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-01,Single Journey Ticket,14447,14447,63.68,919985,1662,918323,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-01,MRT Pass,16192,16192,57.31,927964,0,927964,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-01,Rapid Pass,12989,12989,57.31,744400,0,744400,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-02,Single Journey Ticket,2988,2988,58.12,173663,298,173365,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-02,MRT Pass,3349,3349,52.31,175186,0,175186,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-02,Rapid Pass,2687,2687,52.31,140557,0,140557,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-03,Single Journey Ticket,2351,2351,50.14,117879,136,117743,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-03,MRT Pass,2635,2635,45.13,118918,0,118918,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-03,Rapid Pass,2113,2113,45.13,95360,0,95360,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-04,Single Journey Ticket,13257,13257,41.13,545260,471,544789,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-04,MRT Pass,14858,14858,37.02,550043,0,550043,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-04,Rapid Pass,11920,11920,37.02,441278,0,441278,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-05,Single Journey Ticket,9019,9019,40.49,365179,153,365026,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-05,MRT Pass,10108,10108,36.44,368336,0,368336,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-05,Rapid Pass,8109,8109,36.44,295492,0,295492,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-06,Single Journey Ticket,14526,14526,36.99,537317,1525,535792,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-06,MRT Pass,16280,16280,33.29,541961,0,541961,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-06,Rapid Pass,13060,13060,33.29,434767,0,434767,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-07,Single Journey Ticket,7430,7430,36.23,269189,670,268519,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-07,MRT Pass,8328,8328,32.6,271493,0,271493,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-07,Rapid Pass,6680,6680,32.6,217768,0,217768,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-08,Single Journey Ticket,7850,7850,36.09,283306,433,282873,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-08,MRT Pass,8799,8799,32.48,285792,0,285792,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-08,Rapid Pass,7058,7058,32.48,229244,0,229244,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-09,Single Journey Ticket,8902,8902,33.39,297238,189,297049,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-09,MRT Pass,9978,9978,30.05,299839,0,299839,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-09,Rapid Pass,8004,8004,30.05,240520,0,240520,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-10,Single Journey Ticket,2980,2980,32.08,95598,74,95524,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-10,MRT Pass,3340,3340,28.87,96426,0,96426,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-10,Rapid Pass,2680,2680,28.87,77372,0,77372,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-11,Single Journey Ticket,10928,10928,35.16,384228,665,383563,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-11,MRT Pass,12247,12247,31.65,387618,0,387618,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-11,Rapid Pass,9825,9825,31.65,310961,0,310961,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-12,Single Journey Ticket,13336,13336,38.08,507835,446,507389,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-12,MRT Pass,14946,14946,34.27,512199,0,512199,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-12,Rapid Pass,11990,11990,34.27,410897,0,410897,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-13,Single Journey Ticket,8356,8356,36.08,301484,562,300922,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-13,MRT Pass,9366,9366,32.47,304114,0,304114,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-13,Rapid Pass,7513,7513,32.47,243947,0,243947,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-14,Single Journey Ticket,5726,5726,39.2,224459,445,224014,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-14,MRT Pass,6418,6418,35.28,226427,0,226427,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-14,Rapid Pass,5149,5149,35.28,181657,0,181657,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-15,Single Journey Ticket,11831,11831,44.67,528491,822,527669,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-15,MRT Pass,13261,13261,40.2,533092,0,533092,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-15,Rapid Pass,10638,10638,40.2,427648,0,427648,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-16,Single Journey Ticket,20108,20108,53.85,1082816,1617,1081199,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-16,MRT Pass,22538,22538,48.46,1092191,0,1092191,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-01,MRT6-16,Rapid Pass,18080,18080,48.46,876157,0,876157,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-01,Single Journey Ticket,14588,14588,63.73,929693,899,928794,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-01,MRT Pass,16351,16351,57.36,937893,0,937893,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-01,Rapid Pass,13129,13129,57.36,753079,0,753079,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-02,Single Journey Ticket,3286,3286,58.13,191015,302,190713,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-02,MRT Pass,3684,3684,52.32,192747,0,192747,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-02,Rapid Pass,2958,2958,52.32,154763,0,154763,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-03,Single Journey Ticket,2461,2461,50.25,123665,249,123416,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-03,MRT Pass,2758,2758,45.22,124717,0,124717,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-03,Rapid Pass,2215,2215,45.22,100162,0,100162,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-04,Single Journey Ticket,13517,13517,41.16,556360,244,556116,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-04,MRT Pass,15150,15150,37.04,561156,0,561156,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-04,Rapid Pass,12164,12164,37.04,450555,0,450555,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-05,Single Journey Ticket,9099,9099,40.8,371239,451,370788,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-05,MRT Pass,10198,10198,36.72,374471,0,374471,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-05,Rapid Pass,8188,8188,36.72,300663,0,300663,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-06,Single Journey Ticket,15301,15301,36.91,564760,493,564267,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-06,MRT Pass,17149,17149,33.22,569690,0,569690,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-06,Rapid Pass,13770,13770,33.22,457439,0,457439,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-07,Single Journey Ticket,8025,8025,36.19,290425,248,290177,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-07,MRT Pass,8994,8994,32.57,292935,0,292935,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-07,Rapid Pass,7222,7222,32.57,235221,0,235221,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-08,Single Journey Ticket,7398,7398,36.2,267808,232,267576,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-08,MRT Pass,8291,8291,32.58,270121,0,270121,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-08,Rapid Pass,6657,6657,32.58,216885,0,216885,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-09,Single Journey Ticket,9622,9622,33.41,321471,459,321012,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-09,MRT Pass,10784,10784,30.07,324275,0,324275,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-09,Rapid Pass,8659,8659,30.07,260376,0,260376,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-10,Single Journey Ticket,3299,3299,32.04,105700,100,105600,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-10,MRT Pass,3697,3697,28.84,106621,0,106621,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-10,Rapid Pass,2969,2969,28.84,85626,0,85626,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-11,Single Journey Ticket,11268,11268,35.21,396746,260,396486,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-11,MRT Pass,12629,12629,31.69,400213,0,400213,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-11,Rapid Pass,10140,10140,31.69,321337,0,321337,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-12,Single Journey Ticket,13436,13436,38.19,513121,826,512295,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-12,MRT Pass,15059,15059,34.37,517578,0,517578,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-12,Rapid Pass,12091,12091,34.37,415568,0,415568,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-13,Single Journey Ticket,8934,8934,35.91,320820,388,320432,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-13,MRT Pass,10014,10014,32.32,323652,0,323652,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-13,Rapid Pass,8041,8041,32.32,259885,0,259885,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-14,Single Journey Ticket,6061,6061,39.26,237955,805,237150,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-14,MRT Pass,6793,6793,35.33,239997,0,239997,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-14,Rapid Pass,5454,5454,35.33,192690,0,192690,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-15,Single Journey Ticket,13053,13053,44.58,581903,376,581527,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-15,MRT Pass,14631,14631,40.12,586996,0,586996,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-15,Rapid Pass,11747,11747,40.12,471290,0,471290,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-16,Single Journey Ticket,21207,21207,53.88,1142633,2297,1140336,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-16,MRT Pass,23770,23770,48.5,1152845,0,1152845,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-02,MRT6-16,Rapid Pass,19085,19085,48.5,925622,0,925622,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-01,Single Journey Ticket,14379,14379,63.69,915799,914,914885,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-01,MRT Pass,16116,16116,57.32,923769,0,923769,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-01,Rapid Pass,12952,12952,57.32,742409,0,742409,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-02,Single Journey Ticket,2679,2679,57.94,155221,425,154796,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-02,MRT Pass,3003,3003,52.15,156606,0,156606,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-02,Rapid Pass,2413,2413,52.15,125838,0,125838,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-03,Single Journey Ticket,2056,2056,50.08,102964,71,102893,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-03,MRT Pass,2305,2305,45.07,103886,0,103886,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-03,Rapid Pass,1852,1852,45.07,83470,0,83470,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-04,Single Journey Ticket,12041,12041,41.33,497655,484,497171,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-04,MRT Pass,13497,13497,37.2,502088,0,502088,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-04,Rapid Pass,10847,10847,37.2,403508,0,403508,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-05,Single Journey Ticket,8395,8395,40.75,342096,325,341771,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-05,MRT Pass,9409,9409,36.68,345122,0,345122,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-05,Rapid Pass,7562,7562,36.68,277374,0,277374,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-06,Single Journey Ticket,14089,14089,36.96,520729,636,520093,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-06,MRT Pass,15792,15792,33.26,525242,0,525242,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-06,Rapid Pass,12691,12691,33.26,422103,0,422103,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-07,Single Journey Ticket,6930,6930,36.15,250520,500,250020,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-07,MRT Pass,7768,7768,32.54,252771,0,252771,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-07,Rapid Pass,6243,6243,32.54,203147,0,203147,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-08,Single Journey Ticket,7494,7494,36.16,270983,519,270464,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-08,MRT Pass,8400,8400,32.54,273336,0,273336,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-08,Rapid Pass,6750,6750,32.54,219645,0,219645,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-09,Single Journey Ticket,9347,9347,33.43,312470,300,312170,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-09,MRT Pass,10477,10477,30.08,315148,0,315148,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-09,Rapid Pass,8420,8420,30.08,253274,0,253274,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-10,Single Journey Ticket,2697,2697,32.05,86439,123,86316,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-10,MRT Pass,3024,3024,28.84,87212,0,87212,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-10,Rapid Pass,2430,2430,28.84,70081,0,70081,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-11,Single Journey Ticket,10375,10375,35.18,364992,226,364766,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-11,MRT Pass,11630,11630,31.66,368206,0,368206,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-11,Rapid Pass,9346,9346,31.66,295894,0,295894,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-12,Single Journey Ticket,12518,12518,38.07,476560,1081,475479,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-12,MRT Pass,14031,14031,34.26,480702,0,480702,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-12,Rapid Pass,11275,11275,34.26,386282,0,386282,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-13,Single Journey Ticket,7725,7725,35.91,277405,234,277171,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-13,MRT Pass,8659,8659,32.32,279859,0,279859,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-13,Rapid Pass,6958,6958,32.32,224883,0,224883,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-14,Single Journey Ticket,5858,5858,39.25,229926,483,229443,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-14,MRT Pass,6567,6567,35.33,232012,0,232012,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-14,Rapid Pass,5277,5277,35.33,186436,0,186436,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-15,Single Journey Ticket,12097,12097,44.55,538921,384,538537,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-15,MRT Pass,13560,13560,40.1,543756,0,543756,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-15,Rapid Pass,10897,10897,40.1,436970,0,436970,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-16,Single Journey Ticket,19445,19445,53.83,1046724,664,1046060,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-16,MRT Pass,21796,21796,48.45,1056016,0,1056016,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-03,MRT6-16,Rapid Pass,17516,17516,48.45,848650,0,848650,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-01,Single Journey Ticket,15518,15518,63.5,985393,1271,984122,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-01,MRT Pass,17395,17395,57.15,994124,0,994124,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-01,Rapid Pass,13991,13991,57.15,799586,0,799586,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-02,Single Journey Ticket,2908,2908,57.62,167559,176,167383,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-02,MRT Pass,3259,3259,51.86,169012,0,169012,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-02,Rapid Pass,2621,2621,51.86,135925,0,135925,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-03,Single Journey Ticket,2294,2294,49.83,114310,185,114125,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-03,MRT Pass,2572,2572,44.85,115354,0,115354,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-03,Rapid Pass,2069,2069,44.85,92795,0,92795,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-04,Single Journey Ticket,12213,12213,41.24,503664,391,503273,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-04,MRT Pass,13690,13690,37.11,508036,0,508036,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-04,Rapid Pass,11012,11012,37.11,408655,0,408655,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-05,Single Journey Ticket,9190,9190,40.69,373941,353,373588,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-05,MRT Pass,10302,10302,36.62,377259,0,377259,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-05,Rapid Pass,8286,8286,36.62,303433,0,303433,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-06,Single Journey Ticket,14497,14497,36.97,535954,354,535600,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-06,MRT Pass,16249,16249,33.27,540604,0,540604,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-06,Rapid Pass,13070,13070,33.27,434839,0,434839,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-07,Single Journey Ticket,7590,7590,36.22,274910,427,274483,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-07,MRT Pass,8507,8507,32.6,277328,0,277328,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-07,Rapid Pass,6843,6843,32.6,223082,0,223082,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-08,Single Journey Ticket,7357,7357,36.19,266250,217,266033,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-08,MRT Pass,8246,8246,32.57,268572,0,268572,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-08,Rapid Pass,6633,6633,32.57,216037,0,216037,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-09,Single Journey Ticket,9359,9359,33.42,312778,410,312368,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-09,MRT Pass,10491,10491,30.08,315569,0,315569,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-09,Rapid Pass,8438,8438,30.08,253815,0,253815,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-10,Single Journey Ticket,3000,3000,32.06,96180,267,95913,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-10,MRT Pass,3362,3362,28.86,97027,0,97027,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-10,Rapid Pass,2704,2704,28.86,78037,0,78037,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-11,Single Journey Ticket,10455,10455,35.13,367284,504,366780,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-11,MRT Pass,11719,11719,31.62,370555,0,370555,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-11,Rapid Pass,9426,9426,31.62,298050,0,298050,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-12,Single Journey Ticket,13310,13310,38.17,508043,630,507413,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-12,MRT Pass,14919,14919,34.35,512468,0,512468,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-12,Rapid Pass,12000,12000,34.35,412200,0,412200,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-13,Single Journey Ticket,8204,8204,35.72,293047,223,292824,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-13,MRT Pass,9195,9195,32.15,295619,0,295619,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-13,Rapid Pass,7396,7396,32.15,237781,0,237781,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-14,Single Journey Ticket,6329,6329,39.36,249109,175,248934,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-14,MRT Pass,7094,7094,35.43,251340,0,251340,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-14,Rapid Pass,5706,5706,35.43,202164,0,202164,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-15,Single Journey Ticket,12254,12254,44.62,546773,791,545982,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-15,MRT Pass,13735,13735,40.16,551598,0,551598,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-15,Rapid Pass,11048,11048,40.16,443688,0,443688,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-16,Single Journey Ticket,18634,18634,53.82,1002882,1073,1001809,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-16,MRT Pass,20887,20887,48.44,1011766,0,1011766,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-04,MRT6-16,Rapid Pass,16801,16801,48.44,813840,0,813840,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-01,Single Journey Ticket,16924,16924,64.02,1083474,719,1082755,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-01,MRT Pass,18970,18970,57.62,1093051,0,1093051,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-01,Rapid Pass,15273,15273,57.62,880030,0,880030,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-02,Single Journey Ticket,3148,3148,57.84,182080,110,181970,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-02,MRT Pass,3528,3528,52.06,183668,0,183668,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-02,Rapid Pass,2841,2841,52.06,147902,0,147902,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-03,Single Journey Ticket,2390,2390,50.37,120384,294,120090,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-03,MRT Pass,2680,2680,45.34,121511,0,121511,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-03,Rapid Pass,2157,2157,45.34,97798,0,97798,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-04,Single Journey Ticket,12329,12329,41.33,509558,940,508618,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-04,MRT Pass,13820,13820,37.19,513966,0,513966,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-04,Rapid Pass,11126,11126,37.19,413776,0,413776,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-05,Single Journey Ticket,9741,9741,40.52,394705,665,394040,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-05,MRT Pass,10919,10919,36.47,398216,0,398216,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-05,Rapid Pass,8791,8791,36.47,320608,0,320608,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-06,Single Journey Ticket,14284,14284,36.96,527937,609,527328,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-06,MRT Pass,16012,16012,33.27,532719,0,532719,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-06,Rapid Pass,12890,12890,33.27,428850,0,428850,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-07,Single Journey Ticket,7825,7825,36.27,283813,457,283356,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-07,MRT Pass,8772,8772,32.64,286318,0,286318,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-07,Rapid Pass,7062,7062,32.64,230504,0,230504,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-08,Single Journey Ticket,7741,7741,36.13,279682,267,279415,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-08,MRT Pass,8677,8677,32.51,282089,0,282089,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-08,Rapid Pass,6986,6986,32.51,227115,0,227115,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-09,Single Journey Ticket,10278,10278,33.42,343491,358,343133,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-09,MRT Pass,11520,11520,30.07,346406,0,346406,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-09,Rapid Pass,9275,9275,30.07,278899,0,278899,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-10,Single Journey Ticket,3345,3345,32.06,107241,100,107141,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-10,MRT Pass,3749,3749,28.85,108159,0,108159,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-10,Rapid Pass,3018,3018,28.85,87069,0,87069,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-11,Single Journey Ticket,10786,10786,35.14,379020,381,378639,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-11,MRT Pass,12091,12091,31.62,382317,0,382317,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-11,Rapid Pass,9734,9734,31.62,307789,0,307789,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-12,Single Journey Ticket,12810,12810,38.09,487933,299,487634,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-12,MRT Pass,14360,14360,34.28,492261,0,492261,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-12,Rapid Pass,11561,11561,34.28,396311,0,396311,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-13,Single Journey Ticket,8849,8849,35.9,317679,242,317437,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-13,MRT Pass,9919,9919,32.31,320483,0,320483,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-13,Rapid Pass,7985,7985,32.31,257995,0,257995,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-14,Single Journey Ticket,6471,6471,39.49,255540,227,255313,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-14,MRT Pass,7253,7253,35.54,257772,0,257772,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-14,Rapid Pass,5840,5840,35.54,207554,0,207554,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-15,Single Journey Ticket,14120,14120,44.49,628199,1252,626947,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-15,MRT Pass,15828,15828,40.04,633753,0,633753,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-15,Rapid Pass,12742,12742,40.04,510190,0,510190,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-16,Single Journey Ticket,20306,20306,53.65,1089417,1787,1087630,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-16,MRT Pass,22762,22762,48.29,1099177,0,1099177,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-05,MRT6-16,Rapid Pass,18325,18325,48.29,884914,0,884914,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-01,Single Journey Ticket,4371,4371,60.54,264620,611,264009,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-01,MRT Pass,4900,4900,54.49,267001,0,267001,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-01,Rapid Pass,3948,3948,54.49,215127,0,215127,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-02,Single Journey Ticket,880,880,54.14,47643,74,47569,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-02,MRT Pass,987,987,48.72,48087,0,48087,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-02,Rapid Pass,795,795,48.72,38732,0,38732,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-03,Single Journey Ticket,705,705,46.49,32775,34,32741,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-03,MRT Pass,790,790,41.84,33054,0,33054,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-03,Rapid Pass,637,637,41.84,26652,0,26652,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-04,Single Journey Ticket,4307,4307,39.15,168619,517,168102,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-04,MRT Pass,4827,4827,35.24,170103,0,170103,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-04,Rapid Pass,3890,3890,35.24,137084,0,137084,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-05,Single Journey Ticket,2749,2749,38.41,105589,112,105477,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-05,MRT Pass,3081,3081,34.57,106510,0,106510,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-05,Rapid Pass,2483,2483,34.57,85837,0,85837,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-06,Single Journey Ticket,4143,4143,35.75,148112,192,147920,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-06,MRT Pass,4645,4645,32.17,149430,0,149430,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-06,Rapid Pass,3743,3743,32.17,120412,0,120412,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-07,Single Journey Ticket,2350,2350,34.78,81733,106,81627,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-07,MRT Pass,2634,2634,31.31,82471,0,82471,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-07,Rapid Pass,2122,2122,31.31,66440,0,66440,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-08,Single Journey Ticket,2367,2367,35.17,83247,157,83090,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-08,MRT Pass,2654,2654,31.65,83999,0,83999,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-08,Rapid Pass,2138,2138,31.65,67668,0,67668,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-09,Single Journey Ticket,4005,4005,33.49,134127,397,133730,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-09,MRT Pass,4489,4489,30.14,135298,0,135298,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-09,Rapid Pass,3618,3618,30.14,109047,0,109047,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-10,Single Journey Ticket,1100,1100,31.95,35145,57,35088,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-10,MRT Pass,1234,1234,28.76,35490,0,35490,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-10,Rapid Pass,994,994,28.76,28587,0,28587,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-11,Single Journey Ticket,4199,4199,34.92,146629,127,146502,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-11,MRT Pass,4707,4707,31.42,147894,0,147894,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-11,Rapid Pass,3792,3792,31.42,119145,0,119145,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-12,Single Journey Ticket,2406,2406,36.17,87025,193,86832,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-12,MRT Pass,2697,2697,32.55,87787,0,87787,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-12,Rapid Pass,2174,2174,32.55,70764,0,70764,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-13,Single Journey Ticket,3193,3193,35.02,111819,101,111718,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-13,MRT Pass,3579,3579,31.52,112810,0,112810,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-13,Rapid Pass,2884,2884,31.52,90904,0,90904,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-14,Single Journey Ticket,2312,2312,38.15,88203,94,88109,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-14,MRT Pass,2592,2592,34.33,88983,0,88983,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-14,Rapid Pass,2088,2088,34.33,71681,0,71681,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-15,Single Journey Ticket,2332,2332,41.13,95915,84,95831,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-15,MRT Pass,2614,2614,37.02,96770,0,96770,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-15,Rapid Pass,2106,2106,37.02,77964,0,77964,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-16,Single Journey Ticket,3826,3826,50.68,193902,171,193731,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-16,MRT Pass,4289,4289,45.61,195621,0,195621,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-06,MRT6-16,Rapid Pass,3456,3456,45.61,157628,0,157628,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-01,Single Journey Ticket,10880,10880,63.7,693056,767,692289,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-01,MRT Pass,12196,12196,57.33,699197,0,699197,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-01,Rapid Pass,9837,9837,57.33,563955,0,563955,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-02,Single Journey Ticket,2427,2427,58.19,141227,174,141053,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-02,MRT Pass,2721,2721,52.37,142499,0,142499,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-02,Rapid Pass,2194,2194,52.37,114900,0,114900,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-03,Single Journey Ticket,1744,1744,50.12,87409,121,87288,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-03,MRT Pass,1955,1955,45.11,88190,0,88190,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-03,Rapid Pass,1576,1576,45.11,71093,0,71093,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-04,Single Journey Ticket,10192,10192,41.47,422662,842,421820,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-04,MRT Pass,11426,11426,37.33,426533,0,426533,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-04,Rapid Pass,9215,9215,37.33,343996,0,343996,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-05,Single Journey Ticket,7295,7295,41.03,299314,253,299061,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-05,MRT Pass,8178,8178,36.93,302014,0,302014,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-05,Rapid Pass,6595,6595,36.93,243553,0,243553,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-06,Single Journey Ticket,11573,11573,36.85,426465,1159,425306,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-06,MRT Pass,12974,12974,33.16,430218,0,430218,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-06,Rapid Pass,10464,10464,33.16,346986,0,346986,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-07,Single Journey Ticket,6082,6082,36.14,219803,350,219453,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-07,MRT Pass,6818,6818,32.53,221790,0,221790,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-07,Rapid Pass,5498,5498,32.53,178850,0,178850,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-08,Single Journey Ticket,6163,6163,36.17,222916,176,222740,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-08,MRT Pass,6909,6909,32.55,224888,0,224888,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-08,Rapid Pass,5572,5572,32.55,181369,0,181369,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-09,Single Journey Ticket,8571,8571,33.43,286529,323,286206,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-09,MRT Pass,9609,9609,30.08,289039,0,289039,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-09,Rapid Pass,7749,7749,30.08,233090,0,233090,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-10,Single Journey Ticket,2542,2542,32.05,81471,52,81419,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-10,MRT Pass,2850,2850,28.85,82222,0,82222,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-10,Rapid Pass,2298,2298,28.85,66297,0,66297,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-11,Single Journey Ticket,9111,9111,35.17,320434,972,319462,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-11,MRT Pass,10214,10214,31.65,323273,0,323273,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-11,Rapid Pass,8237,8237,31.65,260701,0,260701,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-12,Single Journey Ticket,7656,7656,38.1,291694,701,290993,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-12,MRT Pass,8582,8582,34.29,294277,0,294277,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-12,Rapid Pass,6921,6921,34.29,237321,0,237321,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-13,Single Journey Ticket,7534,7534,35.8,269717,459,269258,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-13,MRT Pass,8446,8446,32.22,272130,0,272130,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-13,Rapid Pass,6812,6812,32.22,219483,0,219483,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-14,Single Journey Ticket,5249,5249,39.41,206863,134,206729,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-14,MRT Pass,5885,5885,35.47,208741,0,208741,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-14,Rapid Pass,4746,4746,35.47,168341,0,168341,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-15,Single Journey Ticket,7728,7728,44.64,344978,485,344493,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-15,MRT Pass,8663,8663,40.17,347993,0,347993,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-15,Rapid Pass,6987,6987,40.17,280668,0,280668,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-16,Single Journey Ticket,12528,12528,53.84,674508,734,673774,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-16,MRT Pass,14044,14044,48.46,680572,0,680572,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-07,MRT6-16,Rapid Pass,11326,11326,48.46,548858,0,548858,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-01,Single Journey Ticket,13839,13839,63.65,880852,945,879907,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-01,MRT Pass,15514,15514,57.28,888642,0,888642,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-01,Rapid Pass,12524,12524,57.28,717375,0,717375,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-02,Single Journey Ticket,3022,3022,58.15,175729,110,175619,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-02,MRT Pass,3387,3387,52.34,177276,0,177276,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-02,Rapid Pass,2734,2734,52.34,143098,0,143098,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-03,Single Journey Ticket,2292,2292,49.95,114485,66,114419,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-03,MRT Pass,2570,2570,44.96,115547,0,115547,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-03,Rapid Pass,2074,2074,44.96,93247,0,93247,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-04,Single Journey Ticket,13835,13835,41.25,570694,772,569922,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-04,MRT Pass,15509,15509,37.13,575849,0,575849,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-04,Rapid Pass,12519,12519,37.13,464830,0,464830,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-05,Single Journey Ticket,9518,9518,40.64,386812,422,386390,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-05,MRT Pass,10669,10669,36.58,390272,0,390272,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-05,Rapid Pass,8613,8613,36.58,315064,0,315064,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-06,Single Journey Ticket,15002,15002,36.95,554324,595,553729,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-06,MRT Pass,16817,16817,33.25,559165,0,559165,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-06,Rapid Pass,13575,13575,33.25,451369,0,451369,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-07,Single Journey Ticket,8052,8052,36.2,291482,298,291184,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-07,MRT Pass,9027,9027,32.58,294100,0,294100,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-07,Rapid Pass,7286,7286,32.58,237378,0,237378,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-08,Single Journey Ticket,7799,7799,36.12,281700,936,280764,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-08,MRT Pass,8743,8743,32.51,284235,0,284235,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-08,Rapid Pass,7057,7057,32.51,229423,0,229423,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-09,Single Journey Ticket,10044,10044,33.4,335470,529,334941,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-09,MRT Pass,11259,11259,30.06,338446,0,338446,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-09,Rapid Pass,9089,9089,30.06,273215,0,273215,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-10,Single Journey Ticket,3076,3076,32.05,98586,87,98499,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-10,MRT Pass,3448,3448,28.85,99475,0,99475,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-10,Rapid Pass,2784,2784,28.85,80318,0,80318,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-11,Single Journey Ticket,10104,10104,35.19,355560,319,355241,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-11,MRT Pass,11327,11327,31.67,358726,0,358726,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-11,Rapid Pass,9143,9143,31.67,289559,0,289559,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-12,Single Journey Ticket,13125,13125,38.1,500062,1033,499029,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-12,MRT Pass,14714,14714,34.29,504543,0,504543,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-12,Rapid Pass,11878,11878,34.29,407297,0,407297,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-13,Single Journey Ticket,9146,9146,35.81,327518,332,327186,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-13,MRT Pass,10252,10252,32.23,330422,0,330422,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-13,Rapid Pass,8276,8276,32.23,266735,0,266735,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-14,Single Journey Ticket,5832,5832,39.1,228031,189,227842,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-14,MRT Pass,6537,6537,35.19,230037,0,230037,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-14,Rapid Pass,5277,5277,35.19,185698,0,185698,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-15,Single Journey Ticket,12656,12656,44.53,563572,458,563114,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-15,MRT Pass,14187,14187,40.07,568473,0,568473,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-15,Rapid Pass,11452,11452,40.07,458882,0,458882,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-16,Single Journey Ticket,21716,21716,53.81,1168538,1075,1167463,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-16,MRT Pass,24344,24344,48.43,1178980,0,1178980,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-08,MRT6-16,Rapid Pass,19651,19651,48.43,951698,0,951698,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-01,Single Journey Ticket,13957,13957,63.5,886270,1349,884921,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-01,MRT Pass,15646,15646,57.15,894169,0,894169,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-01,Rapid Pass,12641,12641,57.15,722433,0,722433,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-02,Single Journey Ticket,3264,3264,58.11,189671,214,189457,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-02,MRT Pass,3660,3660,52.29,191381,0,191381,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-02,Rapid Pass,2957,2957,52.29,154622,0,154622,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-03,Single Journey Ticket,2183,2183,50.26,109718,153,109565,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-03,MRT Pass,2448,2448,45.23,110723,0,110723,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-03,Rapid Pass,1977,1977,45.23,89420,0,89420,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-04,Single Journey Ticket,13100,13100,41.43,542733,490,542243,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-04,MRT Pass,14686,14686,37.29,547641,0,547641,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-04,Rapid Pass,11865,11865,37.29,442446,0,442446,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-05,Single Journey Ticket,9390,9390,40.62,381422,402,381020,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-05,MRT Pass,10526,10526,36.56,384831,0,384831,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-05,Rapid Pass,8505,8505,36.56,310943,0,310943,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-06,Single Journey Ticket,14326,14326,37.08,531208,1836,529372,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-06,MRT Pass,16060,16060,33.37,535922,0,535922,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-06,Rapid Pass,12975,12975,33.37,432976,0,432976,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-07,Single Journey Ticket,7340,7340,36.2,265708,710,264998,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-07,MRT Pass,8229,8229,32.58,268101,0,268101,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-07,Rapid Pass,6649,6649,32.58,216624,0,216624,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-08,Single Journey Ticket,7700,7700,36.24,279048,286,278762,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-08,MRT Pass,8632,8632,32.62,281576,0,281576,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-08,Rapid Pass,6974,6974,32.62,227492,0,227492,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-09,Single Journey Ticket,10577,10577,33.41,353378,290,353088,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-09,MRT Pass,11858,11858,30.07,356570,0,356570,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-09,Rapid Pass,9580,9580,30.07,288071,0,288071,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-10,Single Journey Ticket,2823,2823,32.06,90505,29,90476,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-10,MRT Pass,3164,3164,28.85,91281,0,91281,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-10,Rapid Pass,2557,2557,28.85,73769,0,73769,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-11,Single Journey Ticket,10582,10582,35.21,372592,305,372287,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-11,MRT Pass,11864,11864,31.69,375970,0,375970,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-11,Rapid Pass,9585,9585,31.69,303749,0,303749,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-12,Single Journey Ticket,12651,12651,38.07,481624,1026,480598,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-12,MRT Pass,14182,14182,34.27,486017,0,486017,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-12,Rapid Pass,11458,11458,34.27,392666,0,392666,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-13,Single Journey Ticket,8058,8058,36.03,290330,465,289865,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-13,MRT Pass,9033,9033,32.43,292940,0,292940,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-13,Rapid Pass,7298,7298,32.43,236674,0,236674,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-14,Single Journey Ticket,6097,6097,39.39,240161,248,239913,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-14,MRT Pass,6835,6835,35.45,242301,0,242301,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-14,Rapid Pass,5522,5522,35.45,195755,0,195755,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-15,Single Journey Ticket,12214,12214,44.56,544256,680,543576,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-15,MRT Pass,13692,13692,40.1,549049,0,549049,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-15,Rapid Pass,11063,11063,40.1,443626,0,443626,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-16,Single Journey Ticket,20536,20536,53.73,1103399,1007,1102392,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-16,MRT Pass,23023,23023,48.35,1113162,0,1113162,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-09,MRT6-16,Rapid Pass,18601,18601,48.35,899358,0,899358,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-01,Single Journey Ticket,14146,14146,63.83,902939,1534,901405,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-01,MRT Pass,15859,15859,57.45,911100,0,911100,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-01,Rapid Pass,12824,12824,57.45,736739,0,736739,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-02,Single Journey Ticket,3196,3196,58.26,186199,207,185992,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-02,MRT Pass,3583,3583,52.44,187893,0,187893,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-02,Rapid Pass,2897,2897,52.44,151919,0,151919,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-03,Single Journey Ticket,2297,2297,50.16,115218,167,115051,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-03,MRT Pass,2576,2576,45.14,116281,0,116281,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-03,Rapid Pass,2083,2083,45.14,94027,0,94027,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-04,Single Journey Ticket,12550,12550,41.27,517939,1339,516600,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-04,MRT Pass,14070,14070,37.14,522560,0,522560,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-04,Rapid Pass,11377,11377,37.14,422542,0,422542,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-05,Single Journey Ticket,8763,8763,40.67,356391,639,355752,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-05,MRT Pass,9824,9824,36.6,359558,0,359558,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-05,Rapid Pass,7944,7944,36.6,290750,0,290750,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-06,Single Journey Ticket,14181,14181,36.99,524555,1451,523104,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-06,MRT Pass,15898,15898,33.29,529244,0,529244,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-06,Rapid Pass,12856,12856,33.29,427976,0,427976,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-07,Single Journey Ticket,7416,7416,36.09,267643,344,267299,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-07,MRT Pass,8314,8314,32.48,270039,0,270039,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-07,Rapid Pass,6723,6723,32.48,218363,0,218363,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-08,Single Journey Ticket,7598,7598,36.18,274896,602,274294,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-08,MRT Pass,8519,8519,32.56,277379,0,277379,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-08,Rapid Pass,6889,6889,32.56,224306,0,224306,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-09,Single Journey Ticket,10175,10175,33.42,340048,337,339711,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-09,MRT Pass,11408,11408,30.08,343153,0,343153,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-09,Rapid Pass,9225,9225,30.08,277488,0,277488,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-10,Single Journey Ticket,3209,3209,32.05,102848,275,102573,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-10,MRT Pass,3597,3597,28.84,103737,0,103737,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-10,Rapid Pass,2909,2909,28.84,83896,0,83896,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-11,Single Journey Ticket,10647,10647,35.21,374881,1216,373665,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-11,MRT Pass,11936,11936,31.69,378252,0,378252,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-11,Rapid Pass,9652,9652,31.69,305872,0,305872,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-12,Single Journey Ticket,12611,12611,38.11,480605,806,479799,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-12,MRT Pass,14138,14138,34.3,484933,0,484933,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-12,Rapid Pass,11433,11433,34.3,392152,0,392152,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-13,Single Journey Ticket,8547,8547,35.96,307350,503,306847,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-13,MRT Pass,9583,9583,32.36,310106,0,310106,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-13,Rapid Pass,7749,7749,32.36,250758,0,250758,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-14,Single Journey Ticket,6594,6594,39.32,259276,331,258945,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-14,MRT Pass,7392,7392,35.39,261603,0,261603,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-14,Rapid Pass,5978,5978,35.39,211561,0,211561,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-15,Single Journey Ticket,12723,12723,44.56,566937,630,566307,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-15,MRT Pass,14264,14264,40.11,572129,0,572129,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-15,Rapid Pass,11534,11534,40.11,462629,0,462629,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-16,Single Journey Ticket,20968,20968,53.83,1128707,3373,1125334,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-16,MRT Pass,23508,23508,48.45,1138963,0,1138963,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-10,MRT6-16,Rapid Pass,19010,19010,48.45,921034,0,921034,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-01,Single Journey Ticket,13429,13429,63.72,855696,859,854837,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-01,MRT Pass,15055,15055,57.35,863404,0,863404,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-01,Rapid Pass,12186,12186,57.35,698867,0,698867,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-02,Single Journey Ticket,2953,2953,58.12,171628,151,171477,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-02,MRT Pass,3310,3310,52.31,173146,0,173146,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-02,Rapid Pass,2679,2679,52.31,140138,0,140138,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-03,Single Journey Ticket,2385,2385,49.97,119178,157,119021,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-03,MRT Pass,2673,2673,44.97,120205,0,120205,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-03,Rapid Pass,2164,2164,44.97,97315,0,97315,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-04,Single Journey Ticket,12876,12876,41.35,532423,1536,530887,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-04,MRT Pass,14435,14435,37.21,537126,0,537126,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-04,Rapid Pass,11684,11684,37.21,434762,0,434762,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-05,Single Journey Ticket,9858,9858,40.44,398658,881,397777,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-05,MRT Pass,11053,11053,36.4,402329,0,402329,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-05,Rapid Pass,8946,8946,36.4,325634,0,325634,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-06,Single Journey Ticket,14567,14567,36.87,537085,605,536480,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-06,MRT Pass,16332,16332,33.19,542059,0,542059,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-06,Rapid Pass,13219,13219,33.19,438739,0,438739,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-07,Single Journey Ticket,6963,6963,36.16,251782,402,251380,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-07,MRT Pass,7807,7807,32.55,254118,0,254118,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-07,Rapid Pass,6318,6318,32.55,205651,0,205651,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-08,Single Journey Ticket,8084,8084,36.19,292560,186,292374,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-08,MRT Pass,9063,9063,32.57,295182,0,295182,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-08,Rapid Pass,7335,7335,32.57,238901,0,238901,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-09,Single Journey Ticket,10407,10407,33.43,347906,897,347009,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-09,MRT Pass,11668,11668,30.09,351090,0,351090,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-09,Rapid Pass,9444,9444,30.09,284170,0,284170,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-10,Single Journey Ticket,3199,3199,32.04,102496,94,102402,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-10,MRT Pass,3587,3587,28.83,103413,0,103413,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-10,Rapid Pass,2903,2903,28.83,83693,0,83693,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-11,Single Journey Ticket,10475,10475,35.16,368301,1166,367135,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-11,MRT Pass,11744,11744,31.65,371698,0,371698,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-11,Rapid Pass,9506,9506,31.65,300865,0,300865,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-12,Single Journey Ticket,12305,12305,38.21,470174,253,469921,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-12,MRT Pass,13795,13795,34.39,474410,0,474410,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-12,Rapid Pass,11165,11165,34.39,383964,0,383964,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-13,Single Journey Ticket,8228,8228,35.96,295879,229,295650,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-13,MRT Pass,9225,9225,32.37,298613,0,298613,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-13,Rapid Pass,7466,7466,32.37,241674,0,241674,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-14,Single Journey Ticket,6325,6325,39.16,247687,635,247052,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-14,MRT Pass,7092,7092,35.24,249922,0,249922,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-14,Rapid Pass,5740,5740,35.24,202278,0,202278,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-15,Single Journey Ticket,11897,11897,44.6,530606,1312,529294,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-15,MRT Pass,13338,13338,40.14,535387,0,535387,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-15,Rapid Pass,10795,10795,40.14,433311,0,433311,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-16,Single Journey Ticket,20640,20640,53.74,1109194,1333,1107861,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-16,MRT Pass,23141,23141,48.36,1119099,0,1119099,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-11,MRT6-16,Rapid Pass,18729,18729,48.36,905734,0,905734,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-01,Single Journey Ticket,13817,13817,63.74,880696,1681,879015,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-01,MRT Pass,15492,15492,57.37,888776,0,888776,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-01,Rapid Pass,12550,12550,57.37,719994,0,719994,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-02,Single Journey Ticket,3260,3260,58.15,189569,258,189311,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-02,MRT Pass,3655,3655,52.33,191266,0,191266,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-02,Rapid Pass,2960,2960,52.33,154897,0,154897,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-03,Single Journey Ticket,2322,2322,50.27,116727,183,116544,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-03,MRT Pass,2604,2604,45.24,117805,0,117805,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-03,Rapid Pass,2109,2109,45.24,95411,0,95411,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-04,Single Journey Ticket,13010,13010,41.33,537703,575,537128,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-04,MRT Pass,14587,14587,37.19,542491,0,542491,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-04,Rapid Pass,11816,11816,37.19,439437,0,439437,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-05,Single Journey Ticket,9393,9393,40.85,383704,1251,382453,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-05,MRT Pass,10531,10531,36.77,387225,0,387225,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-05,Rapid Pass,8531,8531,36.77,313685,0,313685,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-06,Single Journey Ticket,14471,14471,37.02,535716,897,534819,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-06,MRT Pass,16225,16225,33.32,540617,0,540617,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-06,Rapid Pass,13143,13143,33.32,437925,0,437925,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-07,Single Journey Ticket,7822,7822,36.25,283548,425,283123,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-07,MRT Pass,8770,8770,32.62,286077,0,286077,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-07,Rapid Pass,7105,7105,32.62,231765,0,231765,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-08,Single Journey Ticket,8133,8133,36.28,295065,619,294446,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-08,MRT Pass,9119,9119,32.65,297735,0,297735,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-08,Rapid Pass,7387,7387,32.65,241186,0,241186,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-09,Single Journey Ticket,9696,9696,33.43,324137,472,323665,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-09,MRT Pass,10870,10870,30.09,327078,0,327078,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-09,Rapid Pass,8806,8806,30.09,264973,0,264973,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-10,Single Journey Ticket,3116,3116,32.05,99868,136,99732,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-10,MRT Pass,3494,3494,28.84,100767,0,100767,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-10,Rapid Pass,2830,2830,28.84,81617,0,81617,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-11,Single Journey Ticket,10675,10675,35.2,375760,287,375473,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-11,MRT Pass,11969,11969,31.68,379178,0,379178,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-11,Rapid Pass,9696,9696,31.68,307169,0,307169,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-12,Single Journey Ticket,13283,13283,38.13,506481,586,505895,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-12,MRT Pass,14893,14893,34.32,511128,0,511128,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-12,Rapid Pass,12064,12064,34.32,414036,0,414036,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-13,Single Journey Ticket,8063,8063,35.86,289139,1133,288006,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-13,MRT Pass,9039,9039,32.27,291689,0,291689,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-13,Rapid Pass,7323,7323,32.27,236313,0,236313,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-14,Single Journey Ticket,6016,6016,39.39,236970,568,236402,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-14,MRT Pass,6745,6745,35.45,239110,0,239110,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-14,Rapid Pass,5465,5465,35.45,193734,0,193734,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-15,Single Journey Ticket,12876,12876,44.58,574012,598,573414,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-15,MRT Pass,14437,14437,40.12,579212,0,579212,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-15,Rapid Pass,11695,11695,40.12,469203,0,469203,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-16,Single Journey Ticket,20335,20335,53.71,1092193,1495,1090698,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-16,MRT Pass,22800,22800,48.34,1102152,0,1102152,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-12,MRT6-16,Rapid Pass,18470,18470,48.34,892840,0,892840,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-01,Single Journey Ticket,4877,4877,60.54,295254,232,295022,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-01,MRT Pass,5468,5468,54.49,297951,0,297951,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-01,Rapid Pass,4433,4433,54.49,241554,0,241554,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-02,Single Journey Ticket,984,984,54.14,53274,99,53175,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-02,MRT Pass,1103,1103,48.72,53738,0,53738,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-02,Rapid Pass,895,895,48.72,43604,0,43604,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-03,Single Journey Ticket,750,750,46.49,34868,36,34832,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-03,MRT Pass,841,841,41.84,35187,0,35187,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-03,Rapid Pass,681,681,41.84,28493,0,28493,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-04,Single Journey Ticket,4280,4280,39.15,167562,103,167459,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-04,MRT Pass,4799,4799,35.24,169117,0,169117,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-04,Rapid Pass,3891,3891,35.24,137119,0,137119,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-05,Single Journey Ticket,2846,2846,38.41,109315,171,109144,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-05,MRT Pass,3191,3191,34.57,110313,0,110313,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-05,Rapid Pass,2588,2588,34.57,89467,0,89467,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-06,Single Journey Ticket,4643,4643,35.75,165987,158,165829,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-06,MRT Pass,5206,5206,32.17,167477,0,167477,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-06,Rapid Pass,4221,4221,32.17,135790,0,135790,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-07,Single Journey Ticket,2432,2432,34.78,84585,129,84456,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-07,MRT Pass,2726,2726,31.31,85351,0,85351,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-07,Rapid Pass,2210,2210,31.31,69195,0,69195,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-08,Single Journey Ticket,2394,2394,35.17,84197,147,84050,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-08,MRT Pass,2685,2685,31.65,84980,0,84980,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-08,Rapid Pass,2177,2177,31.65,68902,0,68902,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-09,Single Journey Ticket,3626,3626,33.49,121435,174,121261,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-09,MRT Pass,4065,4065,30.14,122519,0,122519,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-09,Rapid Pass,3296,3296,30.14,99341,0,99341,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-10,Single Journey Ticket,1299,1299,31.95,41503,118,41385,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-10,MRT Pass,1456,1456,28.76,41875,0,41875,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-10,Rapid Pass,1181,1181,28.76,33966,0,33966,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-11,Single Journey Ticket,4175,4175,34.92,145791,180,145611,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-11,MRT Pass,4681,4681,31.42,147077,0,147077,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-11,Rapid Pass,3795,3795,31.42,119239,0,119239,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-12,Single Journey Ticket,2401,2401,36.17,86844,174,86670,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-12,MRT Pass,2691,2691,32.55,87592,0,87592,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-12,Rapid Pass,2182,2182,32.55,71024,0,71024,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-13,Single Journey Ticket,3044,3044,35.02,106601,143,106458,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-13,MRT Pass,3414,3414,31.52,107609,0,107609,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-13,Rapid Pass,2768,2768,31.52,87247,0,87247,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-14,Single Journey Ticket,2462,2462,38.15,93925,87,93838,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-14,MRT Pass,2761,2761,34.33,94785,0,94785,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-14,Rapid Pass,2238,2238,34.33,76831,0,76831,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-15,Single Journey Ticket,2371,2371,41.13,97519,124,97395,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-15,MRT Pass,2659,2659,37.02,98436,0,98436,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-15,Rapid Pass,2156,2156,37.02,79815,0,79815,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-16,Single Journey Ticket,3951,3951,50.68,200237,230,200007,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-16,MRT Pass,4429,4429,45.61,202007,0,202007,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
+2026-11-13,MRT6-16,Rapid Pass,3591,3591,45.61,163786,0,163786,Synthetic,M2-FARE,Low,See phase2_synthetic_methodology.md,Yes,No
